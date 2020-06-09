@@ -1,0 +1,19 @@
+.alice-carousel {
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto
+}
+
+.cardIcon {
+    display: inline-block;
+    position: relative;
+    top: -185px;
+    padding: 0 .5%;
+}
+@media screen and (max-width: 580px){
+    .alice-carousel {
+        width: 85%;
+        display: inline-block;
+        margin: 0 auto
+    }   
+}

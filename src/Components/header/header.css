@@ -1,0 +1,85 @@
+ .menuNonListPart{
+    border-bottom: none !important;
+}
+.ant-menu-dark .menuNonListPart{ 
+    background-color: #001529 !important;
+} 
+
+@media only screen and (min-width: 901px) {
+    .switchClass {
+        margin-left: 65%;
+        border-bottom: none !important;
+    }
+    .specialClassForHeaderPanelClass{
+        display: inline-block !important;
+    }
+    .headerPanelClassForSideNav{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 801px)and (max-width: 900px) {
+    .switchClass {
+        margin-left: 55%;
+        border-bottom: none !important;
+    }
+    .specialClassForHeaderPanelClass{
+        display: none !important;
+    }
+    .headerPanelClassForSideNav{
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 600px)and (max-width: 800px) {
+    .switchClass {
+        margin-left: 30%;
+        border-bottom: none !important;
+    }
+    .specialClassForHeaderPanelClass{
+        display: none !important;
+    }
+    .headerPanelClassForSideNav{
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 380px)and (max-width: 599px) {
+    .switchClass {
+        margin-left: 16%;
+        border-bottom: none !important;
+    }
+    .specialClassForHeaderPanelClass{
+        display: none !important;
+    }
+    .headerPanelClassForSideNav{
+        display: inline;
+    }
+}
+.ant-menu-horizontal>.ant-menu-item:hover, .ant-menu-horizontal>.ant-menu-submenu:hover, .ant-menu-horizontal>.ant-menu-item-open, .ant-menu-horizontal>.ant-menu-submenu-open,.ant-menu-item-only-child {
+    border-bottom: none !important;
+}
+/* .ant-menu-item-active,.ant-menu-item-selected{
+    border-bottom: 2px solid #1890ff !important;
+} */
+.headerWorldIcon{
+    width:30px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+.headerPanelClass{
+    z-index: 2px;
+    position: absolute;
+    top:-55px
+}
+.anticon-right svg{
+    color:white
+}
+.specialClassForHeaderPanelClass{
+    z-index: 1;
+    background-color: none !important;
+}
+.headerLogoIcon{
+    width:65px
+}

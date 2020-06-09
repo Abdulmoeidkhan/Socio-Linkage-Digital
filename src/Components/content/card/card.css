@@ -1,0 +1,17 @@
+.site-card-wrapper{
+    background-color: #D8E1F4;
+    margin:0 auto
+}
+.specialaboutDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 2px;
+}
+@media screen and (max-width: 770px) and (min-width: 1px){
+    .specialaboutDiv {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3,1fr);
+    }
+}

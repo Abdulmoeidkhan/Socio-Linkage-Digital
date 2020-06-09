@@ -1,0 +1,69 @@
+.ant-menu-item .anticon, .ant-menu-submenu-title .anticon {
+    margin:auto ;
+}
+.ant-btn-icon-only,.ant-btn-icon-only:hover{
+    background-color: inherit;
+    margin-left: 10px;
+    color:#fff;
+    border-color: #fff;
+}
+.switchClass2 .anticon-menu-fold{
+    color:#fff
+}
+.light .ant-drawer-header,.light .ant-drawer-content,.light .ant-drawer-title{
+    color:#fff;
+    background-color: #34979d;
+    border-color: #34979d;
+}
+.dark .ant-drawer-header,.dark .ant-drawer-content,.dark .ant-drawer-title,.dark .ant-layout-footer{
+    color:#fff;
+    background-color: #001529;
+    border-color: #001529;
+}
+.headerPanelClassForSideNav{
+    background-color: #34979d;
+    outline: none !important;
+    border:none !important;
+    color: #fff;
+}
+.headerPanelClassForSideNav .ant-collapse-item .ant-collapse-header .ant-collapse-arrow{
+    left:0 !important;
+}
+.headerPanelClassForSideNav .ant-collapse-item .ant-collapse-header{
+    padding-left: 15px;
+    border: none;
+}
+.headerPanelClassForSideNav .ant-collapse-item .ant-collapse-content-active{
+    background-color: #34979d;
+    border: none;
+    color: #fff;
+}
+.ant-menu-item-only-child{
+ font-size: 16px;
+ font-weight: bolder;   
+}
+
+@media only screen and (min-width: 701px) {
+    .headerPanelClassForSideNav{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 580px)and (max-width: 700px) {
+    .headerPanelClassForSideNav{
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 380px)and (max-width: 579px) {
+    .headerPanelClassForSideNav{
+        display: inline;
+    }
+}
+.headerWorldIcon2{
+ width:250px;
+ height: 350px;
+}
+.ant-drawer-header{
+    padding-left: 0px;
+}
