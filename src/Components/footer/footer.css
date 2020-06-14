@@ -2,4 +2,10 @@
     color: #fff;
     border-color: #11474f;
     background-color: #11474f;
+    height: 48px;
+}
+.dark .ant-layout-footer{
+    height: 48px;
+    background-color: #002240 !important;
+    border-color:#002240 ;
 }

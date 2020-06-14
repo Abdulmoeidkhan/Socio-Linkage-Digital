@@ -7,13 +7,49 @@
 .cardIcon {
     display: inline-block;
     position: relative;
-    top: -185px;
+    top: -240px;
     padding: 0 .5%;
-}
-@media screen and (max-width: 580px){
+}   
+
+@media screen and (min-width: 480px){
     .alice-carousel {
-        width: 85%;
+        width: 95%;
+        display: inline-block;
+        margin: 0 auto
+    }
+    .cardIcon {
+        top: -220px;
+    }
+    .item{
+        width:80% !important;
+    }
+}
+@media screen and (min-width: 330px)and (max-width: 479px){
+    .alice-carousel {
+        /* width: 80%; */
         display: inline-block;
         margin: 0 auto
     }   
+    .alice-carousel__stage-item{
+        min-width: 260px;
+    }
+    .cardIcon {
+        top: -220px;
+    }
+    .item{
+        width:100% !important;
+    }
+}
+@media screen and (min-width: 230px)and (max-width: 329px){
+    .alice-carousel {
+        width: 75%;
+        display: inline-block;
+        margin: 0 auto
+    }   
+    .cardIcon {
+        top: -175px;
+    }
+    .item{
+        width:90% !important;
+    }
 }

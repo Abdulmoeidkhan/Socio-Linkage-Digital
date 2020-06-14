@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Drawer, Button,Collapse } from 'antd';
+import { Drawer, Button, Collapse } from 'antd';
 import "./hamburgerNav.css"
 import {
   MenuFoldOutlined
 } from '@ant-design/icons';
 import {
   useHistory,
+  Link
 } from "react-router-dom";
 
 
@@ -27,7 +28,7 @@ const HamBurgerNav = (props) => {
       <Button onClick={showDrawer} icon={<MenuFoldOutlined />}>
       </Button>
       <Drawer
-        title={<img className="headerWorldIcon2" src={require("../icons/Colors-Final.png")} />}
+        title={<div><img className="headerWorldIcon2" src={require("../icons/Colors Without Text-Final.png")} /><h2 className="siderHeading">Socio-Linkage</h2></div>}
         placement="right"
         closable={false}
         onClose={onClose}
@@ -35,7 +36,7 @@ const HamBurgerNav = (props) => {
         className={props.mode}
       >
         <div><Collapse accordion className="headerPanelClassForSideNav">
-          <Panel style={{border:"none"}} header={<div style={{color:"#fff"}}><img className="headerWorldIcon" src={require("../icons/Pak Map.png")} /> Regions</div>} key="1">
+          <Panel style={{ border: "none" }} header={<div style={{ color: "#fff" }}><img className="headerWorldIcon" src={require("../icons/Pak Map.png")} /> Regions</div>} key="1">
             <div onClick={
               () => { history.push("/PakistanNGO's") }
             }>
@@ -43,7 +44,14 @@ const HamBurgerNav = (props) => {
                             </div>
           </Panel>
         </Collapse></div>
-        <p>Some contents...</p>
+        <div>
+          <p onClick={()=>{
+            onClose()
+            history.push("/aboutUs")
+            }}>
+          About Us
+          </p>
+          </div>
         <p>Some contents...</p>
       </Drawer>
     </>

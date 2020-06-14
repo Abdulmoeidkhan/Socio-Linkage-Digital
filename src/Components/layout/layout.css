@@ -24,16 +24,22 @@
 
 .ant-menu-dark .ant-menu-inline.ant-menu-sub {
   background-color: #000c17;
+  max-height: 205px;
+  overflow-x: hidden;
 }
 
 .ant-menu-light .ant-menu-inline.ant-menu-sub {
   background-color: #34979d ;
+  max-height: 205px;
+  overflow-x: hidden;
 }
 
 .ant-layout-sider-light .ant-layout-sider-trigger {
   color: #fff;
   background-color: #11474f;
 }
+
+
 
 .ant-menu-light.ant-menu-submenu-popup>.ant-menu {
   background-color: #34979d;
@@ -62,9 +68,9 @@
 .site-layout{
   background-color: #fff;
 }
-/* .ant-menu-sub .ant-menu-item-only-child a{
-  color:#11474f !important;
-} */
 .ant-menu-submenu-inline .ant-menu-submenu-title .anticon-team .ant-menu-submenu-arrow{
   background-color: #000;
+}
+.ant-menu-horizontal{
+  border-bottom: 1px solid #f0f0f0 !important;
 }

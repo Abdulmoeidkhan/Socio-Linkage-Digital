@@ -62,8 +62,19 @@
 }
 .headerWorldIcon2{
  width:250px;
- height: 350px;
+ height: 250px;
 }
 .ant-drawer-header{
     padding-left: 0px;
+}
+.ant-layout-sider-children{
+    position: fixed;
+    width: 200px;
+    z-index: 1;
+    height: 800px;
+}
+.siderHeading{
+    color:#fff;
+    width:160px;
+    margin:0 auto;
 }

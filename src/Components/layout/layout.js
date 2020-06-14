@@ -9,15 +9,16 @@ import {
 import MyFooter from '../footer/footer';
 import { HomeContent } from '../content/home/home';
 import { MyHeader } from "../header/header.js"
+import { AboutUs } from '../content/about/about.js';
 
-const { Header } = Layout;
+// const { Header } = Layout;
 
 export const MyLayout = (props) => (
     <Layout className={`site-layout ${props.themeColor}`}>
-        <MyHeader themeColor={props.themeColor} themeChanger={props.themeChanger} history={props.history}/>
+        <MyHeader themeColor={props.themeColor} themeChanger={props.themeChanger} history={props.history} showDrawer={props.showDrawer}/>
         <Switch>
             <Route path="/" exact component={HomeContent}/>
-            <Route path="/PakistanNGO's" component={HomeContent}/>
+            <Route path="/aboutUs" exact component={AboutUs}/>
         </Switch>
         <MyFooter theme={props.themeColor} />
     </Layout>

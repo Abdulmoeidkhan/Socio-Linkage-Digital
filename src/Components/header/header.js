@@ -1,13 +1,15 @@
 import React from 'react';
-import { Layout, Menu, Switch, Collapse } from 'antd';
+import { Layout, Menu, Switch, Collapse, Button } from 'antd';
 import 'antd/dist/antd.css';
 import "./header.css"
 import HamBurgerNav from "../hamburgerNav/hamburgerNav.js"
 import {
-    BrowserRouter as Router,
     useHistory,
     Link
 } from "react-router-dom";
+import {
+    MenuUnfoldOutlined
+  } from '@ant-design/icons';
 
 const { Header } = Layout;
 const { Panel } = Collapse;
@@ -18,21 +20,24 @@ export const MyHeader = (props) => {
         <Header className="site-layout-background" style={{ padding: 0 }} >
             <div className="logo" />
             <Menu theme={props.themeColor} mode="horizontal" defaultSelectedKeys={['1']} >
+                <Menu.Item key="5" className="mobClass">
+                    <Button type="primary" onClick={props.showDrawer} icon={<MenuUnfoldOutlined />}/>
+                </Menu.Item>
                 <Menu.Item key="1">
                     <Link to="/">
-                    <img className="headerLogoIcon" src={require("../icons/Colors Without Text-Final.png")} />
-                </Link>
+                        <img className="headerLogoIcon" src={require("../icons/Colors Without Text-Final.png")} alt={require("../icons/Colors Without Text-Final.png")} />
+                    </Link>
                 </Menu.Item>
                 <Menu.Item key="2" className="specialClassForHeaderPanelClass">
                     <Collapse accordion >
-                        <Panel className="headerPanelClass" header={<img className="headerWorldIcon" src={require("../icons/Pak Map.png")} />} key="1">
+                        <Panel className="headerPanelClass" header={<img className="headerWorldIcon" src={require("../icons/Pak Map.png")} />} alt={require("../icons/Pak Map.png")} key="1">
                             <div onClick={
                                 () => { history.push("/PakistanNGO's") }
                             }>
                                 Pakistan
                             </div>
                         </Panel>
-                    </Collapse> 
+                    </Collapse>
                 </Menu.Item>
                 {/* <Menu.Item key="3">
                         <Link to="/ContactUs">Contact Us</Link>
