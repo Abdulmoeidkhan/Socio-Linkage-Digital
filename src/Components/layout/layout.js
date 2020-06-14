@@ -1,6 +1,6 @@
 import React from 'react';
 import './layout.css';
-import { Layout, } from 'antd';
+import { Layout } from 'antd';
 import 'antd/dist/antd.css';
 import {
     Switch,
@@ -10,6 +10,7 @@ import MyFooter from '../footer/footer';
 import { HomeContent } from '../content/home/home';
 import { MyHeader } from "../header/header.js"
 import { AboutUs } from '../content/about/about.js';
+import {NGOPage} from "../content/NGO'sPage/NGO'sPage.js"
 
 // const { Header } = Layout;
 
@@ -19,6 +20,9 @@ export const MyLayout = (props) => (
         <Switch>
             <Route path="/" exact component={HomeContent}/>
             <Route path="/aboutUs" exact component={AboutUs}/>
+            <Route path="/DEWA" exact >
+                <NGOPage name="DEWA"/>
+            </Route>
         </Switch>
         <MyFooter theme={props.themeColor} />
     </Layout>

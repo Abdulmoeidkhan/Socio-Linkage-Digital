@@ -35,7 +35,7 @@ const HamBurgerNav = (props) => {
         visible={visible}
         className={props.mode}
       >
-        <div><Collapse accordion className="headerPanelClassForSideNav">
+        <div className="cursorClass"><Collapse accordion className="headerPanelClassForSideNav">
           <Panel style={{ border: "none" }} header={<div style={{ color: "#fff" }}><img className="headerWorldIcon" src={require("../icons/Pak Map.png")} /> Regions</div>} key="1">
             <div onClick={
               () => { history.push("/PakistanNGO's") }
@@ -44,15 +44,15 @@ const HamBurgerNav = (props) => {
                             </div>
           </Panel>
         </Collapse></div>
-        <div>
-          <p onClick={()=>{
+        <div className="cursorClass">
+          <p onClick={() => {
             onClose()
             history.push("/aboutUs")
-            }}>
-          About Us
+          }}>
+            About Us
           </p>
-          </div>
-        <p>Some contents...</p>
+        </div>
+        <p className="cursorClass">Some contents...</p>
       </Drawer>
     </>
   );

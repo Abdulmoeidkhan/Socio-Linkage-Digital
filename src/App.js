@@ -48,16 +48,27 @@ let App = () => {
         >
           <Sider>
             <Menu theme={themeColor.theme} defaultSelectedKeys={['1']} mode="inline">
-              <Menu.Item key="1" icon={
+              <SubMenu key="1" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                   {/* <i className="fa fa-child" style={{ fontSize: "24px" }}></i> */}
                   <img src={require("./Components/icons/Children.png")} />
                 </span>
-              }>
-                <Link to="/Children"> Children
+              } title=" Children">
+                <Menu.Item key="5">
+                  <Link to="/DEWA"> DEWA
+              </Link>
+                </Menu.Item>
+              </SubMenu>
+              <Menu.Item key="2" icon={
+                <span role="img" aria-label="team" className="anticon anticon-team">
+                  {/* <i className="fa fa-link"></i> */}
+                  <img src={require("./Components/icons/Community.png")} />
+                </span>
+              } >
+                <Link to="/Community"> Community
             </Link>
               </Menu.Item>
-              <Menu.Item key="2" icon={
+              <Menu.Item key="3" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                   {/* <i className='fa fa-graduation-cap'></i> */}
                   <img src={require("./Components/icons/Education.png")} />
@@ -67,7 +78,7 @@ let App = () => {
                 <Link to="/Education"> Education
               </Link>
               </Menu.Item>
-              <SubMenu key="sub1" icon={
+              <SubMenu key="4" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                   {/* <i className="fa fa-heartbeat"></i> */}
                   <img src={require("./Components/icons/Health.png")} />
@@ -75,47 +86,16 @@ let App = () => {
               } title=" Health">
                 {/* <Link to="/health"> Health
               </Link> */}
-                <Menu.Item key="3">
-                  <Link to="/Tom"> Tom
-              </Link>
-                </Menu.Item>
-                <Menu.Item key="4">
+                <Menu.Item key="6">
                   <Link to="/Bill"> Bill
               </Link>
                 </Menu.Item>
-                <Menu.Item key="5">
+                <Menu.Item key="7">
                   <Link to="/Alex"> Alex
               </Link>
                 </Menu.Item>
               </SubMenu>
-              <Menu.Item key="sub2" icon={
-                <span role="img" aria-label="team" className="anticon anticon-team">
-                  {/* <i className="fa fa-pencil-square-o"></i> */}
-                  <img src={require("./Components/icons/Vocation.png")} />
-                </span>
-              } title=" Vocational">
-                <Link to="/Vocational"> Vocation
-              </Link>
-              </Menu.Item>
-              <Menu.Item key="9" icon={
-                <span role="img" aria-label="team" className="anticon anticon-team">
-                  {/* <i className="fa fa-female"></i> */}
-                  <img src={require("./Components/icons/Women.png")} />
-                </span>
-              } >
-                <Link to="/Womens"> Women
-            </Link>
-              </Menu.Item>
-              <Menu.Item key="10" icon={
-                <span role="img" aria-label="team" className="anticon anticon-team">
-                  {/* <i className="fa fa-link"></i> */}
-                  <img src={require("./Components/icons/Community.png")} />
-                </span>
-              } >
-                <Link to="/Community"> Community
-            </Link>
-              </Menu.Item>
-              <Menu.Item key="11" icon={
+              <Menu.Item key="8" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                   {/* <i className="fa fa-link"></i> */}
                   <img src={require("./Components/icons/Senior Citizen.png")} />
@@ -124,6 +104,35 @@ let App = () => {
                 <Link to="/seniorCitizen"> Senior Citizen
             </Link>
               </Menu.Item>
+              <Menu.Item key="9" icon={
+                <span role="img" aria-label="team" className="anticon anticon-team">
+                  {/* <i className="fa fa-link"></i> */}
+                  <img src={require("./Components/icons/Disabled Person.png")} />
+                </span>
+              } >
+                <Link to="/specialPeople"> Special People
+            </Link>
+              </Menu.Item>
+              <Menu.Item key="10" icon={
+                <span role="img" aria-label="team" className="anticon anticon-team">
+                  {/* <i className="fa fa-pencil-square-o"></i> */}
+                  <img src={require("./Components/icons/Vocation.png")} />
+                </span>
+              } title=" Vocational">
+                <Link to="/Vocational"> Vocation
+              </Link>
+              </Menu.Item>
+              <Menu.Item key="11" icon={
+                <span role="img" aria-label="team" className="anticon anticon-team">
+                  {/* <i className="fa fa-female"></i> */}
+                  <img src={require("./Components/icons/Women.png")} />
+                </span>
+              } >
+                <Link to="/Womens"> Women
+            </Link>
+              </Menu.Item>
+
+
               <Menu.Item key="12" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                   {/* <i className="fa fa-link"></i> */}
@@ -139,16 +148,27 @@ let App = () => {
         <Sider collapsible collapsed={collapsedByMe.collapsed} onCollapse={onCollapse} theme={themeColor.theme} className="desktopClassHeader">
           <div className="logo" />
           <Menu theme={themeColor.theme} defaultSelectedKeys={['1']} mode="inline">
-            <Menu.Item key="1" icon={
+            <SubMenu key="1" icon={
               <span role="img" aria-label="team" className="anticon anticon-team">
                 {/* <i className="fa fa-child" style={{ fontSize: "24px" }}></i> */}
                 <img src={require("./Components/icons/Children.png")} />
               </span>
-            }>
-              <Link to="/Children"> Children
+            } title=" Children">
+              <Menu.Item key="5">
+                <Link to="/DEWA"> DEWA
+              </Link>
+              </Menu.Item>
+            </SubMenu>
+            <Menu.Item key="2" icon={
+              <span role="img" aria-label="team" className="anticon anticon-team">
+                {/* <i className="fa fa-link"></i> */}
+                <img src={require("./Components/icons/Community.png")} />
+              </span>
+            } >
+              <Link to="/Community"> Community
             </Link>
             </Menu.Item>
-            <Menu.Item key="2" icon={
+            <Menu.Item key="3" icon={
               <span role="img" aria-label="team" className="anticon anticon-team">
                 {/* <i className='fa fa-graduation-cap'></i> */}
                 <img src={require("./Components/icons/Education.png")} />
@@ -158,7 +178,7 @@ let App = () => {
               <Link to="/Education"> Education
               </Link>
             </Menu.Item>
-            <SubMenu key="sub1" icon={
+            <SubMenu key="4" icon={
               <span role="img" aria-label="team" className="anticon anticon-team">
                 {/* <i className="fa fa-heartbeat"></i> */}
                 <img src={require("./Components/icons/Health.png")} />
@@ -166,20 +186,38 @@ let App = () => {
             } title=" Health">
               {/* <Link to="/health"> Health
               </Link> */}
-              <Menu.Item key="3">
+              <Menu.Item key="5">
                 <Link to="/Tom"> Tom
               </Link>
               </Menu.Item>
-              <Menu.Item key="4">
+              <Menu.Item key="6">
                 <Link to="/Bill"> Bill
               </Link>
               </Menu.Item>
-              <Menu.Item key="5">
+              <Menu.Item key="7">
                 <Link to="/Alex"> Alex
               </Link>
               </Menu.Item>
             </SubMenu>
-            <Menu.Item key="sub2" icon={
+            <Menu.Item key="8" icon={
+              <span role="img" aria-label="team" className="anticon anticon-team">
+                {/* <i className="fa fa-link"></i> */}
+                <img src={require("./Components/icons/Senior Citizen.png")} />
+              </span>
+            } >
+              <Link to="/seniorCitizen"> Senior Citizen
+            </Link>
+            </Menu.Item>
+            <Menu.Item key="9" icon={
+              <span role="img" aria-label="team" className="anticon anticon-team">
+                {/* <i className="fa fa-link"></i> */}
+                <img src={require("./Components/icons/Disabled Person.png")} />
+              </span>
+            } >
+              <Link to="/specialPeople"> Special People
+            </Link>
+            </Menu.Item>
+            <Menu.Item key="10" icon={
               <span role="img" aria-label="team" className="anticon anticon-team">
                 {/* <i className="fa fa-pencil-square-o"></i> */}
                 <img src={require("./Components/icons/Vocation.png")} />
@@ -188,31 +226,13 @@ let App = () => {
               <Link to="/Vocational"> Vocation
               </Link>
             </Menu.Item>
-            <Menu.Item key="9" icon={
+            <Menu.Item key="11" icon={
               <span role="img" aria-label="team" className="anticon anticon-team">
                 {/* <i className="fa fa-female"></i> */}
                 <img src={require("./Components/icons/Women.png")} />
               </span>
             } >
               <Link to="/Womens"> Women
-            </Link>
-            </Menu.Item>
-            <Menu.Item key="10" icon={
-              <span role="img" aria-label="team" className="anticon anticon-team">
-                {/* <i className="fa fa-link"></i> */}
-                <img src={require("./Components/icons/Community.png")} />
-              </span>
-            } >
-              <Link to="/Community"> Community
-            </Link>
-            </Menu.Item>
-            <Menu.Item key="11" icon={
-              <span role="img" aria-label="team" className="anticon anticon-team">
-                {/* <i className="fa fa-link"></i> */}
-                <img src={require("./Components/icons/Senior Citizen.png")} />
-              </span>
-            } >
-              <Link to="/seniorCitizen"> Senior Citizen
             </Link>
             </Menu.Item>
             <Menu.Item key="12" icon={

@@ -61,12 +61,12 @@ a {
 
 .ant-layout-sider-children .ant-menu-light {
   background-color: #34979d !important;
-  height: 530px;
+  height: 600px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 .ant-layout-sider-children .ant-menu-dark{
-  height: 530px;
+  height: 600px;
   overflow-y: auto;
   overflow-x: hidden;
 }
