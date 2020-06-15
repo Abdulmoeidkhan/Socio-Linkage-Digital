@@ -2,6 +2,13 @@
     border: 1px solid #11474f;
     background: #fff;
 }
-.marginClass{
-     margin: 14px 16px;
-  }
+
+.marginClass {
+    margin: 14px 16px;
+}
+.ant-descriptions-view{
+    width:101%
+}
+.underlineClass{
+    text-decoration: underline;
+}
