@@ -11,36 +11,13 @@ import { HomeContent } from '../content/home/home';
 import { MyHeader } from "../header/header.js"
 import { AboutUs } from '../content/about/about.js';
 import { NGOPage } from "../content/NGO'sPage/NGO'sPage.js"
+import {NGOsRoute} from "../contentRawData.js/contentRawData"
+import MyComparison from "../content/comparison/comparison"
 
 // const { Header } = Layout;
 
 
-const NGOsRoute = ["RLCC",
-    "AAHUNG FOUNDATION",
-    "AZAD FOUNDATION",
-    "DAR-UL-SUKUN",
-    "EDHI FOUNDATION",
-    "KONPAL CHILD ABUSE PREVENTION SOCIETY",
-    "MAKE A WISH",
-    "SOS VILLAGE",
-    "AMAN FOUNDATION",
-    "CHHIPA FOUNDATION",
-    "FIX IT",
-    "JDC",
-    "LYARIANZ YOUTH DEVELOPMENT PROGRAM",
-    "ROBIN HOOD ARMY",
-    "A.P.H.A ORGANIZATION",
-    "APEX EDUCATION FORUM",
-    "DEWA ACADEMY",
-    "MARKAZ-E-UMEED",
-    "PAKISTAN YOUTH ORGANIZATION",
-    "THE CITIZENS FOUNDATION",
-    "YOUTH EXPRESS PAKISTAN",
-    "AURAT FOUNDATION",
-    "DEPILEX-SMILE AGAIN FOUNDATION",
-    "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
-    "TEHRIK-E-NISWA"
-]
+
 
 export const MyLayout = (props) => (
     <Layout className={`site-layout ${props.themeColor}`}>
@@ -48,7 +25,8 @@ export const MyLayout = (props) => (
         <Switch>
             <Route path="/" exact key="1" component={HomeContent} />
             <Route path="/aboutUs" exact key="2" component={AboutUs} />
-            {NGOsRoute.map((item, i) => <Route key={i + 2} path={`/${item}`} exact >
+            <Route path="/Comparison" exact key="3" component={MyComparison}/>
+            {NGOsRoute.map((item, i) => <Route key={i + 3} path={`/${item}`} exact >
                 <NGOPage name={`${item}`} />
             </Route>)}
         </Switch>

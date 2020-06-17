@@ -4,19 +4,14 @@ import 'antd/dist/antd.css';
 import {
     Link,
 } from "react-router-dom";
+import {data} from "../contentRawData.js/contentRawData"
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
 
-const data = {
-    children: ["RLCC", "AAHUNG FOUNDATION", "AZAD FOUNDATION", "DAR-UL-SUKUN", "EDHI FOUNDATION", "KONPAL CHILD ABUSE PREVENTION SOCIETY", "MAKE A WISH", "SOS VILLAGE"],
-    community: ["AMAN FOUNDATION", "CHHIPA FOUNDATION", "FIX IT", "JDC", "LYARIANZ YOUTH DEVELOPMENT PROGRAM", "ROBIN HOOD ARMY"],
-    education: ["A.P.H.A ORGANIZATION", "APEX EDUCATION FORUM", "DEWA ACADEMY", "MARKAZ-E-UMEED", "PAKISTAN YOUTH ORGANIZATION", "THE CITIZENS FOUNDATION", "YOUTH EXPRESS PAKISTAN"],
-    womens: ["AURAT FOUNDATION", "DEPILEX-SMILE AGAIN FOUNDATION", "SHIRKAT GAH-WOMEN RESOURCE CENTRE", "TEHRIK-E-NISWA"]
-}
+
 
 const MyMenu = (props) => {
-    console.log(props)
     return (
         <Menu theme={props.myProps.themeColor.theme} defaultSelectedKeys={['1']} mode="inline">
             <SubMenu key="1" icon={

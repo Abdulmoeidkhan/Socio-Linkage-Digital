@@ -1,13 +1,11 @@
-import React from 'react';
-import { Breadcrumb, Layout, Descriptions, Badge } from 'antd';
-import 'antd/dist/antd.css';
-import "./NGO'sPage.css"
-import {
-    Link
-} from "react-router-dom";
+export const data = {
+    children: ["RLCC", "AAHUNG FOUNDATION", "AZAD FOUNDATION", "DAR-UL-SUKUN", "EDHI FOUNDATION", "KONPAL CHILD ABUSE PREVENTION SOCIETY", "MAKE A WISH", "SOS VILLAGE"],
+    community: ["AMAN FOUNDATION", "CHHIPA FOUNDATION", "FIX IT", "JDC", "LYARIANZ YOUTH DEVELOPMENT PROGRAM", "ROBIN HOOD ARMY"],
+    education: ["A.P.H.A ORGANIZATION", "APEX EDUCATION FORUM", "DEWA ACADEMY", "MARKAZ-E-UMEED", "PAKISTAN YOUTH ORGANIZATION", "THE CITIZENS FOUNDATION", "YOUTH EXPRESS PAKISTAN"],
+    womens: ["AURAT FOUNDATION", "DEPILEX-SMILE AGAIN FOUNDATION", "SHIRKAT GAH-WOMEN RESOURCE CENTRE", "TEHRIK-E-NISWA"]
+}
 
-
-let data = {
+export const detailedData = {
     "RLCC": {
         "Organization": "Ra’ana Liaquat Craftsmen Colony (RLCC)",
         "OperatingArea": "Shah Faisal Colony, Karachi, Pakistan",
@@ -18,7 +16,8 @@ let data = {
         "Sustainability": "60% self-sufficient and charitable organization",
         "CostofServices": "Minimal and negotiable cost for programs",
         "Analysis": "Throughout RLCC is serving tremendously to refrain the society from the obstacles such as poverty, illiteracy, unemployment, mental health and other health issues. However, their operating area is only Shah Faisal Colony which restricts other persons who are in need but fail to encounter the organization’s services due to the remote location.",
-        "ReferencelinkWebsite": "http://rlcc.com.pk/"
+        "ReferencelinkWebsite": "http://rlcc.com.pk/",
+        "key":"1"
     },
     "AAHUNG FOUNDATION": {
         "Organization": "Aahung Foundation",
@@ -31,6 +30,7 @@ let data = {
         "CostofServices": "Zero-cost Services",
         "Analysis": "One of the primary organizations working effectively for eradication of CSA.",
         "ReferencelinkWebsite": "https://www.aahung.org/",
+        "key":"2"
     },
 
     "AZAD FOUNDATION": {
@@ -44,6 +44,7 @@ let data = {
         "CostofServices": "Zero-cost Services",
         "Analysis": "Well-known organization working to provide education, advocacy and shelter to the street children.",
         "ReferencelinkWebsite": "https://azadfoundation.org/",
+        "key":"3"
     },
 
     "DAR-UL-SUKUN": {
@@ -57,6 +58,7 @@ let data = {
         "CostofServices": " ",
         "Analysis": "A fierce organization working successfully on multiple domains i.e. Children with disabilities, Senior Citizens, Helping Vulnerable People.",
         "ReferencelinkWebsite": "https://www.darulsukun.com/",
+        "key":"4"
     },
 
     "EDHI FOUNDATION": {
@@ -70,6 +72,7 @@ let data = {
         "CostofServices": "None ",
         "Analysis": "A promising and far-most known organization working for the welfare of the whole population throughout the country.",
         "ReferencelinkWebsite": "https://edhi.org/",
+        "key":"5"
     },
 
     "KONPAL CHILD ABUSE PREVENTION SOCIETY": {
@@ -83,6 +86,7 @@ let data = {
         "CostofServices": "None ",
         "Analysis": "  ",
         "ReferencelinkWebsite": "http://www.konpal.org/",
+        "key":"6"
     },
 
     "MAKE A WISH": {
@@ -96,6 +100,7 @@ let data = {
         "CostofServices": "None ",
         "Analysis": "Worldwide recognized organization uniquely striving to fulfill wishes of children with life-threatening diseases.",
         "ReferencelinkWebsite": "https://www.makeawish.org.pk/",
+        "key":"7"
     },
 
     "SOS VILLAGE": {
@@ -109,7 +114,9 @@ let data = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.sos.org.pk/Person/Index",
+        "key":"8"
     },
+
 
     "AMAN FOUNDATION": {
         "Organization": "Aman Foundation",
@@ -122,8 +129,8 @@ let data = {
         "CostofServices": " ",
         "Analysis": "Aman Foundation is an organization that is currently dealing with social issues, health and education as well as training people in terms of skills and vocation. It is today one of the most important organizations that are operating in Karachi and have served millions of people.",
         "ReferencelinkWebsite": "https://www.theamanfoundation.org/",
+        "key":"9"
     },
-
     "CHHIPA FOUNDATION": {
         "Organization": "Chhipa Foundation",
         "OperatingArea": " Head office:  FTC Bridge, Shahrah-e-Faisal, Karachi.",
@@ -135,8 +142,8 @@ let data = {
         "CostofServices": "None ",
         "Analysis": "Chippa has been serving since 2007 and has managed to build its system of emergency services and providing food and social services to the masses making it one of the most competent foundations operating in Karachi",
         "ReferencelinkWebsite": "https://www.chhipa.org/",
+        "key":"10"
     },
-
     "FIX IT": {
         "Organization": "Fix It",
         "OperatingArea": "Abul Ispahani Road, Karachi.",
@@ -148,6 +155,7 @@ let data = {
         "CostofServices": "None ",
         "Analysis": "Fixit may be a nascent organization but has truly embarked its name in a very short time, being highly popular among the youth of Pakistan specifically. Fixit is empowering individuals and making them realize their rights and duties.",
         "ReferencelinkWebsite": "https://www.facebook.com/pakfixit/",
+        "key":"11"
     },
     "JDC": {
         "Organization": "Jafaria Disaster Management Cell JDC",
@@ -160,8 +168,8 @@ let data = {
         "CostofServices": "None ",
         "Analysis": "JDC is one of the most profound foundations that are currently operating in the city of Karachi they have served numerous individuals through their services and is one of the best places for anyone who has little to no money.",
         "ReferencelinkWebsite": "http://jdcwelfare.org/",
+        "key":"12"
     },
-
     "LYARIANZ YOUTH DEVELOPMENT PROGRAM": {
         "Organization": "Lyarianz Youth Development Program",
         "OperatingArea": "Lyari Area, Karachi.",
@@ -173,8 +181,8 @@ let data = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://lyda.webs.com/apps/blog/",
+        "key":"13"
     },
-
     "ROBIN HOOD ARMY": {
         "Organization": "Robin Hood Army",
         "OperatingArea": "All over Karachi.",
@@ -186,7 +194,11 @@ let data = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://robinhoodarmy.com/",
+        "key":"14"
     },
+
+
+
     "A.P.H.A ORGANIZATION": {
         "Organization": "A.P.H.A Organization",
         "OperatingArea": "Gulistan-e-Johar, Karachi",
@@ -198,6 +210,7 @@ let data = {
         "CostofServices": " Free of cost or nominal charges.",
         "Analysis": "An organization which is working to embrace and revitalize the inherent capabilities of special people/children.",
         "ReferencelinkWebsite": "http://www.apha.org.pk/",
+        "key":"15"
     },
     "APEX EDUCATION FORUM": {
         "Organization": "Apex Education Forum",
@@ -210,6 +223,7 @@ let data = {
         "CostofServices": " Negotiable to minimal cost for services",
         "Analysis": "An organization which is working to embrace and revitalize the inherent capabilities of special people/children.",
         "ReferencelinkWebsite": "https://web.facebook.com/apexeduforum/?_rdc=1&_rdr",
+        "key":"16"
     },
     "DEWA ACADEMY": {
         "Organization": "DEWA Academy",
@@ -220,8 +234,9 @@ let data = {
         "Programs": "Dastoor - Education/Training, Yaqeeen – Employment, The Rickshaw Project, PWDs Jobs & Training.",
         "Sustainability": "Based on Donations and funding",
         "CostofServices": " None",
-        "Analysis": "1100 Persons with disabilities trained,500 Job placements, 7000 Persons engaged around disabilities issues, 10000 Added in database for job & training opportunities.",
+        "Analysis": "1100 Persons with disabilities trained,500 Job placements, 7000 Persons engaged around disabilities issues, 10000 Added in Database for job & training opportunities.",
         "ReferencelinkWebsite": "https://www.nowpdp.org/",
+        "key":"17"
     },
     "MARKAZ-E-UMEED": {
         "Organization": "Markaz-e-Umeed",
@@ -234,9 +249,8 @@ let data = {
         "CostofServices": " None",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://markaz-e-umeed.com.pk/",
+        "key":"18"
     },
-
-
     "PAKISTAN YOUTH ORGANIZATION": {
         "Organization": "Pakistan Youth Organization (PYO)",
         "Operating Area": "Gulshan Iqbal, Karachi",
@@ -248,6 +262,7 @@ let data = {
         "CostofServices": " None",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://pakngos.com.pk/ngo/pakistani-youth-organization-pyo",
+        "key":"19"
     },
     "THE CITIZENS FOUNDATION": {
         "Organization": "The Citizens Foundation TCF",
@@ -260,9 +275,8 @@ let data = {
         "CostofServices": " None, negotiable.",
         "Analysis": "TCF is currently one of the strongest and steadfast institutes+-9 aiming to provide quality education in the country. ",
         "ReferencelinkWebsite": "https://www.tcf.org.pk/education-programme/",
+        "key":"20"
     },
-
-
     "YOUTH EXPRESS PAKISTAN": {
         "Organization": "Youth Express Pakistan",
         "Operating Area": "Operates in the sub urban areas of Karachi now.",
@@ -274,40 +288,87 @@ let data = {
         "CostofServices": " None.",
         "Analysis": "YEP foundation is a student-based initiative aiming to aid the needy by channeling public funding. ",
         "ReferencelinkWebsite": "https://web.facebook.com/YouthExpressPakistan.Official",
+        "key":"21"
+    },
+
+
+
+    "AURAT FOUNDATION": {
+        "Organization": "Aurat Foundation",
+        "Operating Area": "Clifton, Karachi",
+        "History": "Established in 1986 and serving for the last 30 years to empower women by providing needed resources.",
+        "CoreFunctions": "Advocacy, Capacity building and information to empower women.",
+        "Credibility": " Registered under Societies Registration Act 1860.",
+        "Programs": "Women work from home, Political education and advocacy to increase women power in legislature.",
+        "Sustainability": "National non-profit organization.",
+        "CostofServices": " None.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.af.org.pk/index.php",
+        "key":"22"
+    },
+    "DEPILEX-SMILE AGAIN FOUNDATION": {
+        "Organization": "Depilex- Smile Again Foundation",
+        "Operating Area": "Karachi, Pakistan",
+        "History": "Established by Musarrat Misbah, to help acid-attack survivors re-adjust properly in the social environment around them.",
+        "CoreFunctions": "Provide medical care and assistance to the survivors.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Awareness about violence against women, medical, financial, psychological, moral and vocational support for women.",
+        "Sustainability": "Non-profit Organization.",
+        "CostofServices": " None.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://depilexsmileagain.com/",
+        "key":"23"
+    },
+    "SHIRKAT GAH-WOMEN RESOURCE CENTRE": {
+        "Organization": "Shirkat Gah-Women Resource Centre",
+        "Operating Area": "Shahre Faisal, Karachi",
+        "History": "Founded in 1975, Shirkat Gah is a unique women-led collective with a diverse & dedicated team of about 70 qualified and experienced professionals working from four provincial and several satellite offices across Pakistan.",
+        "CoreFunctions": "Bodily integrity, representational government, conducive gender-equality policy environment, feminist agenda setting.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Women health and rights advocacy, empowerment and leadership development, social justice program, strengthening governance in health systems., etc.",
+        "Sustainability": "Non-profit Organization.",
+        "CostofServices": " None.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "http://shirkatgah.org/",
+        "key":"24"
+    },
+    "TEHRIK-E-NISWA": {
+        "Organization": "Tehrik-e-Niswa",
+        "Operating Area": "D.H.A Karachi",
+        "History": "Established in 1980, to work on women’s development through theatre and television.",
+        "CoreFunctions": "To create awareness and change moral attitudes, fight obscurantism, set up a cultural center for women.",
+        "Credibility": " Registered organization.",
+        "Programs": "Theatre, dances and documentaries for awareness.",
+        "Sustainability": " ",
+        "CostofServices": " None.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "http://www.tehrik-e-niswan.org.pk/default.asp",
+        "key":"25"
     },
 }
-
-const { Content } = Layout
-
-export const NGOPage = (props) => {
-    let ngoName = props.name
-    return (
-        <Content className="pageContentClass">
-            <div className="marginClass">
-                <Breadcrumb style={{ margin: '16px 0px' }}>
-                    <Breadcrumb.Item>
-                        <Link to="/">
-                            Home
-                </Link>
-                    </Breadcrumb.Item>
-                    <Breadcrumb.Item>
-                        <Link to={`/${ngoName}`}>
-                            {ngoName}
-                        </Link>
-                    </Breadcrumb.Item>
-                </Breadcrumb>
-                <Descriptions title={ngoName} bordered>
-                    <Descriptions.Item label="Organisation" span={3}>{data[ngoName].Organization}</Descriptions.Item>
-                    <Descriptions.Item label="Operating Area" span={3}>{data[ngoName].OperatingArea}</Descriptions.Item>
-                    <Descriptions.Item label="History" span={3}>{data[ngoName].History}</Descriptions.Item>
-                    <Descriptions.Item label="CoreFunctions" span={3}>{data[ngoName].CoreFunctions}</Descriptions.Item>
-                    <Descriptions.Item label="Credibility" span={3}>{data[ngoName].Credibility}</Descriptions.Item>
-                    <Descriptions.Item label="Programs" span={3}>{data[ngoName].Programs}</Descriptions.Item>
-                    <Descriptions.Item label="Sustainability" span={3}>{data[ngoName].Sustainability}</Descriptions.Item>
-                    <Descriptions.Item label="CostOfServices" span={3}>{data[ngoName].CostofServices}</Descriptions.Item>
-                    <Descriptions.Item label="Analysis" span={3}>{data[ngoName].Analysis}</Descriptions.Item>
-                    <Descriptions.Item label="Referencelink / Website" span={3}><a className="underlineClass" href={data[ngoName].ReferencelinkWebsite}>{data[ngoName].ReferencelinkWebsite}</a></Descriptions.Item>
-                </Descriptions>
-            </div>
-        </Content>)
-}
+export const NGOsRoute = ["RLCC",
+    "AAHUNG FOUNDATION",
+    "AZAD FOUNDATION",
+    "DAR-UL-SUKUN",
+    "EDHI FOUNDATION",
+    "KONPAL CHILD ABUSE PREVENTION SOCIETY",
+    "MAKE A WISH",
+    "SOS VILLAGE",
+    "AMAN FOUNDATION",
+    "CHHIPA FOUNDATION",
+    "FIX IT",
+    "JDC",
+    "LYARIANZ YOUTH DEVELOPMENT PROGRAM",
+    "ROBIN HOOD ARMY",
+    "A.P.H.A ORGANIZATION",
+    "APEX EDUCATION FORUM",
+    "DEWA ACADEMY",
+    "MARKAZ-E-UMEED",
+    "PAKISTAN YOUTH ORGANIZATION",
+    "THE CITIZENS FOUNDATION",
+    "YOUTH EXPRESS PAKISTAN",
+    "AURAT FOUNDATION",
+    "DEPILEX-SMILE AGAIN FOUNDATION",
+    "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
+    "TEHRIK-E-NISWA"
+]

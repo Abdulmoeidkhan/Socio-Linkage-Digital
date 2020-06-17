@@ -85,6 +85,14 @@ const HamBurgerNav = (props) => {
           </p>
         </div>
         <div className="cursorClass">
+          <p onClick={() => {
+            onClose()
+            history.push("/Comparison")
+          }}>
+            Comparison
+          </p>
+        </div>
+        <div className="cursorClass">
           {!currentUsersData ?
             <>
               <Button type="primary" onClick={showModal}>

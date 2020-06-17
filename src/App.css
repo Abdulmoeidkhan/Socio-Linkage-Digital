@@ -65,7 +65,8 @@ a {
   overflow-y: auto;
   overflow-x: hidden;
 }
-.ant-layout-sider-children .ant-menu-dark{
+
+.ant-layout-sider-children .ant-menu-dark {
   height: 600px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -137,7 +138,7 @@ body::-webkit-scrollbar, .ant-menu-inline::-webkit-scrollbar {
   background-color: #F5F5F5;
 }
 
-body::-webkit-scrollbar-thumb, .ant-menu-inline::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb, .ant-menu-inline::-webkit-scrollbar-thumb, .scrollClass::-webkit-scrollbar-thumb {
   background-color: #11474f;
 }
 
@@ -148,14 +149,21 @@ body::-webkit-scrollbar-thumb, .ant-menu-inline::-webkit-scrollbar-thumb {
 .ant-collapse-content-active {
   border: 1px solid #34979d
 }
-.ant-menu-inline-collapsed{
+
+.ant-menu-inline-collapsed {
   overflow: hidden !important;
 }
-.ant-descriptions-view{
+
+.ant-descriptions-view {
   min-width: 335px;
 }
-.ant-spin-dot,.ant-spin-dot-spin{
+
+.ant-spin-dot, .ant-spin-dot-spin {
   position: fixed !important;
   top: 50%;
   left: 50%;
+}
+
+.amt-menu-dark li {
+  border-bottom: 2px solid #f4f4f4 !important;
 }
