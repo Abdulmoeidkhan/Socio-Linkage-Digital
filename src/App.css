@@ -151,3 +151,11 @@ body::-webkit-scrollbar-thumb, .ant-menu-inline::-webkit-scrollbar-thumb {
 .ant-menu-inline-collapsed{
   overflow: hidden !important;
 }
+.ant-descriptions-view{
+  min-width: 335px;
+}
+.ant-spin-dot,.ant-spin-dot-spin{
+  position: fixed !important;
+  top: 50%;
+  left: 50%;
+}

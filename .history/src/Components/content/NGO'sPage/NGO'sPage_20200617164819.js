@@ -111,7 +111,6 @@ let data = {
         "ReferencelinkWebsite": "https://www.sos.org.pk/Person/Index",
     },
 
-    
     "AMAN FOUNDATION": {
         "Organization": "Aman Foundation",
         "OperatingArea": "Korangi Township Near Pakistan Refinery Ltd., Karachi, Pakistan",
@@ -124,6 +123,7 @@ let data = {
         "Analysis": "Aman Foundation is an organization that is currently dealing with social issues, health and education as well as training people in terms of skills and vocation. It is today one of the most important organizations that are operating in Karachi and have served millions of people.",
         "ReferencelinkWebsite": "https://www.theamanfoundation.org/",
     },
+
     "CHHIPA FOUNDATION": {
         "Organization": "Chhipa Foundation",
         "OperatingArea": " Head office:  FTC Bridge, Shahrah-e-Faisal, Karachi.",
@@ -136,6 +136,7 @@ let data = {
         "Analysis": "Chippa has been serving since 2007 and has managed to build its system of emergency services and providing food and social services to the masses making it one of the most competent foundations operating in Karachi",
         "ReferencelinkWebsite": "https://www.chhipa.org/",
     },
+
     "FIX IT": {
         "Organization": "Fix It",
         "OperatingArea": "Abul Ispahani Road, Karachi.",
@@ -160,6 +161,7 @@ let data = {
         "Analysis": "JDC is one of the most profound foundations that are currently operating in the city of Karachi they have served numerous individuals through their services and is one of the best places for anyone who has little to no money.",
         "ReferencelinkWebsite": "http://jdcwelfare.org/",
     },
+
     "LYARIANZ YOUTH DEVELOPMENT PROGRAM": {
         "Organization": "Lyarianz Youth Development Program",
         "OperatingArea": "Lyari Area, Karachi.",
@@ -172,6 +174,7 @@ let data = {
         "Analysis": " ",
         "ReferencelinkWebsite": "https://lyda.webs.com/apps/blog/",
     },
+
     "ROBIN HOOD ARMY": {
         "Organization": "Robin Hood Army",
         "OperatingArea": "All over Karachi.",
@@ -184,9 +187,6 @@ let data = {
         "Analysis": " ",
         "ReferencelinkWebsite": "https://robinhoodarmy.com/",
     },
-
-
-
     "A.P.H.A ORGANIZATION": {
         "Organization": "A.P.H.A Organization",
         "OperatingArea": "Gulistan-e-Johar, Karachi",
@@ -235,6 +235,8 @@ let data = {
         "Analysis": " ",
         "ReferencelinkWebsite": "http://markaz-e-umeed.com.pk/",
     },
+
+
     "PAKISTAN YOUTH ORGANIZATION": {
         "Organization": "Pakistan Youth Organization (PYO)",
         "Operating Area": "Gulshan Iqbal, Karachi",
@@ -259,6 +261,8 @@ let data = {
         "Analysis": "TCF is currently one of the strongest and steadfast institutes+-9 aiming to provide quality education in the country. ",
         "ReferencelinkWebsite": "https://www.tcf.org.pk/education-programme/",
     },
+
+
     "YOUTH EXPRESS PAKISTAN": {
         "Organization": "Youth Express Pakistan",
         "Operating Area": "Operates in the sub urban areas of Karachi now.",
@@ -270,57 +274,6 @@ let data = {
         "CostofServices": " None.",
         "Analysis": "YEP foundation is a student-based initiative aiming to aid the needy by channeling public funding. ",
         "ReferencelinkWebsite": "https://web.facebook.com/YouthExpressPakistan.Official",
-    },
-
-
-
-    "AURAT FOUNDATION": {
-        "Organization": "Aurat Foundation",
-        "Operating Area": "Clifton, Karachi",
-        "History": "Established in 1986 and serving for the last 30 years to empower women by providing needed resources.",
-        "CoreFunctions": "Advocacy, Capacity building and information to empower women.",
-        "Credibility": " Registered under Societies Registration Act 1860.",
-        "Programs": "Women work from home, Political education and advocacy to increase women power in legislature.",
-        "Sustainability": "National non-profit organization.",
-        "CostofServices": " None.",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "https://www.af.org.pk/index.php",
-    },
-    "DEPILEX-SMILE AGAIN FOUNDATION": {
-        "Organization": "Depilex- Smile Again Foundation",
-        "Operating Area": "Karachi, Pakistan",
-        "History": "Established by Musarrat Misbah, to help acid-attack survivors re-adjust properly in the social environment around them.",
-        "CoreFunctions": "Provide medical care and assistance to the survivors.",
-        "Credibility": " Registered non-profit organization.",
-        "Programs": "Awareness about violence against women, medical, financial, psychological, moral and vocational support for women.",
-        "Sustainability": "Non-profit Organization.",
-        "CostofServices": " None.",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "https://depilexsmileagain.com/",
-    },
-    "SHIRKAT GAH-WOMEN RESOURCE CENTRE": {
-        "Organization": "Shirkat Gah-Women Resource Centre",
-        "Operating Area": "Shahre Faisal, Karachi",
-        "History": "Founded in 1975, Shirkat Gah is a unique women-led collective with a diverse & dedicated team of about 70 qualified and experienced professionals working from four provincial and several satellite offices across Pakistan.",
-        "CoreFunctions": "Bodily integrity, representational government, conducive gender-equality policy environment, feminist agenda setting.",
-        "Credibility": " Registered non-profit organization.",
-        "Programs": "Women health and rights advocacy, empowerment and leadership development, social justice program, strengthening governance in health systems., etc.",
-        "Sustainability": "Non-profit Organization.",
-        "CostofServices": " None.",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "http://shirkatgah.org/",
-    },
-    "TEHRIK-E-NISWA": {
-        "Organization": "Tehrik-e-Niswa",
-        "Operating Area": "D.H.A Karachi",
-        "History": "Established in 1980, to work on women’s development through theatre and television.",
-        "CoreFunctions": "To create awareness and change moral attitudes, fight obscurantism, set up a cultural center for women.",
-        "Credibility": " Registered organization.",
-        "Programs": "Theatre, dances and documentaries for awareness.",
-        "Sustainability": " ",
-        "CostofServices": " None.",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "http://www.tehrik-e-niswan.org.pk/default.asp",
     },
 }
 

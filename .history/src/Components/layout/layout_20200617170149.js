@@ -35,20 +35,15 @@ const NGOsRoute = ["RLCC",
     "MARKAZ-E-UMEED",
     "PAKISTAN YOUTH ORGANIZATION",
     "THE CITIZENS FOUNDATION",
-    "YOUTH EXPRESS PAKISTAN",
-    "AURAT FOUNDATION",
-    "DEPILEX-SMILE AGAIN FOUNDATION",
-    "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
-    "TEHRIK-E-NISWA"
-]
+    "YOUTH EXPRESS PAKISTAN"]
 
 export const MyLayout = (props) => (
     <Layout className={`site-layout ${props.themeColor}`}>
         <MyHeader themeColor={props.themeColor} themeChanger={props.themeChanger} history={props.history} showDrawer={props.showDrawer} />
         <Switch>
-            <Route path="/" exact key="1" component={HomeContent} />
-            <Route path="/aboutUs" exact key="2" component={AboutUs} />
-            {NGOsRoute.map((item, i) => <Route key={i + 2} path={`/${item}`} exact >
+            <Route path="/" exact component={HomeContent} />
+            <Route path="/aboutUs" exact component={AboutUs} />
+            {NGOsRoute.map((item, i) => <Route path={`/${item}`} exact >
                 <NGOPage name={`${item}`} />
             </Route>)}
         </Switch>
