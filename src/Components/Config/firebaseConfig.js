@@ -17,31 +17,56 @@ class Firebase {
     constructor() {
         app.initializeApp(firebaseConfig)
         this.auth = app.auth()
-        this.db = app.database().ref("/")
+        this.db = app.database()
     }
-    currentUsers(){
+
+    currentUsers() {
         return this.auth.currentUser
     }
     async login(email, password) {
         await this.auth.signInWithEmailAndPassword(email, password)
         return this.auth.currentUser
     }
-    logout() {
-        return this.auth.signOut()
+    async logout() {
+        let returnLog=this.auth.signOut().then(()=>this.currentUsers())
+        await returnLog
+        return returnLog
     }
     async signUp(userName, email, password) {
         await this.auth.createUserWithEmailAndPassword(email, password)
         await this.auth.currentUser.updateProfile({
             displayName: userName
         }).then(
-            this.db.child("users").push({ name: userName, email: email,id:this.auth.currentUser.uid })
+            this.db.ref("/").child("users").child(this.auth.currentUser.uid).set({ name: userName, email: email, id: this.auth.currentUser.uid })
         )
         return this.auth.currentUser
     }
-    isInitialized(){
-        return new Promise(resolve=>{
+    isInitialized() {
+        return new Promise(resolve => {
             this.auth.onAuthStateChanged(resolve)
         })
+    }
+    async getDateData() {
+        let dataToBeReturn
+        let myData = this.db.ref("events").once("value", snap => {
+                dataToBeReturn=snap.val()
+        }
+        )
+        await myData
+        return(dataToBeReturn)
+    }
+    async formSubmit(object){
+        let data=this.db.ref("/").child("users").child(this.auth.currentUser.uid).child("form").set(object)
+        await data
+        return ("Form is Submitted Successfully")
+    }
+    async getFormData() {
+        let formData={}
+        let data=this.db.ref("users").child(this.auth.currentUser.uid).once("value", snap => {
+            formData=snap.val()
+        })
+        await data
+        return formData
     }
 }
 

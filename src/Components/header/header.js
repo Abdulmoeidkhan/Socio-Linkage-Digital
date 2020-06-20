@@ -46,7 +46,7 @@ export const MyHeader = (props) => {
                     <Switch checkedChildren="Dark" unCheckedChildren="Light" defaultChecked onChange={props.themeChanger} />
                 </Menu.Item>
                 <Menu.Item key="4" className="menuNonListPart">
-                    <HamBurgerNav mode={props.themeColor} />
+                    <HamBurgerNav mode={props.themeColor} setIsSignIn={props.setIsSignIn}/>
                 </Menu.Item>
             </Menu>
         </Header>

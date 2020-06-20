@@ -1,6 +1,7 @@
 .site-card-wrapper{
     background-color: #D8E1F4;
-    margin:0 auto
+    margin:0 auto 10px auto;
+    
 }
 .specialaboutDiv {
     display: grid;
@@ -14,4 +15,7 @@
         grid-template-columns: 100%;
         grid-template-rows: repeat(3,1fr);
     }
+}
+.widthClass{
+    width:100%;
 }

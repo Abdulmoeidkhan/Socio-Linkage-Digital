@@ -28,7 +28,7 @@ let App = () => {
   useEffect(() => {
     firebase.isInitialized().then(val => {
       setfirebaseInitializes(true)
-      console.log(firebaseInitializes)
+      // console.log(firebaseInitializes)
     })
   })
 

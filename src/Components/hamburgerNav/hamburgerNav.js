@@ -19,40 +19,53 @@ const HamBurgerNav = (props) => {
     setVisible(true);
   };
   const showModal = () => {
-    setvisibleModal(!visibleModal)
+    setvisibleModal(true)
   }
 
   const onClose = () => {
     setVisible(false);
+    setvisibleModal(false)
   };
   const handleCancel = () => {
-    setvisibleModal(!visibleModal)
+    setvisibleModal(false)
   };
   async function signIn(values) {
-    console.log("SignUp", values)
     await firebase.signUp(values.username, values.email, values.password).then(() => {
       alert("You have signed Up successfully ")
     })
+      .catch(function (error) {
+        alert(error.message);
+      })
     onClose()
+    props.setIsSignIn(true)
   }
   async function logIn(values) {
-    console.log("SignIn", values.email, values.password)
     await firebase.login(values.email, values.password).then(() => {
       alert("You have sign In successfully ")
     })
+      .catch(function (error) {
+        alert(error.message);
+      })
     onClose()
+    props.setIsSignIn(true)
   }
-  async function logOut (){
-    await firebase.logout().then(()=>{
+  async function logOut() {
+    onClose()
+    await firebase.logout().then(() => {
       alert("You have sign Out successfully ")
     })
-    onClose()
+      .catch(function (error) {
+        alert(error.message);
+      })
+    props.setIsSignIn(false)
   }
   let history = useHistory()
   useEffect(() => {
     if (firebase.currentUsers()) {
-      console.log(firebase.currentUsers())
       setcurrentUsersData(true)
+    }
+    else if (firebase.currentUsers() === null && currentUsersData) {
+      setcurrentUsersData(false)
     }
   })
   return (
@@ -69,11 +82,9 @@ const HamBurgerNav = (props) => {
       >
         <div className="cursorClass"><Collapse accordion className="headerPanelClassForSideNav">
           <Panel style={{ border: "none" }} header={<div style={{ color: "#fff" }}><img className="headerWorldIcon" src={require("../icons/Pak Map.png")} /> Regions</div>} key="1">
-            <div onClick={
-              () => { history.push("/PakistanNGO's") }
-            }>
+            <div onClick={() => { history.push("/PakistanNGO's") }}>
               Pakistan
-                            </div>
+            </div>
           </Panel>
         </Collapse></div>
         <div className="cursorClass">
@@ -99,7 +110,7 @@ const HamBurgerNav = (props) => {
                 Register With Us
         </Button>
               <Modal
-                title="Sign Up"
+                title="Sign Up/In"
                 visible={visibleModal}
                 onCancel={handleCancel}
                 footer={null}
@@ -107,9 +118,16 @@ const HamBurgerNav = (props) => {
                 <SignUp signIn={signIn} logIn={logIn} />
               </Modal>
             </>
-            : <Button type="primary" onClick={() => logOut()}>
-              logOut
-        </Button>
+            : <div>
+              <Button type="primary" onClick={() => {
+                onClose()
+                history.push("/ApplicationForm")
+              }
+              }>Submit an Application</Button>
+              <br />
+              <br />
+              <Button type="primary" onClick={logOut}>Log Out</Button>
+            </div>
           }
         </div>
       </Drawer>

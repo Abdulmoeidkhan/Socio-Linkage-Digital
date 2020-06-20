@@ -21,7 +21,7 @@ export const SignUp = (props) => {
     const [signUp, setSignUp] = useState(true)
 
     const onFinishFailed = errorInfo => {
-        console.log('Failed:', errorInfo);
+        // console.log('Failed:', errorInfo);
     };
     return (<>
         {signUp == true ?

@@ -17,7 +17,6 @@
   color: #fff !important;
 }
 
-
 .ant-menu-item, .ant-menu-submenu-title, .ant-menu-submenu {
   color: #fff;
 }
@@ -29,7 +28,7 @@
 }
 
 .ant-menu-light .ant-menu-inline.ant-menu-sub {
-  background-color: #34979d ;
+  background-color: #34979d;
   max-height: 205px;
   overflow-x: hidden;
 }
@@ -38,8 +37,6 @@
   color: #fff;
   background-color: #11474f;
 }
-
-
 
 .ant-menu-light.ant-menu-submenu-popup>.ant-menu {
   background-color: #34979d;
@@ -65,9 +62,19 @@
 .ant-menu-submenu-popup {
   z-index: 1
 }
-.site-layout{
+
+.site-layout {
   background-color: #fff;
 }
-.ant-menu-submenu-inline .ant-menu-submenu-title .anticon-team .ant-menu-submenu-arrow{
+
+.ant-menu-submenu-inline .ant-menu-submenu-title .anticon-team .ant-menu-submenu-arrow {
   background-color: #000;
+}
+
+.notFoundClass {
+  height: 530px;
+  width: 100%;
+  padding-top: 20%;
+  padding-left: 10%;
+  text-align: center;
 }

@@ -83,7 +83,6 @@ const columns = [
 
 
 
-console.log(data)
 const MyComparison = () => (
     <Content className="pageContentClass">
         <div className="contentContainerClass">
@@ -106,7 +105,6 @@ const MyComparison = () => (
                     bordered
                     size="middle"
                     scroll={{ x: "20%", y: 640 }}
-                    className="scrolClass"
                 />
             </div>
         </div>

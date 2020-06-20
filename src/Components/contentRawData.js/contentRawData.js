@@ -2,7 +2,9 @@ export const data = {
     children: ["RLCC", "AAHUNG FOUNDATION", "AZAD FOUNDATION", "DAR-UL-SUKUN", "EDHI FOUNDATION", "KONPAL CHILD ABUSE PREVENTION SOCIETY", "MAKE A WISH", "SOS VILLAGE"],
     community: ["AMAN FOUNDATION", "CHHIPA FOUNDATION", "FIX IT", "JDC", "LYARIANZ YOUTH DEVELOPMENT PROGRAM", "ROBIN HOOD ARMY"],
     education: ["A.P.H.A ORGANIZATION", "APEX EDUCATION FORUM", "DEWA ACADEMY", "MARKAZ-E-UMEED", "PAKISTAN YOUTH ORGANIZATION", "THE CITIZENS FOUNDATION", "YOUTH EXPRESS PAKISTAN"],
-    womens: ["AURAT FOUNDATION", "DEPILEX-SMILE AGAIN FOUNDATION", "SHIRKAT GAH-WOMEN RESOURCE CENTRE", "TEHRIK-E-NISWA"]
+    womens: ["AURAT FOUNDATION", "DEPILEX-SMILE AGAIN FOUNDATION", "SHIRKAT GAH-WOMEN RESOURCE CENTRE", "TEHRIK-E-NISWA"],
+    health: ["THE INSTITUTE OF BEHAVIOURAL SCIENCES", "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES", "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION", "IBTIDA DRUG REHABILITATION CENTER"],
+    vocation: ["THE HUNAR FOUNDATION", "PAKISTAN INSTITUTE OF LEARNING AND LIVING", "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT", "ZVMG RANGOONWALA TRUST"],
 }
 
 export const detailedData = {
@@ -15,9 +17,9 @@ export const detailedData = {
         "Programs": "Adult Literacy, Outreach Community projects, Medical camps, Awareness sessions, Internship and Volunteer services.",
         "Sustainability": "60% self-sufficient and charitable organization",
         "CostofServices": "Minimal and negotiable cost for programs",
-        "Analysis": "Throughout RLCC is serving tremendously to refrain the society from the obstacles such as poverty, illiteracy, unemployment, mental health and other health issues. However, their operating area is only Shah Faisal Colony which restricts other persons who are in need but fail to encounter the organization’s services due to the remote location.",
+        "Analysis": "Throughout RLCC is serving tremendously to refrain the society from the obstacles such as poverty, illiteracy, unemployment, mental health and other health issues. However, their operatingarea is only Shah Faisal Colony which restricts other persons who are in need but fail to encounter the organization’s services due to the remote location.",
         "ReferencelinkWebsite": "http://rlcc.com.pk/",
-        "key":"1"
+        "key": "1"
     },
     "AAHUNG FOUNDATION": {
         "Organization": "Aahung Foundation",
@@ -30,7 +32,7 @@ export const detailedData = {
         "CostofServices": "Zero-cost Services",
         "Analysis": "One of the primary organizations working effectively for eradication of CSA.",
         "ReferencelinkWebsite": "https://www.aahung.org/",
-        "key":"2"
+        "key": "2"
     },
 
     "AZAD FOUNDATION": {
@@ -44,7 +46,7 @@ export const detailedData = {
         "CostofServices": "Zero-cost Services",
         "Analysis": "Well-known organization working to provide education, advocacy and shelter to the street children.",
         "ReferencelinkWebsite": "https://azadfoundation.org/",
-        "key":"3"
+        "key": "3"
     },
 
     "DAR-UL-SUKUN": {
@@ -58,7 +60,7 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": "A fierce organization working successfully on multiple domains i.e. Children with disabilities, Senior Citizens, Helping Vulnerable People.",
         "ReferencelinkWebsite": "https://www.darulsukun.com/",
-        "key":"4"
+        "key": "4"
     },
 
     "EDHI FOUNDATION": {
@@ -72,7 +74,7 @@ export const detailedData = {
         "CostofServices": "None ",
         "Analysis": "A promising and far-most known organization working for the welfare of the whole population throughout the country.",
         "ReferencelinkWebsite": "https://edhi.org/",
-        "key":"5"
+        "key": "5"
     },
 
     "KONPAL CHILD ABUSE PREVENTION SOCIETY": {
@@ -86,7 +88,7 @@ export const detailedData = {
         "CostofServices": "None ",
         "Analysis": "  ",
         "ReferencelinkWebsite": "http://www.konpal.org/",
-        "key":"6"
+        "key": "6"
     },
 
     "MAKE A WISH": {
@@ -100,7 +102,7 @@ export const detailedData = {
         "CostofServices": "None ",
         "Analysis": "Worldwide recognized organization uniquely striving to fulfill wishes of children with life-threatening diseases.",
         "ReferencelinkWebsite": "https://www.makeawish.org.pk/",
-        "key":"7"
+        "key": "7"
     },
 
     "SOS VILLAGE": {
@@ -114,7 +116,7 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.sos.org.pk/Person/Index",
-        "key":"8"
+        "key": "8"
     },
 
 
@@ -129,7 +131,7 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": "Aman Foundation is an organization that is currently dealing with social issues, health and education as well as training people in terms of skills and vocation. It is today one of the most important organizations that are operating in Karachi and have served millions of people.",
         "ReferencelinkWebsite": "https://www.theamanfoundation.org/",
-        "key":"9"
+        "key": "9"
     },
     "CHHIPA FOUNDATION": {
         "Organization": "Chhipa Foundation",
@@ -142,7 +144,7 @@ export const detailedData = {
         "CostofServices": "None ",
         "Analysis": "Chippa has been serving since 2007 and has managed to build its system of emergency services and providing food and social services to the masses making it one of the most competent foundations operating in Karachi",
         "ReferencelinkWebsite": "https://www.chhipa.org/",
-        "key":"10"
+        "key": "10"
     },
     "FIX IT": {
         "Organization": "Fix It",
@@ -155,7 +157,7 @@ export const detailedData = {
         "CostofServices": "None ",
         "Analysis": "Fixit may be a nascent organization but has truly embarked its name in a very short time, being highly popular among the youth of Pakistan specifically. Fixit is empowering individuals and making them realize their rights and duties.",
         "ReferencelinkWebsite": "https://www.facebook.com/pakfixit/",
-        "key":"11"
+        "key": "11"
     },
     "JDC": {
         "Organization": "Jafaria Disaster Management Cell JDC",
@@ -168,7 +170,7 @@ export const detailedData = {
         "CostofServices": "None ",
         "Analysis": "JDC is one of the most profound foundations that are currently operating in the city of Karachi they have served numerous individuals through their services and is one of the best places for anyone who has little to no money.",
         "ReferencelinkWebsite": "http://jdcwelfare.org/",
-        "key":"12"
+        "key": "12"
     },
     "LYARIANZ YOUTH DEVELOPMENT PROGRAM": {
         "Organization": "Lyarianz Youth Development Program",
@@ -181,7 +183,7 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://lyda.webs.com/apps/blog/",
-        "key":"13"
+        "key": "13"
     },
     "ROBIN HOOD ARMY": {
         "Organization": "Robin Hood Army",
@@ -194,7 +196,7 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://robinhoodarmy.com/",
-        "key":"14"
+        "key": "14"
     },
 
 
@@ -210,11 +212,11 @@ export const detailedData = {
         "CostofServices": " Free of cost or nominal charges.",
         "Analysis": "An organization which is working to embrace and revitalize the inherent capabilities of special people/children.",
         "ReferencelinkWebsite": "http://www.apha.org.pk/",
-        "key":"15"
+        "key": "15"
     },
     "APEX EDUCATION FORUM": {
         "Organization": "Apex Education Forum",
-        "Operating Area": "Malir, Karachi",
+        "OperatingArea": "Malir, Karachi",
         "History": "The Apex Education Forum was an initiative that started by a group of determined individuals back in 2007 in order to spread awareness and education amongst the youth of Malir area.",
         "CoreFunctions": "English Language courses, Computer skill training, Youth Development programs",
         "Credibility": "Registered by Social Welfare Department",
@@ -223,11 +225,11 @@ export const detailedData = {
         "CostofServices": " Negotiable to minimal cost for services",
         "Analysis": "An organization which is working to embrace and revitalize the inherent capabilities of special people/children.",
         "ReferencelinkWebsite": "https://web.facebook.com/apexeduforum/?_rdc=1&_rdr",
-        "key":"16"
+        "key": "16"
     },
     "DEWA ACADEMY": {
         "Organization": "DEWA Academy",
-        "Operating Area": "Karachi, Islamabad",
+        "OperatingArea": "Karachi, Islamabad",
         "History": "DEWA, the largest & leading institute for children with Disability, functioning since 1967 in Karachi & from 1997 at Islamabad.",
         "CoreFunctions": "Training, education and habilitation of deaf and hearing-impaired children.",
         "Credibility": "Registered by social welfare department.",
@@ -236,11 +238,11 @@ export const detailedData = {
         "CostofServices": " None",
         "Analysis": "1100 Persons with disabilities trained,500 Job placements, 7000 Persons engaged around disabilities issues, 10000 Added in Database for job & training opportunities.",
         "ReferencelinkWebsite": "https://www.nowpdp.org/",
-        "key":"17"
+        "key": "17"
     },
     "MARKAZ-E-UMEED": {
         "Organization": "Markaz-e-Umeed",
-        "Operating Area": "Karimabad, Karachi",
+        "OperatingArea": "Karimabad, Karachi",
         "History": "Established around 49 years ago and still working for the empowerment and education of special children.",
         "CoreFunctions": "Education for underprivileged special children.",
         "Credibility": "Welfare Organization.",
@@ -249,11 +251,11 @@ export const detailedData = {
         "CostofServices": " None",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://markaz-e-umeed.com.pk/",
-        "key":"18"
+        "key": "18"
     },
     "PAKISTAN YOUTH ORGANIZATION": {
         "Organization": "Pakistan Youth Organization (PYO)",
-        "Operating Area": "Gulshan Iqbal, Karachi",
+        "OperatingArea": "Gulshan Iqbal, Karachi",
         "History": "The purpose of the Youth association is to provide a platform for the young generation to groom and polish their talents along with utilizing those skills in achieving objectives that are productive for the betterment of our country and nation.",
         "CoreFunctions": "A forum for passionate youth to inculcate optimum skills.",
         "Credibility": "Registered under Societies Registration Act 1860.",
@@ -262,11 +264,11 @@ export const detailedData = {
         "CostofServices": " None",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://pakngos.com.pk/ngo/pakistani-youth-organization-pyo",
-        "key":"19"
+        "key": "19"
     },
     "THE CITIZENS FOUNDATION": {
         "Organization": "The Citizens Foundation TCF",
-        "Operating Area": "Karachi",
+        "OperatingArea": "Karachi",
         "History": "The citizens foundation school was a joint venture of six friends who saw education as the key to the solution of multiple problems back in 1995. They opened a school in 1996 and has been operating since then and has spread its working gradually.",
         "CoreFunctions": "The Core function of TCF is to provide quality education to the underprivileged children.",
         "Credibility": "A registered educational institute.",
@@ -275,11 +277,11 @@ export const detailedData = {
         "CostofServices": " None, negotiable.",
         "Analysis": "TCF is currently one of the strongest and steadfast institutes+-9 aiming to provide quality education in the country. ",
         "ReferencelinkWebsite": "https://www.tcf.org.pk/education-programme/",
-        "key":"20"
+        "key": "20"
     },
     "YOUTH EXPRESS PAKISTAN": {
         "Organization": "Youth Express Pakistan",
-        "Operating Area": "Operates in the sub urban areas of Karachi now.",
+        "OperatingArea": "Operates in the sub urban areas of Karachi now.",
         "History": "Youth express Pakistan (YEP) is an organization from the students of university of Karachi.",
         "CoreFunctions": "YEP (Youth Express Pakistan) The pillars of this organization are built to welfare the needy peoples through Donations from General Public.",
         "Credibility": "Registered by the Govt. of Sindh.",
@@ -288,14 +290,14 @@ export const detailedData = {
         "CostofServices": " None.",
         "Analysis": "YEP foundation is a student-based initiative aiming to aid the needy by channeling public funding. ",
         "ReferencelinkWebsite": "https://web.facebook.com/YouthExpressPakistan.Official",
-        "key":"21"
+        "key": "21"
     },
 
 
 
     "AURAT FOUNDATION": {
         "Organization": "Aurat Foundation",
-        "Operating Area": "Clifton, Karachi",
+        "OperatingArea": "Clifton, Karachi",
         "History": "Established in 1986 and serving for the last 30 years to empower women by providing needed resources.",
         "CoreFunctions": "Advocacy, Capacity building and information to empower women.",
         "Credibility": " Registered under Societies Registration Act 1860.",
@@ -304,11 +306,11 @@ export const detailedData = {
         "CostofServices": " None.",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.af.org.pk/index.php",
-        "key":"22"
+        "key": "22"
     },
     "DEPILEX-SMILE AGAIN FOUNDATION": {
         "Organization": "Depilex- Smile Again Foundation",
-        "Operating Area": "Karachi, Pakistan",
+        "OperatingArea": "Karachi, Pakistan",
         "History": "Established by Musarrat Misbah, to help acid-attack survivors re-adjust properly in the social environment around them.",
         "CoreFunctions": "Provide medical care and assistance to the survivors.",
         "Credibility": " Registered non-profit organization.",
@@ -317,11 +319,11 @@ export const detailedData = {
         "CostofServices": " None.",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://depilexsmileagain.com/",
-        "key":"23"
+        "key": "23"
     },
     "SHIRKAT GAH-WOMEN RESOURCE CENTRE": {
         "Organization": "Shirkat Gah-Women Resource Centre",
-        "Operating Area": "Shahre Faisal, Karachi",
+        "OperatingArea": "Shahre Faisal, Karachi",
         "History": "Founded in 1975, Shirkat Gah is a unique women-led collective with a diverse & dedicated team of about 70 qualified and experienced professionals working from four provincial and several satellite offices across Pakistan.",
         "CoreFunctions": "Bodily integrity, representational government, conducive gender-equality policy environment, feminist agenda setting.",
         "Credibility": " Registered non-profit organization.",
@@ -330,11 +332,11 @@ export const detailedData = {
         "CostofServices": " None.",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://shirkatgah.org/",
-        "key":"24"
+        "key": "24"
     },
     "TEHRIK-E-NISWA": {
         "Organization": "Tehrik-e-Niswa",
-        "Operating Area": "D.H.A Karachi",
+        "OperatingArea": "D.H.A Karachi",
         "History": "Established in 1980, to work on women’s development through theatre and television.",
         "CoreFunctions": "To create awareness and change moral attitudes, fight obscurantism, set up a cultural center for women.",
         "Credibility": " Registered organization.",
@@ -343,10 +345,233 @@ export const detailedData = {
         "CostofServices": " None.",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://www.tehrik-e-niswan.org.pk/default.asp",
-        "key":"25"
+        "key": "25"
     },
+
+
+    "THE INSTITUTE OF BEHAVIOURAL SCIENCES (DOW)": {
+        "Organization": "The Institute of Behavioural Sciences (DOW",
+        "OperatingArea": "Karachi, Pakistan",
+        "History": "The institute was established by Dr. Abdul Qadeer Khan who himself was a pioneer of science in Pakistan.",
+        "CoreFunctions": "Providing psychological assessment, guidance and treatment.",
+        "Credibility": " Registered by National Medical authority Pakistan.",
+        "Programs": "Day Care, occupational Therapy, Case studies, Private ward for patients (drug addicts, behavioral problems, mental health).",
+        "Sustainability": "Operates on basis of Government funds and profits.",
+        "CostofServices": " The cost of treatments differentiates from case to case but are settled accordingly.",
+        "Analysis": "IBS is one of the leading institutes about psychological and behavioral problems, it has proven itself to be efficient in terms of treatment and rehab of patients in society. ",
+        "ReferencelinkWebsite": "https://ibsduhs.edu.pk/about-us/",
+        "key":"26"
+    },
+    "NICVD NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES": {
+        "Organization": "NICVD National Institute Of Cardio Vescular Diseases",
+        "OperatingArea": "Cantt, Karachi",
+        "History": "NICVD is the department of JPMC that specializes in cardiovascular diseases and has been operating under the wing of Sindh govt.",
+        "CoreFunctions": "Addressing cardiovascular diseases with the latest of equipment. ",
+        "Credibility": " It is registered under the Govt of Sindh.",
+        "Programs": "OPD, ECG, endoscopy, angioplasty.",
+        "Sustainability": "Funding from Sindh Government.",
+        "CostofServices": " None.",
+        "Analysis": "NICVD is the leading institute of Cardio diseases and emergency response center at the moment. ",
+        "ReferencelinkWebsite": "http://nicvd.org/",
+        "key":"27"
+    },
+
+
+    "SIUT SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION": {
+        "Organization": "SIUT Sindh Institute of Urology and Transplantation",
+        "OperatingArea": "Saddar, Karachi",
+        "History": "SIUT was inaugurated by the Pakistan People’s Party as an institute of urology and Kidney diseases which is head by Dr. Adeeb Rizvi.",
+        "CoreFunctions": "SIUT is registered by the Govt. Of Sindh.",
+        "Credibility": " It is registered under the Govt of Sindh.",
+        "Programs": " ",
+        "Sustainability": "SIUT runs on the funding from Sindh Government and donors.",
+        "CostofServices": " No costofservices is charged, SIUT is the most advanced institute of urology and kidney center not only in Sindh but in Pakistan. ",
+        "Analysis": "SIUT is the most advanced institute of urology and kidney center not only in Sindh but in Pakistan.",
+        "ReferencelinkWebsite": "https://www.siut.org/",
+        "key":"28"
+    },
+    "IBTIDA DRUG REHABILITATION CENTER": {
+        "Organization": "Ibtida Drug Rehabilitation Center",
+        "OperatingArea": "Saddar, Karachi",
+        "History": "The ibtida drug rehab center was an initiative by the Christian community in Karachi.",
+        "CoreFunctions": "Drug Rehabilitation, Training.",
+        "Credibility": " Registered institute.",
+        "Programs": " Drug Treatment, Rehabilitation, Training.",
+        "Sustainability": "It is based on charity and funding from donors and locals.",
+        "CostofServices": " None. ",
+        "Analysis": "Ibida Drug Rehabilitation is known to have a profound feature where the experts claim to treat the clients, without any medication. They tend to engage individuals in activities.",
+        "ReferencelinkWebsite": "https://web.facebook.com/Ibtidadrugcenter/?_rdc=1&_rdr",
+        "key":"29"
+    },
+
+
+
+    "THE HUNAR FOUNDATION": {
+        "Organization": "The Hunar Foundation",
+        "OperatingArea": "P.E.C.H.S, Karachi",
+        "History": "Established to work for skill enhancement of Pakistanis to lessen un employment.",
+        "CoreFunctions": "Movement of skill for illiterate,  semi-literate and literate.",
+        "Credibility": " Registered in 2008 under the Societies Act 1860.",
+        "Programs": "Customer-oriented and industry specific skills.",
+        "Sustainability": "None profit organization.",
+        "CostofServices": "  ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.hunarfoundation.org/",
+        "key":"30"
+    },
+    "PAKISTAN INSTITUTE OF LEARNING AND LIVING": {
+        "Organization": "Pakistan Institute of Learning and Living",
+        "OperatingArea": "Karachi",
+        "History": "Established in 1998 with the vision to achieve well-being, positive child health development and better family environment.",
+        "CoreFunctions": "To promote state of ,mental well-being with emphasis on people with low income groups.",
+        "Credibility": " ",
+        "Programs": "Certifications, internship programs, workshops and psychologist consultancy.",
+        "Sustainability": " ",
+        "CostofServices": "  ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "http://pill.org.pk/",
+        "key":"31"
+    },
+
+
+
+
+    "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT (PTSD)": {
+        "Organization": "Pakistan Society of Training and Development (PTSD)",
+        "OperatingArea": "D.H.A, Karachi",
+        "History": "Established in 1966, by Secretary of All-India Muslim League, Mian Abdul Ghani.",
+        "CoreFunctions": "To raise the standard of professionalism in the society and professional leadership in Pakistan.",
+        "Credibility": "Registered",
+        "Programs": "Courses of Software skills, finance, marketing and sales, information technology, project management, women development and technical skills.",
+        "Sustainability": " ",
+        "CostofServices": "  ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://pstd.com.pk/",
+        "key":"31"
+    },
+    "ZVMG RANGOONWALA TRUST": {
+        "Organization": "ZVMG Rangoonwala Trust",
+        "OperatingArea": "Dhoraji Colony, Karachi",
+        "History": "Established by late Mr. Mohamed Aly Rangoonwala with the motive to alleviate poverty and raise the standard of living for less fortunate.",
+        "CoreFunctions": "Service to humanity i.e. advancement in education, health and sponsorship in cultural activities.",
+        "Credibility": " Registered",
+        "Programs": "ZVMG community centre, VM public school, VM art gallery and vocational education program.",
+        "Sustainability": " ",
+        "CostofServices": "  ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "http://www.rcc.com.pk/",
+        "key":"32"
+    },
+    "ADOPT A PET": {
+        "Organization": "Adopt a Pet",
+        "OperatingArea": "Karachi, Pakistan",
+        "History": "Established in 2008 by Mr. Taimoor, Pet Expert this project of SSHAD (Social Society of Human Aid and Development) which encourages love, care and help people to keep pets without any cost.",
+        "CoreFunctions": "Pet Lovers Society (Adopt a Pet Karachi) is a hardworking project for rights of companion animals and creating easy ways to keep pet as a healthy and stylish activity on non-profitable non charitable basis.",
+        "Credibility": " Registered non-government organization.",
+        "Programs": "Provide pets and help with the ways to take care of them.",
+        "Sustainability": "None profit organization.",
+        "CostofServices": " None. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://web.facebook.com/pet.khi?_rdc=1&_rdr",
+        "key":"33"
+    },
+    "ALAMGIR WELFARE TRUST": {
+        "Organization": "Alamgir Welfare Trust",
+        "OperatingArea": "Alamgir Rd, Karachi",
+        "History": "Established by Shaheed Answer Naseem Chandna to help underprivileged and less fortune people of his society and the trust has been serving for two decades with the same motive to date.",
+        "CoreFunctions": "Provide food, medicines, medical care, education and child development.",
+        "Credibility": " Registered non-government organization.",
+        "Programs": "Health, education, marriage assistance, elderly, food, Ramzan services, Hajj Umraah assistance, ambulance services, funeral services, etc.",
+        "Sustainability": "Charity-based organization.",
+        "CostofServices": " None or nominal charges ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.alamgirwelfaretrust.com.pk/alamgir2013/index.asp",
+        "key":"34"
+    },
+
+    "HELPING HANDS TRUST": {
+        "Organization": "Helping Hands Trust",
+        "OperatingArea": "Gulshan Iqbal, Karachi",
+        "History": "Operating since 2004 with the mission to fulfill the needs of poor and destitute irrespective of caste, creed and color.",
+        "CoreFunctions": "Strives to work for needy i.e. hunger deprived, vulnerable women, unemployed and illiterate.",
+        "Credibility": " Registered from district registrar of Karachi, Sindh.",
+        "Programs": "Future development program, HHT TV, HHT job bank, youth squad., Counselling, job opportunities and, burial arrangements.",
+        "Sustainability": "Charity-based Organization with sponsors/partners.",
+        "CostofServices": " ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "http://helpinghandstrust.net/",
+        "key":"35"
+    },
+    "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID (LHRLA)": {
+        "Organization": "Lawyers for Human Rights and Legal Aid (LHRLA)",
+        "OperatingArea": "Saddar, Karachi",
+        "History": "Established by Mr. Zia Ahmed Awan in 1989 to provide correctional services and a platform for legal aid to the ones who are far away from its reach and need assistance in terms of their legal rights.",
+        "CoreFunctions": "Works to intervene in vulnerable conditions where legal services and needed and provides free legal aid to the ones in need.",
+        "Credibility": " Approved in Sindh for children and women protection including Sindh Child Protection Authority Act, Child Marriage Restraint Act, the Protection Against Harassment of Women at Workplace Act and Protection of Women (Criminal Laws Amendment) Act.",
+        "Programs": "Digital action against gender-based violence, prevention and protection of women from violence through access to justice, service and safe spaces and women protection unit.",
+        "Sustainability": "Based on funds with local and international partners.",
+        "CostofServices": "Free legal services. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.lhrla.com.pk/",
+        "key":"36"
+    },
+    "LEGAL RIGHTS FORUM (LRF)": {
+        "Organization": "Legal Rights Forum (LRF)",
+        "OperatingArea": "Phase 2, Karachi",
+        "History": "Operational since 2007 to provide legal justice, protection of law and equal democratic rights in the society especially for women, minorities, transgender and children.",
+        "CoreFunctions": "Aims to achieve developmental goals, social justice, equal rights, good governance, environmental rights, education, youth empowerment etc from legal rights and standards.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Rule of law, access to justice, women empowerment, youth empowerment, children rights protection and governance, civil society support, right to education and right to safe environment.",
+        "Sustainability": "Based on donation and partners/sponsors.",
+        "CostofServices": "Free legal services. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " https://www.lrfpk.org/",
+        "key":"37"
+    },
+    "PAKISTAN LAWYERS FOUNDATION (PLF)": {
+        "Organization": "Pakistan Lawyers Foundation (PLF)",
+        "OperatingArea": "Shahr-e-Faisal, Karachi",
+        "History": "Founded in 2007, this foundation has been serving to provide quality legal services to the people throughout the country with foremost experience in giving online legal help from the experts.",
+        "CoreFunctions": "Provides legal justice to humanity along with the workshops, seminars, legal training for junior lawyers.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Continuous legal education, civil rights protection, juvenile rights protection, women rights protection, rule of law implementation, basic human rights awareness.",
+        "Sustainability": "Based on donation.",
+        "CostofServices": " ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " https://www.plfpk.org/",
+        "key":"38"
+    },
+
+    "SARIM BURNEY TRUST": {
+        "Organization": "Sarim Burney Trust",
+        "OperatingArea": "Hyderi Market, Karachi",
+        "History": "Founded by Sarim Burney who started working for mankind from his early years, soon decided to establish his own organization for solving the issues of human trafficking and child marriages to ensure a happy and healthy society.",
+        "CoreFunctions": "Provide shelter and assistance to ones in need.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Legal aid, shelter homes, human trafficking, adoption, cyber harassment, disaster relief, medical assistance, women and children’s rights and financial assistance to disabled persons.",
+        "Sustainability": "Based on donation and partners/sponsors.",
+        "CostofServices": "None. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " http://www.sarimburneytrust.org/",
+        "key":"39"
+    },
+    "WORLDWIDE FUND OF NATURE (WWF)": {
+        "Organization": "Worldwide Fund of Nature (WWF)",
+        "OperatingArea": "P.E.C.H.S, Karachi",
+        "History": "WWF is a worldwide organization working to sustain the ecological aspects of nature.",
+        "CoreFunctions": "Preservance of wildlife.",
+        "Credibility": " Registered organization.",
+        "Programs": "Works for freshwater, wildlife, food, forests, oceans, markets, climate and energy.",
+        "Sustainability": "Based on donation and fundings.",
+        "CostofServices": " ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " https://www.wwfpak.org/",
+        "key":"40"
+    }
+
 }
-export const NGOsRoute = ["RLCC",
+export const NGOsRoute = [
+    "RLCC",
     "AAHUNG FOUNDATION",
     "AZAD FOUNDATION",
     "DAR-UL-SUKUN",
@@ -370,5 +595,13 @@ export const NGOsRoute = ["RLCC",
     "AURAT FOUNDATION",
     "DEPILEX-SMILE AGAIN FOUNDATION",
     "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
-    "TEHRIK-E-NISWA"
+    "TEHRIK-E-NISWA",
+    "THE INSTITUTE OF BEHAVIOURAL SCIENCES",
+    "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES",
+    "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION",
+    "IBTIDA DRUG REHABILITATION CENTER",
+    "THE HUNAR FOUNDATION",
+    "PAKISTAN INSTITUTE OF LEARNING AND LIVING",
+    "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT",
+    "ZVMG RANGOONWALA TRUST",
 ]

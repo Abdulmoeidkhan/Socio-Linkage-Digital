@@ -59,48 +59,40 @@ const MyMenu = (props) => {
                     <img src={require("../icons/Health.png")} />
                 </span>
             } title=" Health">
-                {/* <Link to="/health"> Health
-              </Link> */}
-                <Menu.Item key="19">
-                    <Link to="/Tom"> Tom
-              </Link>
-                </Menu.Item>
-                <Menu.Item key="20">
-                    <Link to="/Bill"> Bill
-              </Link>
-                </Menu.Item>
-                <Menu.Item key="21">
-                    <Link to="/Alex"> Alex
-              </Link>
-                </Menu.Item>
+                {data.health.map((item, i) => (
+                    <Menu.Item key={i + 18}>
+                        <Link to={`/${item}`}> {`${item}`}
+                        </Link>
+                    </Menu.Item>
+                ))}
             </SubMenu>
-            <Menu.Item key="22" icon={
+            <SubMenu key="22" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                     {/* <i className="fa fa-link"></i> */}
                     <img src={require("../icons/Senior Citizen.png")} />
                 </span>
-            } >
-                <Link to="/seniorCitizen"> Senior Citizen
-            </Link>
-            </Menu.Item>
-            <Menu.Item key="23" icon={
+            } title="Senior Citizen">
+            </SubMenu>
+            <SubMenu key="23" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                     {/* <i className="fa fa-link"></i> */}
                     <img src={require("../icons/Disabled Person.png")} />
                 </span>
-            } >
-                <Link to="/specialPeople"> Special People
-            </Link>
-            </Menu.Item>
-            <Menu.Item key="24" icon={
+            } title="Special People">
+            </SubMenu>
+            <SubMenu key="24" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                     {/* <i className="fa fa-pencil-square-o"></i> */}
                     <img src={require("../icons/Vocation.png")} />
                 </span>
             } title=" Vocational">
-                <Link to="/Vocational"> Vocation
-              </Link>
-            </Menu.Item>
+              {data.vocation.map((item, i) => (
+                    <Menu.Item key={i + 17}>
+                        <Link to={`/${item}`}> {`${item}`}
+                        </Link>
+                    </Menu.Item>
+                ))}
+            </SubMenu>
             <SubMenu key="25" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                     {/* <i className="fa fa-female"></i> */}
@@ -138,7 +130,6 @@ const NGOSideMenuList = (props) => {
     const onClose = () => {
         props.setVisible(false);
     };
-    console.log(props)
 
     return (
         <>
