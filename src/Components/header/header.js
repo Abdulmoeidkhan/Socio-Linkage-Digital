@@ -32,7 +32,7 @@ export const MyHeader = (props) => {
                     <Collapse accordion >
                         <Panel className="headerPanelClass" header={<img className="headerWorldIcon" src={require("../icons/Pak Map.png")} />} alt={require("../icons/Pak Map.png")} key="1">
                             <div onClick={
-                                () => { history.push("/PakistanNGO's") }
+                                () => { history.push("/Pakistan") }
                             }>
                                 Pakistan
                             </div>

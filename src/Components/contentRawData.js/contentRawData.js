@@ -5,6 +5,7 @@ export const data = {
     womens: ["AURAT FOUNDATION", "DEPILEX-SMILE AGAIN FOUNDATION", "SHIRKAT GAH-WOMEN RESOURCE CENTRE", "TEHRIK-E-NISWA"],
     health: ["THE INSTITUTE OF BEHAVIOURAL SCIENCES", "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES", "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION", "IBTIDA DRUG REHABILITATION CENTER"],
     vocation: ["THE HUNAR FOUNDATION", "PAKISTAN INSTITUTE OF LEARNING AND LIVING", "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT", "ZVMG RANGOONWALA TRUST"],
+    others: ["ADOPT A PET", "ALAMGIR WELFARE TRUST", "HELPING HANDS TRUST ", "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID", "LEGAL RIGHTS FORUM", "PAKISTAN LAWYERS FOUNDATION", "SARIM BURNEY TRUST", "WORLDWIDE FUND OF NATURE"]
 }
 
 export const detailedData = {
@@ -360,7 +361,7 @@ export const detailedData = {
         "CostofServices": " The cost of treatments differentiates from case to case but are settled accordingly.",
         "Analysis": "IBS is one of the leading institutes about psychological and behavioral problems, it has proven itself to be efficient in terms of treatment and rehab of patients in society. ",
         "ReferencelinkWebsite": "https://ibsduhs.edu.pk/about-us/",
-        "key":"26"
+        "key": "26"
     },
     "NICVD NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES": {
         "Organization": "NICVD National Institute Of Cardio Vescular Diseases",
@@ -373,7 +374,7 @@ export const detailedData = {
         "CostofServices": " None.",
         "Analysis": "NICVD is the leading institute of Cardio diseases and emergency response center at the moment. ",
         "ReferencelinkWebsite": "http://nicvd.org/",
-        "key":"27"
+        "key": "27"
     },
 
 
@@ -388,7 +389,7 @@ export const detailedData = {
         "CostofServices": " No costofservices is charged, SIUT is the most advanced institute of urology and kidney center not only in Sindh but in Pakistan. ",
         "Analysis": "SIUT is the most advanced institute of urology and kidney center not only in Sindh but in Pakistan.",
         "ReferencelinkWebsite": "https://www.siut.org/",
-        "key":"28"
+        "key": "28"
     },
     "IBTIDA DRUG REHABILITATION CENTER": {
         "Organization": "Ibtida Drug Rehabilitation Center",
@@ -401,7 +402,7 @@ export const detailedData = {
         "CostofServices": " None. ",
         "Analysis": "Ibida Drug Rehabilitation is known to have a profound feature where the experts claim to treat the clients, without any medication. They tend to engage individuals in activities.",
         "ReferencelinkWebsite": "https://web.facebook.com/Ibtidadrugcenter/?_rdc=1&_rdr",
-        "key":"29"
+        "key": "29"
     },
 
 
@@ -417,7 +418,7 @@ export const detailedData = {
         "CostofServices": "  ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.hunarfoundation.org/",
-        "key":"30"
+        "key": "30"
     },
     "PAKISTAN INSTITUTE OF LEARNING AND LIVING": {
         "Organization": "Pakistan Institute of Learning and Living",
@@ -430,7 +431,7 @@ export const detailedData = {
         "CostofServices": "  ",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://pill.org.pk/",
-        "key":"31"
+        "key": "31"
     },
 
 
@@ -447,7 +448,7 @@ export const detailedData = {
         "CostofServices": "  ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://pstd.com.pk/",
-        "key":"31"
+        "key": "31"
     },
     "ZVMG RANGOONWALA TRUST": {
         "Organization": "ZVMG Rangoonwala Trust",
@@ -460,7 +461,7 @@ export const detailedData = {
         "CostofServices": "  ",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://www.rcc.com.pk/",
-        "key":"32"
+        "key": "32"
     },
     "ADOPT A PET": {
         "Organization": "Adopt a Pet",
@@ -473,7 +474,7 @@ export const detailedData = {
         "CostofServices": " None. ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://web.facebook.com/pet.khi?_rdc=1&_rdr",
-        "key":"33"
+        "key": "33"
     },
     "ALAMGIR WELFARE TRUST": {
         "Organization": "Alamgir Welfare Trust",
@@ -486,7 +487,7 @@ export const detailedData = {
         "CostofServices": " None or nominal charges ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.alamgirwelfaretrust.com.pk/alamgir2013/index.asp",
-        "key":"34"
+        "key": "34"
     },
 
     "HELPING HANDS TRUST": {
@@ -500,7 +501,7 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://helpinghandstrust.net/",
-        "key":"35"
+        "key": "35"
     },
     "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID (LHRLA)": {
         "Organization": "Lawyers for Human Rights and Legal Aid (LHRLA)",
@@ -513,7 +514,7 @@ export const detailedData = {
         "CostofServices": "Free legal services. ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.lhrla.com.pk/",
-        "key":"36"
+        "key": "36"
     },
     "LEGAL RIGHTS FORUM (LRF)": {
         "Organization": "Legal Rights Forum (LRF)",
@@ -526,7 +527,7 @@ export const detailedData = {
         "CostofServices": "Free legal services. ",
         "Analysis": " ",
         "ReferencelinkWebsite": " https://www.lrfpk.org/",
-        "key":"37"
+        "key": "37"
     },
     "PAKISTAN LAWYERS FOUNDATION (PLF)": {
         "Organization": "Pakistan Lawyers Foundation (PLF)",
@@ -539,7 +540,7 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": " https://www.plfpk.org/",
-        "key":"38"
+        "key": "38"
     },
 
     "SARIM BURNEY TRUST": {
@@ -553,7 +554,7 @@ export const detailedData = {
         "CostofServices": "None. ",
         "Analysis": " ",
         "ReferencelinkWebsite": " http://www.sarimburneytrust.org/",
-        "key":"39"
+        "key": "39"
     },
     "WORLDWIDE FUND OF NATURE (WWF)": {
         "Organization": "Worldwide Fund of Nature (WWF)",
@@ -566,9 +567,117 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": " https://www.wwfpak.org/",
-        "key":"40"
-    }
+        "key": "40"
+    },
 
+
+
+    "ADOPT A PET": {
+        "Organization": "Adopt a Pet",
+        "Operating Area": "Karachi, Pakistan",
+        "History": "Established in 2008 by Mr. Taimoor, Pet Expert this project of SSHAD (Social Society of Human Aid and Development) which encourages love, care and help people to keep pets without any cost.",
+        "CoreFunctions": "Pet Lovers Society (Adopt a Pet Karachi) is a hardworking project for rights of companion animals and creating easy ways to keep pet as a healthy and stylish activity on non-profitable non charitable basis.",
+        "Credibility": " Registered non-government organization.",
+        "Programs": "Provide pets and help with the ways to take care of them.",
+        "Sustainability": "None profit organization.",
+        "CostofServices": " None. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://web.facebook.com/pet.khi?_rdc=1&_rdr",
+        "key": "41"
+    },
+    "ALAMGIR WELFARE TRUST": {
+        "Organization": "Alamgir Welfare Trust",
+        "Operating Area": "Alamgir Rd, Karachi",
+        "History": "Established by Shaheed Answer Naseem Chandna to help underprivileged and less fortune people of his society and the trust has been serving for two decades with the same motive to date.",
+        "CoreFunctions": "Provide food, medicines, medical care, education and child development.",
+        "Credibility": " Registered non-government organization.",
+        "Programs": "Health, education, marriage assistance, elderly, food, Ramzan services, Hajj Umraah assistance, ambulance services, funeral services, etc.",
+        "Sustainability": "Charity-based organization.",
+        "CostofServices": " None or nominal charges ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.alamgirwelfaretrust.com.pk/alamgir2013/index.asp",
+        "key": "42"
+    },
+
+    "HELPING HANDS TRUST": {
+        "Organization": "Helping Hands Trust",
+        "Operating Area": "Gulshan Iqbal, Karachi",
+        "History": "Operating since 2004 with the mission to fulfill the needs of poor and destitute irrespective of caste, creed and color.",
+        "CoreFunctions": "Strives to work for needy i.e. hunger deprived, vulnerable women, unemployed and illiterate.",
+        "Credibility": " Registered from district registrar of Karachi, Sindh.",
+        "Programs": "Future development program, HHT TV, HHT job bank, youth squad., Counselling, job opportunities and, burial arrangements.",
+        "Sustainability": "Charity-based Organization with sponsors/partners.",
+        "CostofServices": " ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "http://helpinghandstrust.net/",
+        "key": "43"
+    },
+    "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID (LHRLA)": {
+        "Organization": "Lawyers for Human Rights and Legal Aid (LHRLA)",
+        "Operating Area": "Saddar, Karachi",
+        "History": "Established by Mr. Zia Ahmed Awan in 1989 to provide correctional services and a platform for legal aid to the ones who are far away from its reach and need assistance in terms of their legal rights.",
+        "CoreFunctions": "Works to intervene in vulnerable conditions where legal services and needed and provides free legal aid to the ones in need.",
+        "Credibility": " Approved in Sindh for children and women protection including Sindh Child Protection Authority Act, Child Marriage Restraint Act, the Protection Against Harassment of Women at Workplace Act and Protection of Women (Criminal Laws Amendment) Act.",
+        "Programs": "Digital action against gender-based violence, prevention and protection of women from violence through access to justice, service and safe spaces and women protection unit.",
+        "Sustainability": "Based on funds with local and international partners.",
+        "CostofServices": "Free legal services. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.lhrla.com.pk/",
+        "key": "44"
+    },
+    "LEGAL RIGHTS FORUM (LRF)": {
+        "Organization": "Legal Rights Forum (LRF)",
+        "Operating Area": "Phase 2, Karachi",
+        "History": "Operational since 2007 to provide legal justice, protection of law and equal democratic rights in the society especially for women, minorities, transgender and children.",
+        "CoreFunctions": "Aims to achieve developmental goals, social justice, equal rights, good governance, environmental rights, education, youth empowerment etc from legal rights and standards.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Rule of law, access to justice, women empowerment, youth empowerment, children rights protection and governance, civil society support, right to education and right to safe environment.",
+        "Sustainability": "Based on donation and partners/sponsors.",
+        "CostofServices": "Free legal services. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " https://www.lrfpk.org/",
+        "key": "44"
+    },
+    "PAKISTAN LAWYERS FOUNDATION (PLF)": {
+        "Organization": "Pakistan Lawyers Foundation (PLF)",
+        "Operating Area": "Shahr-e-Faisal, Karachi",
+        "History": "Founded in 2007, this foundation has been serving to provide quality legal services to the people throughout the country with foremost experience in giving online legal help from the experts.",
+        "CoreFunctions": "Provides legal justice to humanity along with the workshops, seminars, legal training for junior lawyers.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Continuous legal education, civil rights protection, juvenile rights protection, women rights protection, rule of law implementation, basic human rights awareness.",
+        "Sustainability": "Based on donation.",
+        "CostofServices": " ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " https://www.plfpk.org/",
+        "key": "45"
+    },
+
+    "SARIM BURNEY TRUST": {
+        "Organization": "Sarim Burney Trust",
+        "Operating Area": "Hyderi Market, Karachi",
+        "History": "Founded by Sarim Burney who started working for mankind from his early years, soon decided to establish his own organization for solving the issues of human trafficking and child marriages to ensure a happy and healthy society.",
+        "CoreFunctions": "Provide shelter and assistance to ones in need.",
+        "Credibility": " Registered non-profit organization.",
+        "Programs": "Legal aid, shelter homes, human trafficking, adoption, cyber harassment, disaster relief, medical assistance, women and children’s rights and financial assistance to disabled persons.",
+        "Sustainability": "Based on donation and partners/sponsors.",
+        "CostofServices": "None. ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " http://www.sarimburneytrust.org/",
+        "key": "46"
+    },
+    "WORLDWIDE FUND OF NATURE (WWF)": {
+        "Organization": "Worldwide Fund of Nature (WWF)",
+        "Operating Area": "P.E.C.H.S, Karachi",
+        "History": "WWF is a worldwide organization working to sustain the ecological aspects of nature.",
+        "CoreFunctions": "Preservance of wildlife.",
+        "Credibility": " Registered organization.",
+        "Programs": "Works for freshwater, wildlife, food, forests, oceans, markets, climate and energy.",
+        "Sustainability": "Based on donation and fundings.",
+        "CostofServices": " ",
+        "Analysis": " ",
+        "ReferencelinkWebsite": " https://www.wwfpak.org/",
+        "key": "47"
+    }
 }
 export const NGOsRoute = [
     "RLCC",
@@ -604,4 +713,218 @@ export const NGOsRoute = [
     "PAKISTAN INSTITUTE OF LEARNING AND LIVING",
     "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT",
     "ZVMG RANGOONWALA TRUST",
+    "ADOPT A PET",
+    "ALAMGIR WELFARE TRUST",
+    "HELPING HANDS TRUST ",
+    "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID",
+    "LEGAL RIGHTS FORUM",
+    "PAKISTAN LAWYERS FOUNDATION",
+    "SARIM BURNEY TRUST",
+    "WORLDWIDE FUND OF NATURE",
 ]
+
+export const calenderData = [
+
+    {
+        Date: "01-04",
+        Event: "World Braille Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705887/Social%20Days%20Calendar/World_Braille_Day_4_Jan_xxnetz.jpg"
+    },
+    {
+        Date: "01-24",
+        Event: "International Day of Education",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705853/Social%20Days%20Calendar/International_Day_of_Education_24_Jan_suldwq.jpg"
+    },
+    {
+        Date: "02-11",
+        Event: "International Day of Women and Girls in Science",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705870/Social%20Days%20Calendar/International_Day_of_Women_and_Girls_in_Science_11_Feb_pr7re2.jpg"
+    },
+    {
+        Date: "02-20",
+        Event: "World Day of Social Justice",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705855/Social%20Days%20Calendar/World_Day_of_Social_Justice_20_Feb_bwrt0f.jpg"
+    },
+    {
+        Date: "03-01",
+        Event: "Zero Discrimination Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705884/Social%20Days%20Calendar/Zero_Discrimination_Day_1_March_d6jsag.jpg"
+    },
+    {
+        Date: "03-08",
+        Event: "International Women's Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705887/Social%20Days%20Calendar/International_Women_s_Day_8_March_cazd3c.jpg"
+    },
+    {
+        Date: "03-20",
+        Event: "International Day of Happiness",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705853/Social%20Days%20Calendar/International_Day_of_Happiness_20_March_ahwqjg.jpg"
+    },
+    {
+        Date: "03-21",
+        Event: "International Day for the Elimination of Racial Discrimination",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705848/Social%20Days%20Calendar/International_Day_for_the_Elimination_of_Racial_Discrimination_21_March_j4i5rw.jpg"
+    },
+    // {
+    //     Date: "03-21",
+    //     Event: "World Down Syndrome Day",
+    //     Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705860/Social%20Days%20Calendar/World_Down_Syndrome_Day_21_March_mzrshg.jpg"
+    // },
+    {
+        Date: "03-24",
+        Event: "World Tuberculosis Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705878/Social%20Days%20Calendar/World_Tuberculosis_Day_24_March_bf4a3l.jpg"
+    },
+    {
+        Date: "04-02",
+        Event: "World Autism Awareness Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705883/Social%20Days%20Calendar/World_Autism_Awareness_Day_2_April_gwmxay.jpg"
+    },
+    {
+        Date: "04-07",
+        Event: "World Health Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705864/Social%20Days%20Calendar/World_Health_Day_7_April_qiewin.jpg"
+    },
+    {
+        Date: "04-12",
+        Event: "International Day of Street Children",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705869/Social%20Days%20Calendar/International_Day_of_Street_Children_12_April_n3yajw.jpg"
+    },
+    {
+        Date: "05-22",
+        Event: "International Day for Biological Diversity",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705849/Social%20Days%20Calendar/International_Day_for_Biological_Diversity_22_May_g5yxt3.jpg"
+    },
+    {
+        Date: "05-31",
+        Event: "World No-Tobacco Day ",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705872/Social%20Days%20Calendar/World_NoTobacco_Day_31_May_t2kh4s.jpg"
+    },
+    {
+        Date: "06-04",
+        Event: "International Day of Innocent Children Victims of Aggression",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705857/Social%20Days%20Calendar/International_Day_of_Innocent_Children_Victims_of_Aggression_4_June_f7fsoj.jpg"
+    },
+
+    {
+        Date: "06-05",
+        Event: "World Environment Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705861/Social%20Days%20Calendar/World_Environment_Day_5_June_d4uyym.jpg"
+    },
+    {
+        Date: "06-12",
+        Event: "World Day Against Child Labour",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705854/Social%20Days%20Calendar/World_Day_Against_Child_Labour_12_June_nwd9j4.jpg"
+    },
+    {
+        Date: "06-26",
+        Event: "International Day against Drug Abuse and Illicit Trafficking",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705845/Social%20Days%20Calendar/International_Day_Against_Drug_Abuse_26_June_jdrjr6.jpg"
+    },
+    {
+        Date: "07-11",
+        Event: "World Population Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705874/Social%20Days%20Calendar/World_Population_Day_11_July_uxnb7c.jpg"
+    },
+    {
+        Date: "07-15",
+        Event: "World Youth Skills Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705885/Social%20Days%20Calendar/World_Youth_Skills_Day_15_July_zw1jwn.jpg"
+    },
+    {
+        Date: "07-28",
+        Event: "World Hepatitis Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705867/Social%20Days%20Calendar/World_Hepatitis_Day_28_July_fxl5qd.jpg"
+    },
+    {
+        Date: "08-12",
+        Event: "International Youth Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705880/Social%20Days%20Calendar/International_Youth_Day_12_Aug_yljwfv.jpg"
+    },
+    {
+        Date: "08-19",
+        Event: "World Humanitarian Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705885/Social%20Days%20Calendar/World_Humanitarian_Day_19_Aug_oo4vim.jpg"
+    },
+    {
+        Date: "09-05",
+        Event: "International Day of Charity",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705849/Social%20Days%20Calendar/International_Day_Of_Charity_5_Sep_m6ri2f.jpg"
+    },
+    {
+        Date: "09-08",
+        Event: "International Literacy Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705876/Social%20Days%20Calendar/International_Literacy_Day_8_Sep_ocvqfz.jpg"
+    },
+    {
+        Date: "09-21",
+        Event: "International Day of Peace",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705859/Social%20Days%20Calendar/International_Day_of_Peace_21_Sep_d4nluh.jpg"
+    },
+    {
+        Date: "09-23",
+        Event: "International Day of Sign Languages",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705866/Social%20Days%20Calendar/International_Day_Of_Sign_Languages_23_Sep_jakerj.jpg"
+    },
+    {
+        Date: "10-02",
+        Event: "International Day of Non-Violence ",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705867/Social%20Days%20Calendar/International_Day_Of_NonVoilence_2_Oct_faeksa.jpg"
+    },
+    {
+        Date: "10-10",
+        Event: "World Mental Health Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705873/Social%20Days%20Calendar/World_Mental_Health_Day_10_Oct_dbmtin.jpg"
+    },
+    {
+        Date: "10-15",
+        Event: "International Day of Rural Women",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705869/Social%20Days%20Calendar/International_Day_of_Rural_Women_15_Oct_bcbvit.jpg"
+    },
+    {
+        Date: "10-16",
+        Event: "World Food Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705861/Social%20Days%20Calendar/World_Food_Day_16_Oct_mqd9sz.jpg"
+    },
+    {
+        Date: "10-17",
+        Event: "International Day for the Eradication of Poverty",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705855/Social%20Days%20Calendar/International_Day_For_The_Eradication_Of_Poverty_17_Oct_crouxp.jpg"
+    },
+    {
+        Date: "11-14",
+        Event: "World Diabetes Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705858/Social%20Days%20Calendar/World_Diabetes_Day_14_Nov_tb2jfl.jpg"
+    },
+    {
+        Date: "11-20",
+        Event: "World Children's Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705854/Social%20Days%20Calendar/World_Children_s_Day_20_Nov_gxun70.jpg"
+    },
+    {
+        Date: "11-25",
+        Event: "International Day for the Elimination of Violence against Women",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705849/Social%20Days%20Calendar/International_Day_For_The_Elimination_Of_Violence_Against_Women_25_Nov_ez4gz2.jpg"
+    },
+    {
+        Date: "12-01",
+        Event: "World HIV/AIDS Day ",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705865/Social%20Days%20Calendar/World_HIVAIDS_Day_1_Dec_rjvbjw.jpg"
+    },
+    {
+        Date: "12-03",
+        Event: "International Day of Persons with Disabilities",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705880/Social%20Days%20Calendar/International_Person_With_Disability_Day_3_Dec_dczfdx.jpg"
+    },
+    {
+        Date: "12-10",
+        Event: "Human Rights Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705877/Social%20Days%20Calendar/International_Human_Rights_Day_10_Dec_alt8ma.jpg"
+    },
+    {
+        Date: "12-20",
+        Event: "International Human Solidarity Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705876/Social%20Days%20Calendar/International_Human_Solidarity_Day_20_Dec_pyxclo.jpg"
+    }
+]
+

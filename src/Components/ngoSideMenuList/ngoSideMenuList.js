@@ -106,15 +106,19 @@ const MyMenu = (props) => {
                     </Menu.Item>
                 ))}
             </SubMenu>
-            <Menu.Item key="30" icon={
+            <SubMenu key="30" icon={
                 <span role="img" aria-label="team" className="anticon anticon-team">
                     {/* <i className="fa fa-link"></i> */}
                     <img src={require("../icons/Other.png")} />
                 </span>
-            } >
-                <Link to="/others"> Others
-            </Link>
-            </Menu.Item>
+            } title=" Others">
+                {data.womens.map((item, i) => (
+                    <Menu.Item key={i + 30}>
+                        <Link to={`/${item}`}> {`${item}`}
+                        </Link>
+                    </Menu.Item>
+                ))}
+            </SubMenu>
         </Menu>
     )
 }

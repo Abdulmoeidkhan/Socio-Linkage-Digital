@@ -5,44 +5,41 @@ import "./card.css"
 import firebase from "../../Config/firebaseConfig"
 // import Chart from "react-google-charts";
 import moment from "moment"
+import { calenderData } from "../../contentRawData.js/contentRawData"
 
 
 let today = new Date();
 let dd = String(today.getDate()).padStart(2, '0');
 let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 let yyyy = today.getFullYear();
-
-today = yyyy + '-' + mm + '-' + dd;
+today = yyyy+ '-' +mm + '-' + dd;
 
 
 const Cards = () => {
-
     const [dataForDate, setDataForDate] = useState(today)
-    const [dataForData, setDataForData] = useState({})
-    // let rowData={}
-    let dataToBeRender;
+    const [imgLink, setimgLink] = useState()
+    let j = false
     useEffect(() => {
-        if (Object.keys(dataForData).length === 0) {
-            async function myCall() {
-                await firebase.getDateData().then(val => {
-                    setDataForData(val)   
-                })
+        if (!j) {
+            j=true
+            let c = today.slice(5, 10)
+            for (let i = 0; calenderData.length > i; i++) {
+                if (calenderData[i].Date == c) {
+                    setimgLink(calenderData[i].Image)
+                }
             }
-            myCall()
         }
-        if (dataToBeRender) {
-            dataToBeRender = dataForData[dataForDate]
-        }
-        else {
-            dataToBeRender = dataForData.today
-            // console.log(dataToBeRender)
-        }
-        // console.log(dataToBeRender, dataForData, dataForDate)
     })
-
 
     const dateChanged = (a, b) => {
         setDataForDate(b)
+        let c = b.slice(5, 10)
+        setimgLink(undefined)
+        for (let i = 0; calenderData.length > i; i++) {
+            if (calenderData[i].Date == c) {
+                setimgLink(calenderData[i].Image)
+            }
+        }
     }
     return (
         <div className="site-card-wrapper">
@@ -54,13 +51,11 @@ const Cards = () => {
                 <Card title="Organizational News" bordered={true}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem placeat animi sit minima pariatur velit. Nam, repudiandae fuga labore dolor placeat eius perspiciatis inventore explicabo aperiam aspernatur corporis error.
                     </Card>
-
-                <Card title="Event" bordered={true}>
-
+                <Card bordered={true}>
+                    Event
+                    <DatePicker bordered={false} showToday={true} defaultValue={moment()} className="widthClass" onChange={(a, b) => { dateChanged(a, b) }} />
                     <div style={{ minWidth: "300px" }}>
-                        <DatePicker bordered={false} showToday={true} defaultValue={moment()} className="widthClass" onChange={(a, b) => { dateChanged(a, b) }} />
-                        <div>{dataForDate}</div>
-                        {/* <div>{dataForData}</div> */}
+                        {imgLink ? <img className="cardImgClass" src={imgLink} /> : <div>{dataForDate}</div>}
                         {/* <Chart
                             chartType="LineChart"
                             loader={<div>Loading Chart</div>}
