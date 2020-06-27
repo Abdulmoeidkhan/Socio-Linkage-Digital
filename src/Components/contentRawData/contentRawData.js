@@ -378,7 +378,7 @@ export const detailedData = {
     },
 
 
-    "SIUT SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION": {
+    "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION": {
         "Organization": "SIUT Sindh Institute of Urology and Transplantation",
         "OperatingArea": "Saddar, Karachi",
         "History": "SIUT was inaugurated by the Pakistan People’s Party as an institute of urology and Kidney diseases which is head by Dr. Adeeb Rizvi.",
@@ -437,7 +437,7 @@ export const detailedData = {
 
 
 
-    "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT (PTSD)": {
+    "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT": {
         "Organization": "Pakistan Society of Training and Development (PTSD)",
         "OperatingArea": "D.H.A, Karachi",
         "History": "Established in 1966, by Secretary of All-India Muslim League, Mian Abdul Ghani.",

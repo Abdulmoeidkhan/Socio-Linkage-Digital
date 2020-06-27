@@ -1,0 +1,32 @@
+.adminDashCardClass{
+    width: 80% ;
+    margin: 0 auto;
+    height: fit-content;
+}
+.ReactCollapse--collapse{
+    padding-left: 10px;
+    transition: height 500ms;
+}
+.adminSubDashCardClass{
+    margin-top:10px;
+    margin-bottom:10px;
+    box-shadow: 2px 2px 4px grey;
+}
+.adminDashApplicationForm{
+    margin-right: 10px;
+}
+@media only screen and (min-width: 300px)and (max-width: 700px) {
+    .adminDashApplicationForm table,.adminDashApplicationForm{
+        width:290px !important;
+        margin-right:0px;
+    }   
+    .adminDashCardClass{
+        width: 90% ;
+    }
+    .ReactCollapse--collapse{
+        padding-left: 0px;
+    }
+    .adminDashApplicationForm .ant-descriptions-view{
+        min-width: 290px;
+    }
+}

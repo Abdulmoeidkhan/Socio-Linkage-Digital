@@ -58,6 +58,7 @@ const HamBurgerNav = (props) => {
         alert(error.message);
       })
     props.setIsSignIn(false)
+    props.setIsAdminSignIn(false)
   }
   let history = useHistory()
   useEffect(() => {
@@ -82,7 +83,7 @@ const HamBurgerNav = (props) => {
       >
         <div className="cursorClass"><Collapse accordion className="headerPanelClassForSideNav">
           <Panel style={{ border: "none" }} header={<div style={{ color: "#fff" }}><img className="headerWorldIcon" src={require("../icons/Pak Map.png")} /> Regions</div>} key="1">
-            <div onClick={() => { history.push("/PakistanNGO's") }}>
+            <div onClick={() => { history.push("/Pakistan") }}>
               Pakistan
             </div>
           </Panel>

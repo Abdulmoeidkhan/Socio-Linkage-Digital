@@ -2,7 +2,7 @@ import React from 'react';
 import { Breadcrumb, Layout, Table } from 'antd';
 import 'antd/dist/antd.css';
 import './comparison.css'
-import { detailedData } from "../../contentRawData.js/contentRawData"
+import { detailedData } from "../../contentRawData/contentRawData"
 import {
     Link
 } from "react-router-dom";

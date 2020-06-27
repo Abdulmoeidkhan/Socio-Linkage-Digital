@@ -1,35 +1,26 @@
 import React, { useEffect, useState } from 'react';
-import { Card, DatePicker } from 'antd';
+import { Card, DatePicker, Skeleton } from 'antd';
 import 'antd/dist/antd.css';
 import "./card.css"
 import firebase from "../../Config/firebaseConfig"
 // import Chart from "react-google-charts";
 import moment from "moment"
-import { calenderData } from "../../contentRawData.js/contentRawData"
+import { calenderData } from "../../contentRawData/contentRawData"
 
 
 let today = new Date();
 let dd = String(today.getDate()).padStart(2, '0');
 let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 let yyyy = today.getFullYear();
-today = yyyy+ '-' +mm + '-' + dd;
+today = yyyy + '-' + mm + '-' + dd;
 
 
 const Cards = () => {
     const [dataForDate, setDataForDate] = useState(today)
     const [imgLink, setimgLink] = useState()
+    const [content, setContent] = useState()
+
     let j = false
-    useEffect(() => {
-        if (!j) {
-            j=true
-            let c = today.slice(5, 10)
-            for (let i = 0; calenderData.length > i; i++) {
-                if (calenderData[i].Date == c) {
-                    setimgLink(calenderData[i].Image)
-                }
-            }
-        }
-    })
 
     const dateChanged = (a, b) => {
         setDataForDate(b)
@@ -41,22 +32,41 @@ const Cards = () => {
             }
         }
     }
+
+    useEffect(() => {
+        if (!j) {
+            j = true
+            let c = today.slice(5, 10)
+            for (let i = 0; calenderData.length > i; i++) {
+                if (calenderData[i].Date == c) {
+                    setimgLink(calenderData[i].Image)
+                }
+            }
+        }
+    })
+
+    useEffect(() => {
+        firebase.getContent().then(val => {
+            setContent(val)
+        })
+    }, [])
+
     return (
         <div className="site-card-wrapper">
-            <div className="specialaboutDiv">
-                <Card title="Articles" bordered={true}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem placeat animi sit minima pariatur velit. Nam, repudiandae fuga labore dolor placeat eius perspiciatis inventore explicabo aperiam aspernatur corporis error.
-                        </Card>
-
-                <Card title="Organizational News" bordered={true}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem placeat animi sit minima pariatur velit. Nam, repudiandae fuga labore dolor placeat eius perspiciatis inventore explicabo aperiam aspernatur corporis error.
+            {content ?
+                <div className="specialaboutDiv">
+                    <Card title="Articles" bordered={true}>
+                        {content.article}
                     </Card>
-                <Card bordered={true}>
-                    Event
+                    <Card title="Organizational News" bordered={true}>
+                        {content.news}
+                    </Card>
+                    <Card bordered={true}>
+                        Event
                     <DatePicker bordered={false} showToday={true} defaultValue={moment()} className="widthClass" onChange={(a, b) => { dateChanged(a, b) }} />
-                    <div style={{ minWidth: "300px" }}>
-                        {imgLink ? <img className="cardImgClass" src={imgLink} /> : <div>{dataForDate}</div>}
-                        {/* <Chart
+                        <div style={{ minWidth: "300px" }}>
+                            {imgLink ? <img className="cardImgClass" src={imgLink} /> : <div>{dataForDate}</div>}
+                            {/* <Chart
                             chartType="LineChart"
                             loader={<div>Loading Chart</div>}
                             data={[
@@ -85,9 +95,12 @@ const Cards = () => {
                                 chartArea:{minWidth:"247px"}
                             }}
                         />*/}
-                    </div>
-                </Card>
-            </div>
+                        </div>
+                    </Card>
+                </div>
+                :
+                <Skeleton active />
+            }
         </div>
     )
 }

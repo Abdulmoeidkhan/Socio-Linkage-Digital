@@ -42,7 +42,7 @@ export const SignUp = (props) => {
                 <Form.Item
                     label="Email"
                     name="email"
-                    rules={[{ required: true, message: 'Please input your Emai;!' }]}
+                    rules={[{ required: true, message: 'Please input your Email!' }]}
                 >
                     <Input />
                 </Form.Item>

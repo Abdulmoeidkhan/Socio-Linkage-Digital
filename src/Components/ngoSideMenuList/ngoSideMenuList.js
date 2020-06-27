@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import {
     Link,
 } from "react-router-dom";
-import {data} from "../contentRawData.js/contentRawData"
+import {data} from "../contentRawData/contentRawData"
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;

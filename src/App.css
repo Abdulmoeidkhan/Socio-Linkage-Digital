@@ -161,9 +161,9 @@ body::-webkit-scrollbar-thumb, .ant-menu-inline::-webkit-scrollbar-thumb, .scrol
   border-bottom: 2px solid #f4f4f4 !important;
 }
 
-.pageContentClass {
+/* .pageContentClass {
   background-color: #f4f4f4 !important;
-}
+} */
 .applicationForms{
   background-color: #fff !important;
   padding-top: 10px;

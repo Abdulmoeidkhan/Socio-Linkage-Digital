@@ -1,0 +1,9 @@
+.adminTabs{
+    width:100%;
+    margin:0 auto;
+    /* margin-left: 10px; */
+    height: fit-content;
+}
+.ant-tabs-nav-wrap{
+    padding-left: 10px;
+}

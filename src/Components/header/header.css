@@ -18,7 +18,12 @@
          display: none;
      }
  }
- .ant-layout-sider-children .ant-menu-light,.ant-layout-sider-children .ant-menu-dark {
+ .ant-layout-sider-children .ant-menu-dark{
+    height: 570px;
+    overflow-y: auto;
+    overflow-x: hidden;   
+ }
+ .ant-layout-sider-children .ant-menu-light {
   background-color: #34979d !important;
   height: 570px;
   overflow-y: auto;

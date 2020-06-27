@@ -7,13 +7,15 @@ import Cards from "../card/card.js"
 const { Content } = Layout;
 
 export const HomeContent = () => (
-    <Content style={{ margin: '0 16px' }}>
-        <Breadcrumb style={{ margin: '16px 0' }}>
-            <Breadcrumb.Item>
-                Home
+    <Content>
+        <div style={{ margin: '0px 16px' }}>
+            <Breadcrumb style={{ margin: '16px 0' }}>
+                <Breadcrumb.Item>
+                    Home
                 </Breadcrumb.Item>
-        </Breadcrumb>
-        <Gallery />
-        <Cards />
+            </Breadcrumb>
+            <Gallery />
+            <Cards />
+        </div>
     </Content>
 )

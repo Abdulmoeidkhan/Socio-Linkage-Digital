@@ -63,8 +63,21 @@
   z-index: 1
 }
 
-.site-layout {
-  background-color: #fff;
+.ant-drawer,.ant-drawer-open{
+  background-color: none;
+}
+
+.light .ant-card,.light .ant-card-head,.light .ant-table-container,.light .ant-table-cell,.dark .ant-pagination-item,.light .ant-descriptions-title,.light .ant-descriptions-item-label,.light .ant-descriptions-item-content,.dark .ant-picker-clear,.light main,.light .ReactCollapse--collapse,.light .adminTabs{
+  background-color: #fff !important;
+  color:#000 !important;
+}
+
+.dark .ant-card,.dark .ant-card-head,.dark .ant-table-container,.dark .ant-table-cell,.dark .ant-descriptions-title,.dark .ant-descriptions-item-label,.dark .ant-descriptions-item-content,.dark .ant-picker-input > input,.dark .ant-picker-clear,.dark main,.dark .ReactCollapse--collapse,.dark .adminTabs{
+  background-color: #001529 !important;
+  color: #fff !important; 
+}
+h1, h2, h3, h4, h5, h6,.ant-breadcrumb,.ant-breadcrumb > span:last-child {
+  color: inherit ;
 }
 
 .ant-menu-submenu-inline .ant-menu-submenu-title .anticon-team .ant-menu-submenu-arrow {
