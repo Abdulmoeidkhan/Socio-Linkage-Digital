@@ -18,7 +18,7 @@ class Gallery extends React.Component {
   }
 
   galleryItems() {
-    let arr=["https://res.cloudinary.com/tanzeelah/image/upload/v1591918848/World%20Days/International_Day_Of_Sign_Languages_23_Sep_j7hlxl.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1591918834/World%20Days/International_Day_of_Peace_21_Sep_jlag9a.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1591918861/World%20Days/International_Literacy_Day_8_Sep_xol7ea.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1591918833/World%20Days/International_Day_Of_Charity_5_Sep_dd97wl.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1591918866/World%20Days/World_Humanitarian_Day_19_Aug_pqpmgl.jpg"]
+    let arr=["https://res.cloudinary.com/tanzeelah/image/upload/v1594745296/Cover%20Photos/Untitled-8_aij9qx.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745295/Cover%20Photos/Untitled-1_remeuh.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745294/Cover%20Photos/Untitled-9_bcmsdy.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745293/Cover%20Photos/Untitled-7_pecrtb.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745291/Cover%20Photos/Untitled-2_reojs6.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-4_kselx4.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-6_ix7pvi.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-3_nkzaap.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-5_su4wkx.jpg"]
     return arr
       .map((item, i) => <img className="item" alt={item} src={item}/>
     )

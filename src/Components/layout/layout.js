@@ -18,6 +18,8 @@ import { AdminDashBoard } from "../admin/adminDashboard/adminDashboard"
 import {AdminSignIn} from "../admin/adminLogIn"
 import MyComparison from "../content/comparison/comparison"
 import firebase from "../Config/firebaseConfig"
+import { TandC } from '../content/termsAndConditions/termsAndConditions';
+import { PrivacyPolicy } from '../content/privacyPolicy/privacyPolicy';
 // const { Header } = Layout;
 
 
@@ -54,7 +56,9 @@ export const MyLayout = (props) => {
                         {isSignIn ? <Application /> : <div className="notFoundClass"><h2>Please Sign In First for this page</h2></div>}
                     </>
                 </Route>
-                {NGOsRoute.map((item, i) => <Route key={i + 7} path={`/${item}`} exact >
+                <Route path="/T&C" exact key="7" component={TandC} />
+                <Route path="/PrivacyPolicy" exact key="8" component={PrivacyPolicy} />
+                {NGOsRoute.map((item, i) => <Route key={i + 9} path={`/${item}`} exact >
                     <NGOPage name={`${item}`} />
                 </Route>)}
             </Switch>

@@ -19,13 +19,13 @@
      }
  }
  .ant-layout-sider-children .ant-menu-dark{
-    height: 570px;
+    height: 510px;
     overflow-y: auto;
     overflow-x: hidden;   
  }
  .ant-layout-sider-children .ant-menu-light {
   background-color: #34979d !important;
-  height: 570px;
+  height: 540px;
   overflow-y: auto;
   overflow-x: hidden;
 } 
@@ -44,7 +44,7 @@
      }
      .ant-layout-sider-children .ant-menu-light {
         background-color: #34979d !important;
-        height: 550px;
+        height: 510px;
         overflow-y: auto;
         overflow-x: hidden;
     }
@@ -95,7 +95,7 @@
     }
     .ant-layout-sider-children .ant-menu-light {
         background-color: #34979d !important;
-        height: 570px;
+        height: 520px;
         overflow-y: auto;
         overflow-x: hidden;
     }

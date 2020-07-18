@@ -1,11 +1,78 @@
 export const data = {
-    children: ["RLCC", "AAHUNG FOUNDATION", "AZAD FOUNDATION", "DAR-UL-SUKUN", "EDHI FOUNDATION", "KONPAL CHILD ABUSE PREVENTION SOCIETY", "MAKE A WISH", "SOS VILLAGE"],
-    community: ["AMAN FOUNDATION", "CHHIPA FOUNDATION", "FIX IT", "JDC", "LYARIANZ YOUTH DEVELOPMENT PROGRAM", "ROBIN HOOD ARMY"],
-    education: ["A.P.H.A ORGANIZATION", "APEX EDUCATION FORUM", "DEWA ACADEMY", "MARKAZ-E-UMEED", "PAKISTAN YOUTH ORGANIZATION", "THE CITIZENS FOUNDATION", "YOUTH EXPRESS PAKISTAN"],
-    womens: ["AURAT FOUNDATION", "DEPILEX-SMILE AGAIN FOUNDATION", "SHIRKAT GAH-WOMEN RESOURCE CENTRE", "TEHRIK-E-NISWA"],
-    health: ["THE INSTITUTE OF BEHAVIOURAL SCIENCES", "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES", "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION", "IBTIDA DRUG REHABILITATION CENTER"],
-    vocation: ["THE HUNAR FOUNDATION", "PAKISTAN INSTITUTE OF LEARNING AND LIVING", "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT", "ZVMG RANGOONWALA TRUST"],
-    others: ["ADOPT A PET", "ALAMGIR WELFARE TRUST", "HELPING HANDS TRUST ", "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID", "LEGAL RIGHTS FORUM", "PAKISTAN LAWYERS FOUNDATION", "SARIM BURNEY TRUST", "WORLDWIDE FUND OF NATURE"]
+    children: [
+        "AAHUNG FOUNDATION",
+        "AZAD FOUNDATION",
+        "EDHI FOUNDATION",
+        "KONPAL CHILD ABUSE PREVENTION SOCIETY",
+        "MAKE A WISH",
+        "SOS VILLAGE"],
+    community: [
+        "AMAN FOUNDATION",
+        "CHHIPA FOUNDATION",
+        "FIX IT",
+        "JDC",
+        "LYARIANZ YOUTH DEVELOPMENT PROGRAM",
+        "OPP",
+        "RLCC",
+        "ROBIN HOOD ARMY",
+        "SOFIA KHANA GHAR",
+        "ORANGI PILOT PROJECT",
+        "SOFIA KHANA GHAR ORGANIZATION"
+    ],
+    education: [
+        "A.P.H.A ORGANIZATION",
+        "APEX EDUCATION FORUM",
+        "DEWA ACADEMY",
+        "MARKAZ-E-UMEED",
+        "PAKISTAN YOUTH ORGANIZATION",
+        "RA'ANA LIAQUAT SCHOOL",
+        "THE CITIZENS FOUNDATION",
+        "YOUTH EXPRESS PAKISTAN"],
+    health: [
+        "DOW INSTITUTE OF BEHAVIORAL SCIENCES",
+        "DOW OJHA",
+        "IBTIDA DRUG REHABILITATION CENTER",
+        "KARACHI PSYCIATRIC HOSPITAL",
+        "KARWAN E HAYAT",
+        "LIAQUAT NATIONAL HOSPITAL",
+        "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES",
+        "PAKISTAN RED CRESCENT",
+        "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION",],
+    sCitizen: [
+        "ANSAR BURNEY",
+        "DAR-UL-SUKUN(SC)",
+        "EDHI OLD HOME",
+        "SENIOR CITIZENS WELFARE PROGRAM"],
+    special: [
+        "A.P.H.A ORGANIZATION",
+        "DAR-UL-SUKUN",
+        "DEWA ACADEMY",
+        "MARKAZ-E-UMEED",
+        "RANGERS SCHOOL",
+        "SPECIAL QUAIDEEN"],
+    vocation: [
+        "THE HUNAR FOUNDATION",
+        "PAKISTAN INSTITUTE OF LEARNING AND LIVING",
+        "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT",
+        "ZVMG RANGOONWALA TRUST",
+        "RLCC"],
+    womens: [
+        "AAHUNG FOUNDATION",
+        "APWA",
+        "AURAT FOUNDATION",
+        "DEPILEX-SMILE AGAIN FOUNDATION",
+        "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
+        "TEHRIK-E-NISWA",
+        "PAKISTAN FEDERATION OF BUSINESS & PROFESSIONAL WOMEN ORGANISTAION"],
+    others: [
+        "ADOPT A PET",
+        "ALAMGIR WELFARE TRUST",
+        "HELPING HANDS TRUST ",
+        "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID",
+        "LEGAL RIGHTS FORUM",
+        "PAKISTAN LAWYERS FOUNDATION",
+        "SARIM BURNEY WELFARE TRUST",
+        "WORLDWIDE FUND OF NATURE"]
 }
 
 export const detailedData = {
@@ -350,8 +417,8 @@ export const detailedData = {
     },
 
 
-    "THE INSTITUTE OF BEHAVIOURAL SCIENCES (DOW)": {
-        "Organization": "The Institute of Behavioural Sciences (DOW",
+    "DOW INSTITUTE OF  SCIENCES (DOW)": {
+        "Organization": "DOW Institute of  Sciences (DOW)",
         "OperatingArea": "Karachi, Pakistan",
         "History": "The institute was established by Dr. Abdul Qadeer Khan who himself was a pioneer of science in Pakistan.",
         "CoreFunctions": "Providing psychological assessment, guidance and treatment.",
@@ -543,8 +610,8 @@ export const detailedData = {
         "key": "38"
     },
 
-    "SARIM BURNEY TRUST": {
-        "Organization": "Sarim Burney Trust",
+    "SARIM BURNEY WELFARE TRUST": {
+        "Organization": "Sarim Burney welfare Trust",
         "OperatingArea": "Hyderi Market, Karachi",
         "History": "Founded by Sarim Burney who started working for mankind from his early years, soon decided to establish his own organization for solving the issues of human trafficking and child marriages to ensure a happy and healthy society.",
         "CoreFunctions": "Provide shelter and assistance to ones in need.",
@@ -652,8 +719,8 @@ export const detailedData = {
         "key": "45"
     },
 
-    "SARIM BURNEY TRUST": {
-        "Organization": "Sarim Burney Trust",
+    "SARIM BURNEY WELFARE TRUST": {
+        "Organization": "Sarim Burney WELFARE Trust",
         "Operating Area": "Hyderi Market, Karachi",
         "History": "Founded by Sarim Burney who started working for mankind from his early years, soon decided to establish his own organization for solving the issues of human trafficking and child marriages to ensure a happy and healthy society.",
         "CoreFunctions": "Provide shelter and assistance to ones in need.",
@@ -677,7 +744,32 @@ export const detailedData = {
         "Analysis": " ",
         "ReferencelinkWebsite": " https://www.wwfpak.org/",
         "key": "47"
-    }
+    },
+    "ORANGI PILOT PROJECT (OPP)":{
+        "Organization" : "Orangi Pilot Project (OPP)",
+        "Operating Area" : "ST-4, Sector No. 5-A, 75800, Manghopir Rd, Qasba Colony.",
+        "History" : "OPP as an NGO began work in Orangi Town in 1980. Akhtar Hameed was mastermind behind this project.",
+        "Core Functions" : "OPP is a non-profit Association that has been operating in the domains of low-cost sanitation, housing, health, education, and credit for micro enterprise.",
+        "Credibility" : "Registered from Social Welfare Department..",
+        "Programs" : "1. OPP-Research and Training Institute (OPP-RTI) manages the low-cost sanitation, housing/secure housing support program, education program, the now evolving water supply and the women’s savings programs as well as the related research and training programs. Earthquake and the flood rehabilitation works are also undertaken. 2. OPP-Orangi Charitable Trust (OPP-OCT) manages the micro enterprise credit program. 3. OPP-Karachi Health and Social Development Association (OPP-KHASDA) manages the health program.",
+        "Sustainability" : "Self-Sufficient Organization That Operates Based on Alms, Charities, and Donations.",
+        "Cost of Services" : " None.",
+        "Analysis" : "On the success of its five basic programs of low-cost sanitation, housing, health, education, and credit for micro enterprise, in 1988 OPP was upgraded into three autonomous institutions.",
+        "Reference link/ Website" : "http://www.opp.org.pk/",
+        },
+        
+        "SOFIA KHANA GHAR ORGANIZATION":{
+        "Organization" : "Sofia Khana Ghar",
+        "Operating Area" : "All over Karachi",
+        "History" : "Sofia Khana Ghar Organization is started by the group of friends that are enrolled in NED University.",
+        "Core Functions" : "Primarily works for the eradication of hunger by providing Rashan to the needy ones.",
+        "Credibility" : " ",
+        "Programs" : "Sofia Khana Ghar is a non-profitable organization which is trying it is best to make it double sure that no one sleeps hungry and help needy ones by providing Rashan, dowry for marriage and arrange foods for marriage ceremonies.",
+        "Sustainability" : " ",
+        "Cost of Services" : " ",
+        "Analysis" : "Sofia Organization built a Water Well Pump that is donated by Begum Hina Faisal in Village Valhar, Gulberg Town, Karachi.",
+        "Reference link/ Website" : "https://www.facebook.com/sofiaorganization/",
+        },
 }
 export const NGOsRoute = [
     "RLCC",
@@ -705,7 +797,7 @@ export const NGOsRoute = [
     "DEPILEX-SMILE AGAIN FOUNDATION",
     "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
     "TEHRIK-E-NISWA",
-    "THE INSTITUTE OF BEHAVIOURAL SCIENCES",
+    "THE INSTITUTE OF  SCIENCES",
     "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES",
     "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION",
     "IBTIDA DRUG REHABILITATION CENTER",
@@ -719,8 +811,10 @@ export const NGOsRoute = [
     "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID",
     "LEGAL RIGHTS FORUM",
     "PAKISTAN LAWYERS FOUNDATION",
-    "SARIM BURNEY TRUST",
+    "SARIM BURNEY WELFARE TRUST",
     "WORLDWIDE FUND OF NATURE",
+    "ORANGI PILOT PROJECT",
+    "SOFIA KHANA GHAR ORGANIZATION"
 ]
 
 export const calenderData = [
@@ -760,16 +854,16 @@ export const calenderData = [
         Event: "International Day of Happiness",
         Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705853/Social%20Days%20Calendar/International_Day_of_Happiness_20_March_ahwqjg.jpg"
     },
-    {
-        Date: "03-21",
-        Event: "International Day for the Elimination of Racial Discrimination",
-        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705848/Social%20Days%20Calendar/International_Day_for_the_Elimination_of_Racial_Discrimination_21_March_j4i5rw.jpg"
-    },
     // {
     //     Date: "03-21",
-    //     Event: "World Down Syndrome Day",
-    //     Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705860/Social%20Days%20Calendar/World_Down_Syndrome_Day_21_March_mzrshg.jpg"
+    //     Event: "International Day for the Elimination of Racial Discrimination",
+    //     Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705848/Social%20Days%20Calendar/International_Day_for_the_Elimination_of_Racial_Discrimination_21_March_j4i5rw.jpg"
     // },
+    {
+        Date: "03-21",
+        Event: "World Down Syndrome Day",
+        Image: "https://res.cloudinary.com/tanzeelah/image/upload/v1592705860/Social%20Days%20Calendar/World_Down_Syndrome_Day_21_March_mzrshg.jpg"
+    },
     {
         Date: "03-24",
         Event: "World Tuberculosis Day",

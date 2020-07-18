@@ -61,11 +61,10 @@ const Cards = () => {
                     <Card title="Organizational News" bordered={true}>
                         {content.news}
                     </Card>
-                    <Card bordered={true}>
-                        Event
-                    <DatePicker bordered={false} showToday={true} defaultValue={moment()} className="widthClass" onChange={(a, b) => { dateChanged(a, b) }} />
+                    <Card title="Events" bordered={true}>
+                    <DatePicker size="large" bordered={false} showToday={true} defaultValue={moment()} className="widthClass" onChange={(a, b) => { dateChanged(a, b) }} />
                         <div style={{ minWidth: "300px" }}>
-                            {imgLink ? <img className="cardImgClass" src={imgLink} /> : <div>{dataForDate}</div>}
+                            {imgLink ? <img className="cardImgClass" src={imgLink} /> : <img className="cardImgClass" src={"https://res.cloudinary.com/tanzeelah/image/upload/v1595017293/ezgif.com-video-to-gif_hbdqah.gif"}/>}
                             {/* <Chart
                             chartType="LineChart"
                             loader={<div>Loading Chart</div>}

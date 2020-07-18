@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import {
     MenuUnfoldOutlined
-  } from '@ant-design/icons';
+} from '@ant-design/icons';
 
 const { Header } = Layout;
 const { Panel } = Collapse;
@@ -21,7 +21,7 @@ export const MyHeader = (props) => {
             <div className="logo" />
             <Menu theme={props.themeColor} mode="horizontal" defaultSelectedKeys={['1']} >
                 <Menu.Item key="5" className="mobClass">
-                    <Button type="primary" onClick={props.showDrawer} icon={<MenuUnfoldOutlined />}/>
+                    <Button type="primary" onClick={props.showDrawer} icon={<MenuUnfoldOutlined />} />
                 </Menu.Item>
                 <Menu.Item key="1">
                     <Link to="/">
@@ -33,8 +33,25 @@ export const MyHeader = (props) => {
                         <Panel className="headerPanelClass" header={<img className="headerWorldIcon" src={require("../icons/Pak Map.png")} />} alt={require("../icons/Pak Map.png")} key="1">
                             <div onClick={
                                 () => { history.push("/Pakistan") }
-                            }>
+                            }
+                                key="1"
+                            >
                                 Pakistan
+                            </div>
+                            <div onClick={() => { history.push("/Balochistan") }} key="3">
+                                Balochistan
+                            </div>
+                            <div onClick={() => { history.push("/GilgitBaltistan") }} key="4">
+                                Gilgit Baltistan
+                            </div>
+                            <div onClick={() => { history.push("/KPK") }} key="5">
+                                Khyber Pakhtun khuwa
+                            </div>
+                            <div onClick={() => { history.push("/Punjab") }} key="6">
+                                Punjab
+                            </div>
+                            <div onClick={() => { history.push("/Sindh") }} key="7">
+                                Sindh
                             </div>
                         </Panel>
                     </Collapse>
@@ -46,9 +63,9 @@ export const MyHeader = (props) => {
                     <Switch checkedChildren="Dark" unCheckedChildren="Light" defaultChecked onChange={props.themeChanger} />
                 </Menu.Item>
                 <Menu.Item key="4" className="menuNonListPart">
-                    <HamBurgerNav mode={props.themeColor} setIsSignIn={props.setIsSignIn} setIsAdminSignIn={props.setIsAdminSignIn}/>
+                    <HamBurgerNav mode={props.themeColor} setIsSignIn={props.setIsSignIn} setIsAdminSignIn={props.setIsAdminSignIn} />
                 </Menu.Item>
             </Menu>
-        </Header>
+        </Header >
     )
 }

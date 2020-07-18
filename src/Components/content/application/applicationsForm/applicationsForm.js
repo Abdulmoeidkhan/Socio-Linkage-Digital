@@ -75,6 +75,7 @@ export const ApplicationForm = (props) => {
                     <Select>
                         <Select.Option value="Male">Male</Select.Option>
                         <Select.Option value="Female">Female</Select.Option>
+                        <Select.Option value="Others">Others</Select.Option>
                     </Select>
                 </Form.Item>
                 <Form.Item

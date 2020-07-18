@@ -72,7 +72,7 @@ class Firebase {
                 userType = snap.val()
             }).then(() => {
                 if (userType) {
-                    if ("admin" == userType.type) {
+                    if ("admin" === userType.type) {
                         response.flag = true;
                         response.message = "You are Sign in as admin"
                     }
@@ -97,7 +97,7 @@ class Firebase {
                 userType = snap.val()
             }).then(() => {
                 if (userType) {
-                    if ("admin" == userType.type) {
+                    if ("admin" === userType.type) {
                         response.flag = true;
                         response.message = "You are Sign in as admin"
                     }

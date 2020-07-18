@@ -15,10 +15,18 @@
         grid-template-columns: 100%;
         grid-template-rows: repeat(3,1fr);
     }
+    .cardImage, .cardImgClass{
+        max-width: 290px;
+    }
 }
 .widthClass{
     width:100%;
 }
 .cardImgClass{
     width:300px
+}
+.cardImage{
+    height: 200px;
+    /* margin-top: 50px; */
+    margin: 50px 55px;
 }
