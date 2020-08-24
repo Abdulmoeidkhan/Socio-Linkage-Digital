@@ -23,7 +23,7 @@ class Gallery extends React.Component {
       "https://res.cloudinary.com/tanzeelah/image/upload/v1596468439/Highlights/Untitled-3_ze7tmi.jpg",
       "https://res.cloudinary.com/tanzeelah/image/upload/v1596468438/Highlights/Untitled-1_ae5ulq.jpg",
       "https://res.cloudinary.com/tanzeelah/image/upload/v1596468441/Highlights/Untitled-8_silvwt.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468438/Highlights/Untitled-2_nlffv4.jpg",
+      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468438/Highlights/Untitled-2_nlffv4.jpgg",
       "https://res.cloudinary.com/tanzeelah/image/upload/v1596468439/Highlights/Untitled-4_vfnfrm.jpg",
       "https://res.cloudinary.com/tanzeelah/image/upload/v1596468440/Highlights/Untitled-6_wc4qvs.jpg",
       "https://res.cloudinary.com/tanzeelah/image/upload/v1596468441/Highlights/Untitled-7_wdt3jh.jpg",

@@ -30,3 +30,6 @@
     /* margin-top: 50px; */
     margin: 50px 55px;
 }
+.dark .ant-picker-suffix .anticon-calendar{
+    color:#fff !important;
+}

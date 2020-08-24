@@ -18,17 +18,7 @@ class Gallery extends React.Component {
   }
 
   galleryItems() {
-    let arr=[
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468439/Highlights/Untitled-5_hq5vrw.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468439/Highlights/Untitled-3_ze7tmi.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468438/Highlights/Untitled-1_ae5ulq.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468441/Highlights/Untitled-8_silvwt.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468438/Highlights/Untitled-2_nlffv4.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468439/Highlights/Untitled-4_vfnfrm.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468440/Highlights/Untitled-6_wc4qvs.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468441/Highlights/Untitled-7_wdt3jh.jpg",
-      "https://res.cloudinary.com/tanzeelah/image/upload/v1596468441/Highlights/Untitled-9_wraq2d.jpg"
-    ]
+    let arr=["https://res.cloudinary.com/tanzeelah/image/upload/v1594745296/Cover%20Photos/Untitled-8_aij9qx.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745295/Cover%20Photos/Untitled-1_remeuh.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745294/Cover%20Photos/Untitled-9_bcmsdy.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745293/Cover%20Photos/Untitled-7_pecrtb.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745291/Cover%20Photos/Untitled-2_reojs6.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-4_kselx4.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-6_ix7pvi.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-3_nkzaap.jpg","https://res.cloudinary.com/tanzeelah/image/upload/v1594745290/Cover%20Photos/Untitled-5_su4wkx.jpg"]
     return arr
       .map((item, i) => <img className="item" alt={item} src={item}/>
     )
