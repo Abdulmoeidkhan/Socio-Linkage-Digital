@@ -40,7 +40,7 @@ export const AboutUs = () => (
                 </span>
                 <h3 className="pageSubHeading">Who are we?</h3>
                 <p className="pageParagraphClass">
-                    Socio-linkage is a joint venture/startup by the students of the University of Karachi from the Department of Social Work. We strive to provide digital and quick access to the users in finding appropriate places for the fulfillment of their physical, mental, environmental, and social needs.
+                Socio-linkage is a joint start-up by the students of the Department of Social Work. We strive to provide digital and quick access to the users in finding appropriate places for the fulfillment of their physical, mental, environmental, and social needs.
         </p>
                 <h3 className="pageSubHeading">What inspired us?</h3>
                 <p className="pageParagraphClass">

@@ -109,12 +109,19 @@
     .site-footer .copyright-text, .site-footer .social-icons {
         text-align: center
     }
+    .container-footer{
+        padding-bottom: 100px;
+    }
 }
-
+@media (min-width:768px) {
+    .social-icons {
+        margin-right: 65px;
+    }
+}
 .social-icons {
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
 }
 
 .social-icons li {
@@ -172,6 +179,9 @@
 
 .social-icons a.dribbble:hover {
     background-color: #ea4c89
+}
+.social-icons a.youtube:hover {
+    background-color: #FF0000
 }
 
 @media (max-width:767px) {

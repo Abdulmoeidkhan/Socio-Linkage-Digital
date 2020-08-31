@@ -84,7 +84,6 @@ a {
   position: fixed;
   width: 30px;
   height: 30px;
-  left: 92%;
   bottom: 15%;
   background-color: #11474f;
   padding-left: 9px;
@@ -169,4 +168,14 @@ body::-webkit-scrollbar-thumb, .ant-menu-inline::-webkit-scrollbar-thumb, .scrol
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 20px;
+}
+@media only screen and (max-width:400px){
+  .arrowUpKey {
+    left: 82%;
+  }
+}
+@media only screen and (min-width:401px){
+  .arrowUpKey {
+    left: 94%;
+  }
 }
