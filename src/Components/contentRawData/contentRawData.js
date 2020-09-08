@@ -2,77 +2,88 @@ export const data = {
     children: [
         "AAHUNG FOUNDATION",
         "AZAD FOUNDATION",
+        "DAR-UL-SUKUN",
         "EDHI FOUNDATION",
         "KONPAL CHILD ABUSE PREVENTION SOCIETY",
         "MAKE A WISH",
-        "SOS VILLAGE"],
+        "SOS VILLAGE",
+    ],
     community: [
+        "RLCC",
         "AMAN FOUNDATION",
         "CHHIPA FOUNDATION",
         "FIX IT",
         "JDC",
         "LYARIANZ YOUTH DEVELOPMENT PROGRAM",
-        "OPP",
-        "RLCC",
-        "ROBIN HOOD ARMY",
-        "SOFIA KHANA GHAR",
         "ORANGI PILOT PROJECT",
-        "SOFIA KHANA GHAR ORGANIZATION"
+        "ROBIN HOOD ARMY",
+        "SAYLANI WELFARE TRUST",
+        "SHAHID AFRIDI FOUNDATION",
+        "SOFIA KHANA GHAR",
     ],
     education: [
-        "A.P.H.A ORGANIZATION",
         "APEX EDUCATION FORUM",
-        "DEWA ACADEMY",
-        "MARKAZ-E-UMEED",
+        "EDUCATION TRUST NASRA SCHOOL",
         "PAKISTAN YOUTH ORGANIZATION",
-        "RA'ANA LIAQUAT SCHOOL",
+        "RA’ANA LIAQUAT PUBLIC SCHOOL",
         "THE CITIZENS FOUNDATION",
-        "YOUTH EXPRESS PAKISTAN"],
+        "YOUTH EXPRESS PAKISTAN",
+        "ZINDAGI TRUST",
+    ],
     health: [
-        "DOW INSTITUTE OF BEHAVIORAL SCIENCES",
-        "DOW OJHA",
-        "IBTIDA DRUG REHABILITATION CENTER",
-        "KARACHI PSYCIATRIC HOSPITAL",
-        "KARWAN E HAYAT",
+        "DOW OJHA INSTITUTE OF CHEST DISEASES",
         "LIAQUAT NATIONAL HOSPITAL",
-        "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES",
+        "NICVD NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES",
+        "RA’ANA LIAQUAT CRAFSTSMEN COLONY HEALTH CARE CENTRE",
         "PAKISTAN RED CRESCENT",
-        "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION",],
+        "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION",
+        "DOW INSTITUTE OF BEHAVIORAL SCIENCES",
+        "KARACHI PSYCHIATRIC HOSPITAL",
+        "KARWAN-E-HAYAT",
+    ],
     sCitizen: [
-        "ANSAR BURNEY",
-        "DAR-UL-SUKUN(SC)",
+        "ANSAR BURNEY TRUST",
+        "DAR-UL-SUKUN",
         "EDHI OLD HOME",
-        "SENIOR CITIZENS WELFARE PROGRAM"],
+        "SENIOR CITIZENS WELFARE PROGRAM"
+    ],
     special: [
         "A.P.H.A ORGANIZATION",
         "DAR-UL-SUKUN",
         "DEWA ACADEMY",
         "MARKAZ-E-UMEED",
-        "RANGERS SCHOOL",
-        "SPECIAL QUAIDEEN"],
+        "QUAID-E-AZAM RANGERS SPECIAL CHILDREN SCHOOL",
+        "SHAHEED-E-MILLAT SPECIAL EDUCATION CENTRE",
+    ],
     vocation: [
         "THE HUNAR FOUNDATION",
         "PAKISTAN INSTITUTE OF LEARNING AND LIVING",
         "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT",
         "ZVMG RANGOONWALA TRUST",
-        "RLCC"],
+    ],
     womens: [
-        "AAHUNG FOUNDATION",
-        "APWA",
+        "AAHUNG FOUNDATION WOMEN",
         "AURAT FOUNDATION",
         "DEPILEX-SMILE AGAIN FOUNDATION",
+        "RA’ANA LIAQUAT CRAFSTSMEN COLONY WOMEN",
         "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
         "TEHRIK-E-NISWA",
-        "PAKISTAN FEDERATION OF BUSINESS & PROFESSIONAL WOMEN ORGANISTAION"],
+        "PAKISTAN FEDERATION OF BUSINESS AND PROFESSIONAL WOMEN ORGANIZATION",
+    ],
     others: [
         "ADOPT A PET",
         "ALAMGIR WELFARE TRUST",
-        "HELPING HANDS TRUST ",
+        "HELPING HANDS TRUST",
         "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID",
         "LEGAL RIGHTS FORUM",
         "PAKISTAN LAWYERS FOUNDATION",
         "SARIM BURNEY WELFARE TRUST",
-        "WORLDWIDE FUND OF NATURE"]
+        "WORLDWIDE FUND OF NATURE",
+        "DOW INSTITUTE OF BEHAVIORAL SCIENCES",
+        "IBTIDA DRUG REHABILITATION CENTER",
+        "AGHA KHAN SPORTS AND REHABILITATION CENTRE",
+        "WILLING WAYS",
+    ]
 }
 
 export const detailedData = {
@@ -102,7 +113,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://www.aahung.org/",
         "key": "2"
     },
-
     "AZAD FOUNDATION": {
         "Organization": "Azad Foundation",
         "OperatingArea": "Gulshan Iqbal, Karachi",
@@ -116,7 +126,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://azadfoundation.org/",
         "key": "3"
     },
-
     "DAR-UL-SUKUN": {
         "Organization": "Dar-ul-Sukun",
         "OperatingArea": "Kashmir Road, PECHS, Karachi",
@@ -130,7 +139,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://www.darulsukun.com/",
         "key": "4"
     },
-
     "EDHI FOUNDATION": {
         "Organization": "Edhi Foundation",
         "OperatingArea": "Boulten Market and Kharadar, Karachi",
@@ -144,7 +152,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://edhi.org/",
         "key": "5"
     },
-
     "KONPAL CHILD ABUSE PREVENTION SOCIETY": {
         "Organization": "Konpal Child Abuse Prevention Society",
         "OperatingArea": "P.E.C.H.S, Karachi",
@@ -158,7 +165,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "http://www.konpal.org/",
         "key": "6"
     },
-
     "MAKE A WISH": {
         "Organization": "Make a Wish",
         "OperatingArea": "Clifton, Karachi",
@@ -172,7 +178,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://www.makeawish.org.pk/",
         "key": "7"
     },
-
     "SOS VILLAGE": {
         "Organization": "SOS Village",
         "OperatingArea": "Malir Halt, Karachi",
@@ -186,8 +191,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://www.sos.org.pk/Person/Index",
         "key": "8"
     },
-
-
     "AMAN FOUNDATION": {
         "Organization": "Aman Foundation",
         "OperatingArea": "Korangi Township Near Pakistan Refinery Ltd., Karachi, Pakistan",
@@ -266,9 +269,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://robinhoodarmy.com/",
         "key": "14"
     },
-
-
-
     "A.P.H.A ORGANIZATION": {
         "Organization": "A.P.H.A Organization",
         "OperatingArea": "Gulistan-e-Johar, Karachi",
@@ -360,9 +360,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://web.facebook.com/YouthExpressPakistan.Official",
         "key": "21"
     },
-
-
-
     "AURAT FOUNDATION": {
         "Organization": "Aurat Foundation",
         "OperatingArea": "Clifton, Karachi",
@@ -415,10 +412,8 @@ export const detailedData = {
         "ReferencelinkWebsite": "http://www.tehrik-e-niswan.org.pk/default.asp",
         "key": "25"
     },
-
-
-    "DOW INSTITUTE OF  SCIENCES (DOW)": {
-        "Organization": "DOW Institute of  Sciences (DOW)",
+    "DOW INSTITUTE OF BEHAVIORAL SCIENCES": {
+        "Organization": "DOW Institute of Behavioral Sciences (IBS)",
         "OperatingArea": "Karachi, Pakistan",
         "History": "The institute was established by Dr. Abdul Qadeer Khan who himself was a pioneer of science in Pakistan.",
         "CoreFunctions": "Providing psychological assessment, guidance and treatment.",
@@ -443,8 +438,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "http://nicvd.org/",
         "key": "27"
     },
-
-
     "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION": {
         "Organization": "SIUT Sindh Institute of Urology and Transplantation",
         "OperatingArea": "Saddar, Karachi",
@@ -471,9 +464,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "https://web.facebook.com/Ibtidadrugcenter/?_rdc=1&_rdr",
         "key": "29"
     },
-
-
-
     "THE HUNAR FOUNDATION": {
         "Organization": "The Hunar Foundation",
         "OperatingArea": "P.E.C.H.S, Karachi",
@@ -500,10 +490,6 @@ export const detailedData = {
         "ReferencelinkWebsite": "http://pill.org.pk/",
         "key": "31"
     },
-
-
-
-
     "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT": {
         "Organization": "Pakistan Society of Training and Development (PTSD)",
         "OperatingArea": "D.H.A, Karachi",
@@ -515,7 +501,7 @@ export const detailedData = {
         "CostofServices": "  ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://pstd.com.pk/",
-        "key": "31"
+        "key": "32"
     },
     "ZVMG RANGOONWALA TRUST": {
         "Organization": "ZVMG Rangoonwala Trust",
@@ -528,7 +514,7 @@ export const detailedData = {
         "CostofServices": "  ",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://www.rcc.com.pk/",
-        "key": "32"
+        "key": "33"
     },
     "ADOPT A PET": {
         "Organization": "Adopt a Pet",
@@ -541,7 +527,7 @@ export const detailedData = {
         "CostofServices": " None. ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://web.facebook.com/pet.khi?_rdc=1&_rdr",
-        "key": "33"
+        "key": "34"
     },
     "ALAMGIR WELFARE TRUST": {
         "Organization": "Alamgir Welfare Trust",
@@ -554,9 +540,8 @@ export const detailedData = {
         "CostofServices": " None or nominal charges ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.alamgirwelfaretrust.com.pk/alamgir2013/index.asp",
-        "key": "34"
+        "key": "35"
     },
-
     "HELPING HANDS TRUST": {
         "Organization": "Helping Hands Trust",
         "OperatingArea": "Gulshan Iqbal, Karachi",
@@ -568,10 +553,10 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": "http://helpinghandstrust.net/",
-        "key": "35"
+        "key": "36"
     },
-    "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID (LHRLA)": {
-        "Organization": "Lawyers for Human Rights and Legal Aid (LHRLA)",
+    "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID": {
+        "Organization": "Lawyers for Human Rights and Legal Aid",
         "OperatingArea": "Saddar, Karachi",
         "History": "Established by Mr. Zia Ahmed Awan in 1989 to provide correctional services and a platform for legal aid to the ones who are far away from its reach and need assistance in terms of their legal rights.",
         "CoreFunctions": "Works to intervene in vulnerable conditions where legal services and needed and provides free legal aid to the ones in need.",
@@ -581,10 +566,10 @@ export const detailedData = {
         "CostofServices": "Free legal services. ",
         "Analysis": " ",
         "ReferencelinkWebsite": "https://www.lhrla.com.pk/",
-        "key": "36"
+        "key": "37"
     },
-    "LEGAL RIGHTS FORUM (LRF)": {
-        "Organization": "Legal Rights Forum (LRF)",
+    "LEGAL RIGHTS FORUM": {
+        "Organization": "Legal Rights Forum",
         "OperatingArea": "Phase 2, Karachi",
         "History": "Operational since 2007 to provide legal justice, protection of law and equal democratic rights in the society especially for women, minorities, transgender and children.",
         "CoreFunctions": "Aims to achieve developmental goals, social justice, equal rights, good governance, environmental rights, education, youth empowerment etc from legal rights and standards.",
@@ -594,10 +579,10 @@ export const detailedData = {
         "CostofServices": "Free legal services. ",
         "Analysis": " ",
         "ReferencelinkWebsite": " https://www.lrfpk.org/",
-        "key": "37"
+        "key": "38"
     },
-    "PAKISTAN LAWYERS FOUNDATION (PLF)": {
-        "Organization": "Pakistan Lawyers Foundation (PLF)",
+    "PAKISTAN LAWYERS FOUNDATION": {
+        "Organization": "Pakistan Lawyers Foundation",
         "OperatingArea": "Shahr-e-Faisal, Karachi",
         "History": "Founded in 2007, this foundation has been serving to provide quality legal services to the people throughout the country with foremost experience in giving online legal help from the experts.",
         "CoreFunctions": "Provides legal justice to humanity along with the workshops, seminars, legal training for junior lawyers.",
@@ -607,9 +592,8 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": " https://www.plfpk.org/",
-        "key": "38"
+        "key": "39"
     },
-
     "SARIM BURNEY WELFARE TRUST": {
         "Organization": "Sarim Burney welfare Trust",
         "OperatingArea": "Hyderi Market, Karachi",
@@ -621,9 +605,9 @@ export const detailedData = {
         "CostofServices": "None. ",
         "Analysis": " ",
         "ReferencelinkWebsite": " http://www.sarimburneytrust.org/",
-        "key": "39"
+        "key": "40"
     },
-    "WORLDWIDE FUND OF NATURE (WWF)": {
+    "WORLDWIDE FUND OF NATURE": {
         "Organization": "Worldwide Fund of Nature (WWF)",
         "OperatingArea": "P.E.C.H.S, Karachi",
         "History": "WWF is a worldwide organization working to sustain the ecological aspects of nature.",
@@ -634,187 +618,388 @@ export const detailedData = {
         "CostofServices": " ",
         "Analysis": " ",
         "ReferencelinkWebsite": " https://www.wwfpak.org/",
-        "key": "40"
-    },
-
-
-
-    "ADOPT A PET": {
-        "Organization": "Adopt a Pet",
-        "Operating Area": "Karachi, Pakistan",
-        "History": "Established in 2008 by Mr. Taimoor, Pet Expert this project of SSHAD (Social Society of Human Aid and Development) which encourages love, care and help people to keep pets without any cost.",
-        "CoreFunctions": "Pet Lovers Society (Adopt a Pet Karachi) is a hardworking project for rights of companion animals and creating easy ways to keep pet as a healthy and stylish activity on non-profitable non charitable basis.",
-        "Credibility": " Registered non-government organization.",
-        "Programs": "Provide pets and help with the ways to take care of them.",
-        "Sustainability": "None profit organization.",
-        "CostofServices": " None. ",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "https://web.facebook.com/pet.khi?_rdc=1&_rdr",
         "key": "41"
     },
-    "ALAMGIR WELFARE TRUST": {
-        "Organization": "Alamgir Welfare Trust",
-        "Operating Area": "Alamgir Rd, Karachi",
-        "History": "Established by Shaheed Answer Naseem Chandna to help underprivileged and less fortune people of his society and the trust has been serving for two decades with the same motive to date.",
-        "CoreFunctions": "Provide food, medicines, medical care, education and child development.",
-        "Credibility": " Registered non-government organization.",
-        "Programs": "Health, education, marriage assistance, elderly, food, Ramzan services, Hajj Umraah assistance, ambulance services, funeral services, etc.",
-        "Sustainability": "Charity-based organization.",
-        "CostofServices": " None or nominal charges ",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "https://www.alamgirwelfaretrust.com.pk/alamgir2013/index.asp",
+    "ORANGI PILOT PROJECT": {
+        "Organization": "Orangi Pilot Project (OPP)",
+        "Operating Area": "ST-4, Sector No. 5-A, 75800, Manghopir Rd, Qasba Colony.",
+        "History": "OPP as an NGO began work in Orangi Town in 1980. Akhtar Hameed was mastermind behind this project.",
+        "Core Functions": "OPP is a non-profit Association that has been operating in the domains of low-cost sanitation, housing, health, education, and credit for micro enterprise.",
+        "Credibility": "Registered from Social Welfare Department..",
+        "Programs": "1. OPP-Research and Training Institute (OPP-RTI) manages the low-cost sanitation, housing/secure housing support program, education program, the now evolving water supply and the women’s savings programs as well as the related research and training programs. Earthquake and the flood rehabilitation works are also undertaken. 2. OPP-Orangi Charitable Trust (OPP-OCT) manages the micro enterprise credit program. 3. OPP-Karachi Health and Social Development Association (OPP-KHASDA) manages the health program.",
+        "Sustainability": "Self-Sufficient Organization That Operates Based on Alms, Charities, and Donations.",
+        "Cost of Services": " None.",
+        "Analysis": "On the success of its five basic programs of low-cost sanitation, housing, health, education, and credit for micro enterprise, in 1988 OPP was upgraded into three autonomous institutions.",
+        "Reference link/ Website": "http://www.opp.org.pk/",
         "key": "42"
     },
-
-    "HELPING HANDS TRUST": {
-        "Organization": "Helping Hands Trust",
-        "Operating Area": "Gulshan Iqbal, Karachi",
-        "History": "Operating since 2004 with the mission to fulfill the needs of poor and destitute irrespective of caste, creed and color.",
-        "CoreFunctions": "Strives to work for needy i.e. hunger deprived, vulnerable women, unemployed and illiterate.",
-        "Credibility": " Registered from district registrar of Karachi, Sindh.",
-        "Programs": "Future development program, HHT TV, HHT job bank, youth squad., Counselling, job opportunities and, burial arrangements.",
-        "Sustainability": "Charity-based Organization with sponsors/partners.",
-        "CostofServices": " ",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "http://helpinghandstrust.net/",
+    "SOFIA KHANA GHAR": {
+        "Organization": "Sofia Khana Ghar",
+        "Operating Area": "All over Karachi",
+        "History": "Sofia Khana Ghar Organization is started by the group of friends that are enrolled in NED University.",
+        "Core Functions": "Primarily works for the eradication of hunger by providing Rashan to the needy ones.",
+        "Credibility": " ",
+        "Programs": "Sofia Khana Ghar is a non-profitable organization which is trying it is best to make it double sure that no one sleeps hungry and help needy ones by providing Rashan, dowry for marriage and arrange foods for marriage ceremonies.",
+        "Sustainability": " ",
+        "Cost of Services": " ",
+        "Analysis": "Sofia Organization built a Water Well Pump that is donated by Begum Hina Faisal in Village Valhar, Gulberg Town, Karachi.",
+        "Reference link/ Website": "https://www.facebook.com/sofiaorganization/",
         "key": "43"
     },
-    "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID (LHRLA)": {
-        "Organization": "Lawyers for Human Rights and Legal Aid (LHRLA)",
-        "Operating Area": "Saddar, Karachi",
-        "History": "Established by Mr. Zia Ahmed Awan in 1989 to provide correctional services and a platform for legal aid to the ones who are far away from its reach and need assistance in terms of their legal rights.",
-        "CoreFunctions": "Works to intervene in vulnerable conditions where legal services and needed and provides free legal aid to the ones in need.",
-        "Credibility": " Approved in Sindh for children and women protection including Sindh Child Protection Authority Act, Child Marriage Restraint Act, the Protection Against Harassment of Women at Workplace Act and Protection of Women (Criminal Laws Amendment) Act.",
-        "Programs": "Digital action against gender-based violence, prevention and protection of women from violence through access to justice, service and safe spaces and women protection unit.",
-        "Sustainability": "Based on funds with local and international partners.",
-        "CostofServices": "Free legal services. ",
-        "Analysis": " ",
-        "ReferencelinkWebsite": "https://www.lhrla.com.pk/",
+    "SAYLANI WELFARE TRUST": {
+        "Organization": "Saylani Welfare Trust",
+        "OperatingArea": "All over Karachi.",
+        "History": "Established in 1999 by Maulana Bashir Ahmed Farooqui to eradicate poverty and financial uplift of destitute.",
+        "CoreFunctions": "Working for education, medical services and social welfare.",
+        "Credibility": "Registered Non-profit Organization.",
+        "Programs": "Saylani mass training, Saylani incubator, Green house, Saylani hospital,Family adoption, Wedding help, Hajj application form, Saylani dastarkhawan, Saylani RO plant, Online Sadqah.",
+        "Sustainability": "Charity-based Organization",
+        "CostofServices": "None",
+        "Analysis": "International NGO working to provide social assistance and welfare for underprivileged in all walks of life.",
+        "ReferencelinkWebsite": "https://www.saylaniwelfare.com/home",
         "key": "44"
     },
-    "LEGAL RIGHTS FORUM (LRF)": {
-        "Organization": "Legal Rights Forum (LRF)",
-        "Operating Area": "Phase 2, Karachi",
-        "History": "Operational since 2007 to provide legal justice, protection of law and equal democratic rights in the society especially for women, minorities, transgender and children.",
-        "CoreFunctions": "Aims to achieve developmental goals, social justice, equal rights, good governance, environmental rights, education, youth empowerment etc from legal rights and standards.",
-        "Credibility": " Registered non-profit organization.",
-        "Programs": "Rule of law, access to justice, women empowerment, youth empowerment, children rights protection and governance, civil society support, right to education and right to safe environment.",
-        "Sustainability": "Based on donation and partners/sponsors.",
-        "CostofServices": "Free legal services. ",
+    "SHAHID AFRIDI FOUNDATION": {
+        "Organization": "Shahid Afridi Foundation",
+        "OperatingArea": "E.I Lines, Dr. Daud Pota Rd Karachi.",
+        "History": "Established by famous Pakistani Cricketer Shahid Afridi in 2014, aiming to improve the conditions of underprivileged communities.",
+        "CoreFunctions": "Working for education, health care services, access to water and sports rehabilitation.",
+        "Credibility": "Non-profit Organization.",
+        "Programs": "Access to education for every child, free health care services, clean water empowering underprivileged communities.",
+        "Sustainability": "Charity-based Organization",
+        "CostofServices": "None",
         "Analysis": " ",
-        "ReferencelinkWebsite": " https://www.lrfpk.org/",
-        "key": "44"
-    },
-    "PAKISTAN LAWYERS FOUNDATION (PLF)": {
-        "Organization": "Pakistan Lawyers Foundation (PLF)",
-        "Operating Area": "Shahr-e-Faisal, Karachi",
-        "History": "Founded in 2007, this foundation has been serving to provide quality legal services to the people throughout the country with foremost experience in giving online legal help from the experts.",
-        "CoreFunctions": "Provides legal justice to humanity along with the workshops, seminars, legal training for junior lawyers.",
-        "Credibility": " Registered non-profit organization.",
-        "Programs": "Continuous legal education, civil rights protection, juvenile rights protection, women rights protection, rule of law implementation, basic human rights awareness.",
-        "Sustainability": "Based on donation.",
-        "CostofServices": " ",
-        "Analysis": " ",
-        "ReferencelinkWebsite": " https://www.plfpk.org/",
+        "ReferencelinkWebsite": "https://shahidafridifoundation.org/",
         "key": "45"
     },
-
-    "SARIM BURNEY WELFARE TRUST": {
-        "Organization": "Sarim Burney WELFARE Trust",
-        "Operating Area": "Hyderi Market, Karachi",
-        "History": "Founded by Sarim Burney who started working for mankind from his early years, soon decided to establish his own organization for solving the issues of human trafficking and child marriages to ensure a happy and healthy society.",
-        "CoreFunctions": "Provide shelter and assistance to ones in need.",
-        "Credibility": " Registered non-profit organization.",
-        "Programs": "Legal aid, shelter homes, human trafficking, adoption, cyber harassment, disaster relief, medical assistance, women and children’s rights and financial assistance to disabled persons.",
-        "Sustainability": "Based on donation and partners/sponsors.",
-        "CostofServices": "None. ",
-        "Analysis": " ",
-        "ReferencelinkWebsite": " http://www.sarimburneytrust.org/",
+    "AGHA KHAN SPORTS AND REHABILITATION CENTRE": {
+        "Organization": "Agha Khan Sports and Rehabilitation Centre",
+        "OperatingArea": "Stadium Rd Karachi",
+        "History": "This Centre was built to help children, adults and elderly in overcoming physical, social and mental problems caused by illness, injury or after a surgery.",
+        "CoreFunctions": "Sports and Rehabilitation.",
+        "Credibility": "Registered Centre.",
+        "Programs": "Swimming pool, gymnasium, weight-training rooms, aerobics room, outdoor volley ball and tennis courts, squash courts, walking/jogging track, cricket and football fields, advanced orthopaedical and neuro rehabilitation programme, advanced cardiac rehabilitation programme for phase I and IV, Parkinson’s rehabilitation programme.",
+        "Sustainability": "Meets the international quality standards such as Joint Commission International (JCI).",
+        "CostofServices": " ",
+        "Analysis": "One of the well know Centre for sports activities training and rehabilitation in town",
+        "ReferencelinkWebsite": "https://hospitals.aku.edu/pakistan/Health-Services/physiotherapy-rehabilitation-nutrition/Pages/rehabilitation.aspx",
         "key": "46"
     },
-    "WORLDWIDE FUND OF NATURE (WWF)": {
-        "Organization": "Worldwide Fund of Nature (WWF)",
-        "Operating Area": "P.E.C.H.S, Karachi",
-        "History": "WWF is a worldwide organization working to sustain the ecological aspects of nature.",
-        "CoreFunctions": "Preservance of wildlife.",
-        "Credibility": " Registered organization.",
-        "Programs": "Works for freshwater, wildlife, food, forests, oceans, markets, climate and energy.",
-        "Sustainability": "Based on donation and fundings.",
+    "WILLING WAYS": {
+        "Organization": "Willing Ways",
+        "OperatingArea": "DHA Karachi",
+        "History": "Established 37 years ago during the Heroin-pandemic in Pakistan with the facility for Change Counselling and took the responsibility to aware publics about the odds of alcoholism.",
+        "CoreFunctions": "Counselling and Intervention.",
+        "Credibility": "Counselling Expert Psychologists",
+        "Programs": "Indoor treatment, outdoor treatment and emergency treatment.",
+        "Sustainability": " ",
         "CostofServices": " ",
         "Analysis": " ",
-        "ReferencelinkWebsite": " https://www.wwfpak.org/",
+        "ReferencelinkWebsite": "https://willingwayskarachi.org/",
         "key": "47"
     },
-    "ORANGI PILOT PROJECT (OPP)":{
-        "Organization" : "Orangi Pilot Project (OPP)",
-        "Operating Area" : "ST-4, Sector No. 5-A, 75800, Manghopir Rd, Qasba Colony.",
-        "History" : "OPP as an NGO began work in Orangi Town in 1980. Akhtar Hameed was mastermind behind this project.",
-        "Core Functions" : "OPP is a non-profit Association that has been operating in the domains of low-cost sanitation, housing, health, education, and credit for micro enterprise.",
-        "Credibility" : "Registered from Social Welfare Department..",
-        "Programs" : "1. OPP-Research and Training Institute (OPP-RTI) manages the low-cost sanitation, housing/secure housing support program, education program, the now evolving water supply and the women’s savings programs as well as the related research and training programs. Earthquake and the flood rehabilitation works are also undertaken. 2. OPP-Orangi Charitable Trust (OPP-OCT) manages the micro enterprise credit program. 3. OPP-Karachi Health and Social Development Association (OPP-KHASDA) manages the health program.",
-        "Sustainability" : "Self-Sufficient Organization That Operates Based on Alms, Charities, and Donations.",
-        "Cost of Services" : " None.",
-        "Analysis" : "On the success of its five basic programs of low-cost sanitation, housing, health, education, and credit for micro enterprise, in 1988 OPP was upgraded into three autonomous institutions.",
-        "Reference link/ Website" : "http://www.opp.org.pk/",
-        },
-        
-        "SOFIA KHANA GHAR ORGANIZATION":{
-        "Organization" : "Sofia Khana Ghar",
-        "Operating Area" : "All over Karachi",
-        "History" : "Sofia Khana Ghar Organization is started by the group of friends that are enrolled in NED University.",
-        "Core Functions" : "Primarily works for the eradication of hunger by providing Rashan to the needy ones.",
-        "Credibility" : " ",
-        "Programs" : "Sofia Khana Ghar is a non-profitable organization which is trying it is best to make it double sure that no one sleeps hungry and help needy ones by providing Rashan, dowry for marriage and arrange foods for marriage ceremonies.",
-        "Sustainability" : " ",
-        "Cost of Services" : " ",
-        "Analysis" : "Sofia Organization built a Water Well Pump that is donated by Begum Hina Faisal in Village Valhar, Gulberg Town, Karachi.",
-        "Reference link/ Website" : "https://www.facebook.com/sofiaorganization/",
-        },
+    "EDUCATION TRUST NASRA SCHOOL": {
+        "Organization": "Education Trust Nasra School",
+        "OperatingArea": "Gulzar-e-Hijri, Karachi",
+        "History": "Established in 1949 by Nasra Wazir Ali to provide low-cost and high-quality education to the underprivileged communities.",
+        "CoreFunctions": "High-quality education.",
+        "Credibility": "Registered in 1950 under Trust Act 1882.",
+        "Programs": "Pre-primary, primary, secondary and higher secondary education, sports, leadership programs, creative arts and community service.",
+        "Sustainability": "Based on donations and fundings.",
+        "CostofServices": "Negotiable to minimal cost for services.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.nasraschool.edu.pk/",
+        "key": "48"
+    },
+    "RA’ANA LIAQUAT PUBLIC SCHOOL": {
+        "Organization": "Ra’ana Liaquat Public School (RLCC)",
+        "OperatingArea": "Shah Faisal Colony, Karachi, Pakistan",
+        "History": "A profound organization started by Begum Ra’ana Liaquat to reconcile the people of Pakistan just after partition, and the organization is successfully operational since 1954.",
+        "CoreFunctions": "Quality Education for underprivileged, Vocational training for better livelihood, medical services for a healthy lifestyle.",
+        "Credibility": "Registered from Social Welfare Department.",
+        "Programs": "Primary and Secondary quality education along with the school essentials, nutritional services and medical care of children.",
+        "Sustainability": "60% self-sufficient and charitable organization.",
+        "CostofServices": "Minimal and negotiable cost for programs.",
+        "Analysis": "Throughout RLCC is serving tremendously to refrain the society from the obstacles such as poverty, illiteracy, unemployment, mental health and other health issues. However, their operating area is only Shah Faisal Colony which restricts other persons who are in need but fail to encounter the organization’s services due to the remote location.",
+        "ReferencelinkWebsite": "http://rlcc.com.pk/",
+        "key": "49"
+    },
+    "ZINDAGI TRUST": {
+        "Organization": "Zindagi Trust",
+        "OperatingArea": "CP and Berar CHS, Karachi",
+        "History": "Established by famous celebrity of Pakistan Shehzad Roy to bring reforms in the education through infrastructure updates, administration and proper curriculum.",
+        "CoreFunctions": "School Reforms and better Education.",
+        "Credibility": " ",
+        "Programs": "Life skill based education (LSBE), advocacy, teachers professional development, volunteers program, rich co-curricular activities, mind sports arts, parents engagement, breakfast and health.",
+        "Sustainability": "Non-profit organization.",
+        "CostofServices": "None.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://www.zindagitrust.org/",
+        "key": "50"
+    },
+    "DOW OJHA INSTITUTE OF CHEST DISEASES": {
+        "Organization": "DOW OJHA Institute Of Chest Diseases (OICD).",
+        "OperatingArea": "Suparco Rd, Gulzar-e-Hijri Scheme 33, Karachi.",
+        "History": "It was established as a TB sanatorium, now recognized as a center of excellence for Tuberculosis by the World Health Organization (WHO).",
+        "CoreFunctions": "Providing guidance and treatment about Tuberculosis.",
+        "Credibility": "Registered by National Medical Authority Pakistan and recognized as a center of excellence for Tuberculosis by the WHO.",
+        "Programs": "Tuberculosis, Drug Resistant Tuberculosis.",
+        "Sustainability": "Operates on basis of Government funds and profits.",
+        "CostofServices": "The cost of treatments are totally free.",
+        "Analysis": "The hospital is also equipped with well-trained faculty members supervising academic, clinical and research activities. The distinction of the OICD is that it is rendering tremendous free of cost services to the patients suffering from chest diseases including tuberculosis, drug resistant tuberculosis.",
+        "ReferencelinkWebsite": "https://www.duhs.edu.pk/institutes/oicd/#over",
+        "key": "51"
+    },
+    "LIAQUAT NATIONAL HOSPITAL": {
+        "Organization": "Liaqut National Hospital",
+        "OperatingArea": "Stadium Road , Karachi",
+        "History": "LNH was conceived 60 years ago as a not-for-profit organization with a vision to provide quality healthcare at an affordable cost to all socioeconomic classes. Over the years, the hospital has evolved to become the largest tertiary care hospital.",
+        "CoreFunctions": "Quality health care services",
+        "Credibility": "Registered by Pakistan Health Council.",
+        "Programs": "Accident and Emergency, Blood Bank, Cath Lab, Clinics, Day Care Surgery, Executive Health Care Screening Packages, Health Information Management Services, Home Healthcare Service, Inpatient Services, Intensive Care Unit, Neuropsychology Unit, Nursing Services, Nutrition &amp; Food Services, Occupational Therapy Services, Operation Theatres, Outpatient Services, Orthotic and Prosthetic Unit, Pathology Laboratory Services, Pharmacy Services, Physiotherapy and Rehabilitation, Radiology and Imaging, Senior Citizens Primary Care Unit, Social Services, Speech and Language Pathology Unit.",
+        "Sustainability": "Charitable/ Funds-based Organization.",
+        "CostofServices": "Minimal -cost Services.",
+        "Analysis": "Liaquat National Hospital Karachi is one of the most profound institutes that cover all domains of health services in the city of Karachi.",
+        "ReferencelinkWebsite": "https://www.lnh.edu.pk/",
+        "key": "52"
+    },
+    "PAKISTAN RED CRESCENT": {
+        "Organization": "Pakistan Red Crescent",
+        "OperatingArea": "Stadium Road , Karachi",
+        "History": "The International Committee of the Red Cross (ICRC) was founded in 1863 in Geneva, Switzerland, by Henry Dunant and Gustave Moynier. Its 25-member committee has a unique authority under international humanitarian law to protect the life and dignity of the victims of international and internal armed conflicts. The ICRC was awarded the Nobel Peace Prizeon three occasions (in 1917, 1944 and 1963). The Pakistan Red Crescent was founded in Pakistan on December 20, 1947 by an Order called The Pakistan Red Cross Order issued by Quaid-e-Azam, through these branches, and 92 district level branches the PRC coordinates its field operations.",
+        "CoreFunctions": "Disaster Management, Healthy And safe living, Youth and Volunteering, Organizational development.",
+        "Credibility": "Registered by Pakistan Health Council.",
+        "Programs": "Fulfilling the needs of society in different domains.",
+        "Sustainability": "Charitable/ Funds-based Organization.",
+        "CostofServices": "Minimal -cost Services.",
+        "Analysis": "Pakistan Red Crescent is an organization adopted by Quai-e-Azam himself. The organization has aided millions of people since its establishment and is continuing to work with the same vigor and zest. ",
+        "ReferencelinkWebsite": "http://sindh.prcs.org.pk/",
+        "key": "53"
+    },
+    "RA’ANA LIAQUAT CRAFSTSMEN COLONY HEALTH CARE CENTRE": {
+        "Organization": "Ra’ana Liaquat Crafstsmen Colony (RLCC) Health Care Centre",
+        "OperatingArea": "Shah Faisal Colony, Karachi, Pakistan",
+        "History": "A profound organization started by Begum Ra’ana Liaquat to reconcile the people of Pakistan just after partition, and the organization is successfully operational since 1954.",
+        "CoreFunctions": "Providing medical services i.e. maternity services, general physician, child specialist and mental health services. ",
+        "Credibility": "Registered from Social Welfare Department.",
+        "Programs": "Consultation for maternity services and women and children’s health, psychiatric services, family planning and free medical care for the needy people.",
+        "Sustainability": "60% self-sufficient and charitable organization.",
+        "CostofServices": "Minimal and negotiable cost for programs.",
+        "Analysis": "Extraordinary feasible medical services for all members of the community from the medical experts. ",
+        "ReferencelinkWebsite": "http://rlcc.com.pk/.",
+        "key": "54"
+    },
+    "KARACHI PSYCHIATRIC HOSPITAL": {
+        "Organization": "Karachi Psychiatric Hospital",
+        "OperatingArea": "Nazimabad No.3 , Karachi",
+        "History": "Dr. Syed Mubin Akhtar, an American returned Diplomat in Psychiatry and Neurology founded KPH in 1970 to provide access to mental health irrespective of financial standing. And since then KPH has been successfully providing world class treatment to cure mental illness.",
+        "CoreFunctions": "Total care system of mental health management, Up to date treatment options, Highly educated and trained mental health professionals, Emphasis of research to localize psychiatric knowledge, Round the clock dedicated service, Community Outreach with subsidized fees and free camps.",
+        "Credibility": "Registered by Pakistan Health Council.",
+        "Programs": "Psychiatric consultation, treatment, awareness and research.",
+        "Sustainability": "Charitable/ Funds-based Organization.",
+        "CostofServices": "Minimal -cost Services.",
+        "Analysis": "One of the primary organizations working on the mental health care of individuals of Karachi. ",
+        "ReferencelinkWebsite": "http://www.kph.org.pk/",
+        "key": "55"
+    },
+    "KARWAN-E-HAYAT": {
+        "Organization": "Karwan-e- Hayat",
+        "OperatingArea": "Kemari , Karachi",
+        "History": "Established in 1983 as a not-for-profit welfare organization, Karwan-e-Hayat was an initiative conceptualized by a handful of notable, conscientious citizens of Karachi. Dr Zafar Qureshi, Begum Rana Liaquat Ali Khan, Begum Tazeen Faridi, Professor Zaki Hassan, Ms Anita Ghulam Ali, Dr Abdul Husaini, Begum Shaista Ikramullah, Begum Abdul Kader and Cardinal Joseph Cordeiro, the Archbishop of Karachi, were the earliest patrons and visionaries of Karwan-e-Hayat.",
+        "CoreFunctions": "Karwan-e-Hayat provides quality psychiatric treatment and rehabilitation services to the most neglected, mentally ill patients of our society.",
+        "Credibility": "Registered by Pakistan Health Council.",
+        "Programs": "To work for the prevention, relief and treatment of mental illness, the rehabilitation of mentally distressed people, especially the under privileged and deprived, public awareness about mental illness and to foster behavioral change in society, trained and maintained team of dedicated Psychiatrists, Psychologists, Occupational Therapists and Social Workers to ensure a competent and ongoing mental health service.",
+        "Sustainability": "Charitable/ Funds-based Organization.",
+        "CostofServices": "Minimal -cost Services.",
+        "Analysis": "One of the primary organizations working on the mental health care of individuals of Karachi. ",
+        "ReferencelinkWebsite": "http://www.kph.org.pk/",
+        "key": "56"
+    },
+    "QUAID-E-AZAM RANGERS SPECIAL CHILDREN SCHOOL": {
+        "Organization": "Quaid-e-Azam Rangers Special Children School (QRSCS)",
+        "OperatingArea": "Toll Plaza, Karachi",
+        "History": "Established in November 2010 and became operational in January 1 st , 2012 since then the institution is working for the rehabilitation and training of special children which was inaugurated by Major General Muhammad Ijaz Chaudhary.",
+        "CoreFunctions": "To provide an institution that will yield educational training for children with special needs.",
+        "Credibility": "Rangers Institution. (Also, for civilians).",
+        "Programs": "Primary and Secondary Education for children with special needs.",
+        "Sustainability": "Registered Institution.",
+        "CostofServices": "Nominal Charges.",
+        "Analysis": "This institution has been working desperately for the rehabilitation and social adjustment of special children. QRSCS is playing multiple roles in order to pull off the best environment to help children learn and enhance their capabilities.",
+        "ReferencelinkWebsite": "Self-visit/observations",
+        "key": "57"
+    },
+    "SHAHEED-E-MILLAT SPECIAL EDUCATION CENTRE": {
+        "Organization": "Shaheed-e-Millat Special Education Centre (GOP)",
+        "OperatingArea": "Block 15 Gulistan e Jauhar, Karachi",
+        "History": "Established by GOP to provide possible resources for the education of special children and their co-curricular activities.",
+        "CoreFunctions": "To provide primary education for children with special needs.",
+        "Credibility": "Government Institution.",
+        "Programs": "Primary Education for children with special needs.",
+        "Sustainability": "Registered Government Institution.",
+        "CostofServices": "Nominal Charges.",
+        "Analysis": "An institution thriving to enhance innate qualities of Special children and provide them forums to show their capabilities as an individual.",
+        "ReferencelinkWebsite": "Self-visit/observations",
+        "key": "58"
+    },
+    "ANSAR BURNEY TRUST": {
+        "Organization": "Ansar Burney Trust",
+        "OperatingArea": "Aram Bagh, Karachi",
+        "History": "Established in 1980 by Ansar Burney, Advocate in the Pakistani port city of Karachi; the Ansar Burney Trust was the first organization to introduce true human rights in Pakistan.",
+        "CoreFunctions": "Protection and justice for basic human rights.",
+        "Credibility": "Registered organization.",
+        "Programs": "Works for the rehabilitation and welfare of the families of these unfortunate human beings purely on humanitarian grounds.",
+        "Sustainability": "Non-political and non-government organization.",
+        "CostofServices": "None.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://ansarburney.org/",
+        "key": "59"
+    },
+    "DAR-UL-SUKOON (OLD AGE)": {
+        "Organization": "Dar-ul-Sukoon (Old Age)",
+        "OperatingArea": "M.A Jinnah Rd, Opp Mazar-e-Quaid, Karachi",
+        "History": "A Dutch nun, Sr. Gertrude Lemmens in February 17, 1969 established the organization for the children with disabilities and to provide shelter for misplaced which is successfully operating to date.",
+        "CoreFunctions": "Centre for senior citizens, their basic needs fulfilment and recreational activities.",
+        "Credibility": "Registered organization.",
+        "Programs": "Workshops, events and empowering senior citizens by channelizing their hidden talents, awareness sessions related to the aging.",
+        "Sustainability": "Charitable/ Funds-based Organization.",
+        "CostofServices": " ",
+        "Analysis": "One of the well-known centers for senior citizens working tremendously to help and provide shelter for the elderly.",
+        "ReferencelinkWebsite": "http://www.seniorcitizensdus.com/",
+        "key": "60"
+    },
+    "EDHI OLD HOME": {
+        "Organization": "Edhi Old home (Old Age).",
+        "OperatingArea": "Plot A-15, New Karachi Town, Karachi",
+        "History": "Initiated by A. Sattar Edhi a free dispensary and later with the support of other members turned to Edhi Welfare Trust and have been working to date for providing basic needs to the destitute.",
+        "CoreFunctions": "Shelter for elderly and fulfillment of their basic needs.",
+        "Credibility": "Award from Guinness Book of World Records, Peace and Harmony Award, Shield of Honor, Nishan-e-Imtiaz, Human Rights Award, etc.",
+        "Programs": "Special care, improved lifestyle and peaceful living environment for senior citizens",
+        "Sustainability": "Charity-Based Organization.",
+        "CostofServices": "None",
+        "Analysis": "A promising and far-most known organization working for the welfare of the whole population throughout the country.",
+        "ReferencelinkWebsite": "https://edhi.org/",
+        "key": "61"
+    },
+    "SENIOR CITIZENS WELFARE PROGRAM": {
+        "Organization": "Senior Citizen Welfare Program",
+        "OperatingArea": "North Naziabad, Karachi",
+        "History": "Solely run by students who are working for the betterment of the lonely and destitute elderlies of our nation, under the banner of Nixor College.",
+        "CoreFunctions": "Aims to work for the welfare of Senior Citizens.",
+        "Credibility": " ",
+        "Programs": "Recreational programs and activities for Senior Citizens.",
+        "Sustainability": "Non- government organization.",
+        "CostofServices": "None.",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "https://web.facebook.com/SeniorCitizensWelfareProgram/?_rdc=1&amp;_rdr",
+        "key": "62"
+    },
+    "AAHUNG FOUNDATION WOMEN": {
+        "Organization": "Aahung Foundation (Women)",
+        "OperatingArea": "Clifton, Karachi",
+        "History": "Operating since 1995, for the elimination if resentment against women and children through rights-based approach.",
+        "CoreFunctions": "LSBE (Life skill-based program), Protection of CSA (Child Sexual Abuse) and its prevention.",
+        "Credibility": "Registered Non-profit Organization. Received the Joan B. Dunlop award from the International Women's Health Coalition(IWHC) for its groundbreaking work on reproductive health and rights. ",
+        "Programs": "LSBE program for reproductive health information and management skills.",
+        "Sustainability": "Charitable/ Funds-based Organization",
+        "CostofServices": "Zero-cost Services",
+        "Analysis": "One of the primary organizations working effectively for eradication of CSA.",
+        "ReferencelinkWebsite": "https://www.aahung.org/",
+        "key": "63"
+    },
+    "RA’ANA LIAQUAT CRAFSTSMEN COLONY WOMEN": {
+        "Organization": "Ra’ana Liaquat Crafstsmen Colony (RLCC)",
+        "OperatingArea": "Shah Faisal Colony, Karachi, Pakistan",
+        "History": "A profound organization started by Begum Ra’ana Liaquat to reconcile the people of Pakistan just after partition, and the organization is successfully operational since 1954.",
+        "CoreFunctions": "Providing medical services i.e. maternity services, general physician, child specialist and mental health services. ",
+        "Credibility": "Registered from Social Welfare Department.",
+        "Programs": "Consultation for maternity services and women and children’s health, psychiatric services, family planning and free medical care for the needy people.",
+        "Sustainability": "60% self-sufficient and charitable organization.",
+        "CostofServices": "Minimal and negotiable cost for programs.",
+        "Analysis": "Extraordinary feasible medical services for all members of the community from the medical experts. ",
+        "ReferencelinkWebsite": "http://rlcc.com.pk/.",
+        "key": "64"
+    },
+    "PAKISTAN FEDERATION OF BUSINESS AND PROFESSIONAL WOMEN ORGANIZATION": {
+        "Organization": "Pakistan Federation of Business and Professional Women Organization",
+        "OperatingArea": "Clifton, Karachi",
+        "History": "Established to work on the educational and intellectual skills of women and enable them to take part in the collective efforts.",
+        "CoreFunctions": "Promote education for women and girls and awareness to outgrow, solve the problems of working women, work for the welfare of women.",
+        "Credibility": "Promote education for women and girls and awareness to outgrow, solve the problems of working women, work for the welfare of women.",
+        "Programs": "Education Society, Industrial Training centers.",
+        "Sustainability": "The funds from federation are used to fulfil the objectives of the organization.",
+        "CostofServices": "None",
+        "Analysis": " ",
+        "ReferencelinkWebsite": "http://www.pakistanfederation.org/index.html",
+        "key": "65"
+    },
+
 }
 export const NGOsRoute = [
-    "RLCC",
     "AAHUNG FOUNDATION",
     "AZAD FOUNDATION",
-    "DAR-UL-SUKUN",
     "EDHI FOUNDATION",
     "KONPAL CHILD ABUSE PREVENTION SOCIETY",
     "MAKE A WISH",
     "SOS VILLAGE",
+    "RLCC",
     "AMAN FOUNDATION",
     "CHHIPA FOUNDATION",
     "FIX IT",
     "JDC",
     "LYARIANZ YOUTH DEVELOPMENT PROGRAM",
+    "ORANGI PILOT PROJECT",
     "ROBIN HOOD ARMY",
-    "A.P.H.A ORGANIZATION",
+    "SAYLANI WELFARE TRUST",
+    "SHAHID AFRIDI FOUNDATION",
+    "SOFIA KHANA GHAR",
     "APEX EDUCATION FORUM",
-    "DEWA ACADEMY",
-    "MARKAZ-E-UMEED",
+    "EDUCATION TRUST NASRA SCHOOL",
     "PAKISTAN YOUTH ORGANIZATION",
+    "RA’ANA LIAQUAT PUBLIC SCHOOL",
     "THE CITIZENS FOUNDATION",
     "YOUTH EXPRESS PAKISTAN",
-    "AURAT FOUNDATION",
-    "DEPILEX-SMILE AGAIN FOUNDATION",
-    "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
-    "TEHRIK-E-NISWA",
-    "THE INSTITUTE OF  SCIENCES",
-    "NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES",
+    "ZINDAGI TRUST",
+    "DOW OJHA INSTITUTE OF CHEST DISEASES",
+    "LIAQUAT NATIONAL HOSPITAL",
+    "NICVD NATIONAL INSTITUTE OF CARDIO VESCULAR DISEASES",
+    "RA’ANA LIAQUAT CRAFSTSMEN COLONY HEALTH CARE CENTRE",
+    "PAKISTAN RED CRESCENT",
     "SINDH INSTITUTE OF UROLOGY AND TRANSPLANTATION",
-    "IBTIDA DRUG REHABILITATION CENTER",
+    "DOW INSTITUTE OF BEHAVIORAL SCIENCES",
+    "KARACHI PSYCHIATRIC HOSPITAL",
+    "KARWAN-E-HAYAT",
+    "ANSAR BURNEY TRUST",
+    "EDHI OLD HOME",
+    "SENIOR CITIZENS WELFARE PROGRAM",
+    "A.P.H.A ORGANIZATION",
+    "DAR-UL-SUKUN",
+    "DEWA ACADEMY",
+    "MARKAZ-E-UMEED",
+    "QUAID-E-AZAM RANGERS SPECIAL CHILDREN SCHOOL",
+    "SHAHEED-E-MILLAT SPECIAL EDUCATION CENTRE",
     "THE HUNAR FOUNDATION",
     "PAKISTAN INSTITUTE OF LEARNING AND LIVING",
     "PAKISTAN SOCIETY OF TRAINING AND DEVELOPMENT",
     "ZVMG RANGOONWALA TRUST",
+    "AAHUNG FOUNDATION WOMEN",
+    "AURAT FOUNDATION",
+    "DEPILEX-SMILE AGAIN FOUNDATION",
+    "RA’ANA LIAQUAT CRAFSTSMEN COLONY WOMEN",
+    "SHIRKAT GAH-WOMEN RESOURCE CENTRE",
+    "TEHRIK-E-NISWA",
+    "PAKISTAN FEDERATION OF BUSINESS AND PROFESSIONAL WOMEN ORGANIZATION",
     "ADOPT A PET",
     "ALAMGIR WELFARE TRUST",
-    "HELPING HANDS TRUST ",
+    "HELPING HANDS TRUST",
     "LAWYERS FOR HUMAN RIGHTS AND LEGAL AID",
     "LEGAL RIGHTS FORUM",
     "PAKISTAN LAWYERS FOUNDATION",
     "SARIM BURNEY WELFARE TRUST",
     "WORLDWIDE FUND OF NATURE",
-    "ORANGI PILOT PROJECT",
-    "SOFIA KHANA GHAR ORGANIZATION"
+    "DOW INSTITUTE OF BEHAVIORAL SCIENCES",
+    "IBTIDA DRUG REHABILITATION CENTER",
+    "AGHA KHAN SPORTS AND REHABILITATION CENTRE",
+    "WILLING WAYS",
 ]
 
 export const calenderData = [
